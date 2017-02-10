@@ -1,0 +1,2 @@
+def sentiment(article):
+    return
