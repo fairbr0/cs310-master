@@ -7,6 +7,7 @@ if (len(sys.argv) >=2):
     debug = sys.argv[1]
 else:
     debug = True
+
 app.run(
     debug=debug,
     host=config.host,

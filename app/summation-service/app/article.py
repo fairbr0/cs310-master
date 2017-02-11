@@ -12,5 +12,5 @@ class Article():
         self.keywords = []
 
     def getJson(self):
-        jsonString = {'title':self.title, 'content':self.content, 'author':self.author, 'date':self.date, 'source':self.source, 'url':self.url, 'keywords':keywords}
-        return jsonify(jsonString)
+        jsonString = {'title':self.title, 'content':self.content, 'author':self.author, 'date':self.date, 'source':self.source, 'url':self.url, 'keywords':self.keywords}
+        return jsonString

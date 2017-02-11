@@ -1,307 +1,980 @@
-[2017-02-10T16:53:23,915][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-02-10T16:53:24,109][INFO ][o.e.e.NodeEnvironment    ] [PtNw1GT] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [35.4gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T16:53:24,110][INFO ][o.e.e.NodeEnvironment    ] [PtNw1GT] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T16:53:24,112][INFO ][o.e.n.Node               ] node name [PtNw1GT] derived from node ID [PtNw1GTpRdiP6ud6MWhDpw]; set [node.name] to override
-[2017-02-10T16:53:24,116][INFO ][o.e.n.Node               ] version[5.2.0], pid[13715], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T16:53:25,394][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [aggs-matrix-stats]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [ingest-common]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-expression]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-groovy]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-mustache]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-painless]
-[2017-02-10T16:53:25,395][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [percolator]
-[2017-02-10T16:53:25,396][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [reindex]
-[2017-02-10T16:53:25,396][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [transport-netty3]
-[2017-02-10T16:53:25,396][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [transport-netty4]
-[2017-02-10T16:53:25,397][INFO ][o.e.p.PluginsService     ] [PtNw1GT] no plugins loaded
-[2017-02-10T16:53:28,136][INFO ][o.e.n.Node               ] initialized
-[2017-02-10T16:53:28,137][INFO ][o.e.n.Node               ] [PtNw1GT] starting ...
-[2017-02-10T16:53:28,691][INFO ][o.e.t.TransportService   ] [PtNw1GT] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
-[2017-02-10T16:53:31,778][INFO ][o.e.c.s.ClusterService   ] [PtNw1GT] new_master {PtNw1GT}{PtNw1GTpRdiP6ud6MWhDpw}{K2NzXkjSQPmXNr5Vv_udyg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-02-10T16:53:31,814][INFO ][o.e.g.GatewayService     ] [PtNw1GT] recovered [0] indices into cluster_state
-[2017-02-10T16:53:31,828][INFO ][o.e.h.HttpServer         ] [PtNw1GT] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
-[2017-02-10T16:53:31,828][INFO ][o.e.n.Node               ] [PtNw1GT] started
-[2017-02-10T16:55:44,669][INFO ][o.e.n.Node               ] [PtNw1GT] stopping ...
-[2017-02-10T16:55:44,688][INFO ][o.e.n.Node               ] [PtNw1GT] stopped
-[2017-02-10T16:55:44,688][INFO ][o.e.n.Node               ] [PtNw1GT] closing ...
-[2017-02-10T16:55:44,700][INFO ][o.e.n.Node               ] [PtNw1GT] closed
-[2017-02-10T17:03:35,404][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-02-10T17:03:35,477][INFO ][o.e.e.NodeEnvironment    ] [PtNw1GT] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [36.4gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T17:03:35,478][INFO ][o.e.e.NodeEnvironment    ] [PtNw1GT] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T17:03:35,480][INFO ][o.e.n.Node               ] node name [PtNw1GT] derived from node ID [PtNw1GTpRdiP6ud6MWhDpw]; set [node.name] to override
-[2017-02-10T17:03:35,482][INFO ][o.e.n.Node               ] version[5.2.0], pid[15197], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T17:03:36,498][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [aggs-matrix-stats]
-[2017-02-10T17:03:36,498][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [ingest-common]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-expression]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-groovy]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-mustache]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [lang-painless]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [percolator]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [reindex]
-[2017-02-10T17:03:36,499][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [transport-netty3]
-[2017-02-10T17:03:36,500][INFO ][o.e.p.PluginsService     ] [PtNw1GT] loaded module [transport-netty4]
-[2017-02-10T17:03:36,500][INFO ][o.e.p.PluginsService     ] [PtNw1GT] no plugins loaded
-[2017-02-10T17:03:37,244][ERROR][o.e.b.Bootstrap          ] Exception
-java.lang.IllegalArgumentException: unknown setting [es.node.data] did you mean [node.data]?
-	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) [elasticsearch-5.2.0.jar:5.2.0]
-	Suppressed: java.lang.IllegalArgumentException: unknown setting [es.node.master] did you mean [node.master]?
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) [elasticsearch-5.2.0.jar:5.2.0]
-	Suppressed: java.lang.IllegalArgumentException: unknown setting [es.node.name] did you mean [node.name]?
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) [elasticsearch-5.2.0.jar:5.2.0]
-[2017-02-10T17:03:37,252][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
-org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: unknown setting [es.node.data] did you mean [node.data]?
-	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:125) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) ~[elasticsearch-5.2.0.jar:5.2.0]
-Caused by: java.lang.IllegalArgumentException: unknown setting [es.node.data] did you mean [node.data]?
-	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.0.jar:5.2.0]
-	... 6 more
-	Suppressed: java.lang.IllegalArgumentException: unknown setting [es.node.master] did you mean [node.master]?
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) ~[elasticsearch-5.2.0.jar:5.2.0]
-	Suppressed: java.lang.IllegalArgumentException: unknown setting [es.node.name] did you mean [node.name]?
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:276) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:244) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:138) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:328) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[elasticsearch-5.2.0.jar:5.2.0]
-		at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) ~[elasticsearch-5.2.0.jar:5.2.0]
-[2017-02-10T17:04:18,386][INFO ][o.e.n.Node               ] [NoData] initializing ...
-[2017-02-10T17:04:18,471][INFO ][o.e.e.NodeEnvironment    ] [NoData] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [36.4gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T17:04:18,471][INFO ][o.e.e.NodeEnvironment    ] [NoData] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T17:04:18,473][INFO ][o.e.n.Node               ] [NoData] node name [NoData], node ID [PtNw1GTpRdiP6ud6MWhDpw]
-[2017-02-10T17:04:18,475][INFO ][o.e.n.Node               ] [NoData] version[5.2.0], pid[15308], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T17:04:19,521][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [aggs-matrix-stats]
-[2017-02-10T17:04:19,521][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [ingest-common]
-[2017-02-10T17:04:19,522][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-expression]
-[2017-02-10T17:04:19,522][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-groovy]
-[2017-02-10T17:04:19,522][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-mustache]
-[2017-02-10T17:04:19,522][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-painless]
-[2017-02-10T17:04:19,523][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [percolator]
-[2017-02-10T17:04:19,523][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [reindex]
-[2017-02-10T17:04:19,523][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty3]
-[2017-02-10T17:04:19,524][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty4]
-[2017-02-10T17:04:19,525][INFO ][o.e.p.PluginsService     ] [NoData] no plugins loaded
-[2017-02-10T17:04:21,946][INFO ][o.e.n.Node               ] [NoData] initialized
-[2017-02-10T17:04:21,946][INFO ][o.e.n.Node               ] [NoData] starting ...
-[2017-02-10T17:04:22,216][INFO ][o.e.t.TransportService   ] [NoData] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
-[2017-02-10T17:04:25,366][INFO ][o.e.c.s.ClusterService   ] [NoData] new_master {NoData}{PtNw1GTpRdiP6ud6MWhDpw}{pRq0-ZaHRBSdhvwHP81czQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-02-10T17:04:25,420][INFO ][o.e.h.HttpServer         ] [NoData] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
-[2017-02-10T17:04:25,424][INFO ][o.e.n.Node               ] [NoData] started
-[2017-02-10T17:04:25,431][INFO ][o.e.g.GatewayService     ] [NoData] recovered [0] indices into cluster_state
-[2017-02-10T17:04:31,794][INFO ][o.e.n.Node               ] [NoData] stopping ...
-[2017-02-10T17:04:31,812][INFO ][o.e.n.Node               ] [NoData] stopped
-[2017-02-10T17:04:31,812][INFO ][o.e.n.Node               ] [NoData] closing ...
-[2017-02-10T17:04:31,823][INFO ][o.e.n.Node               ] [NoData] closed
-[2017-02-10T17:13:24,580][INFO ][o.e.n.Node               ] [NoData] initializing ...
-[2017-02-10T17:13:24,667][INFO ][o.e.e.NodeEnvironment    ] [NoData] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [36.3gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T17:13:24,668][INFO ][o.e.e.NodeEnvironment    ] [NoData] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T17:13:24,669][INFO ][o.e.n.Node               ] [NoData] node name [NoData], node ID [PtNw1GTpRdiP6ud6MWhDpw]
-[2017-02-10T17:13:24,671][INFO ][o.e.n.Node               ] [NoData] version[5.2.0], pid[16438], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [aggs-matrix-stats]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [ingest-common]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-expression]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-groovy]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-mustache]
-[2017-02-10T17:13:25,690][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-painless]
-[2017-02-10T17:13:25,691][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [percolator]
-[2017-02-10T17:13:25,691][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [reindex]
-[2017-02-10T17:13:25,691][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty3]
-[2017-02-10T17:13:25,691][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty4]
-[2017-02-10T17:13:25,692][INFO ][o.e.p.PluginsService     ] [NoData] no plugins loaded
-[2017-02-10T17:13:27,883][INFO ][o.e.n.Node               ] [NoData] initialized
-[2017-02-10T17:13:27,884][INFO ][o.e.n.Node               ] [NoData] starting ...
-[2017-02-10T17:13:28,176][INFO ][o.e.t.TransportService   ] [NoData] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
-[2017-02-10T17:13:31,243][INFO ][o.e.c.s.ClusterService   ] [NoData] new_master {NoData}{PtNw1GTpRdiP6ud6MWhDpw}{uaAqS9SeRNuRCS2eolf5kw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-02-10T17:13:31,267][INFO ][o.e.h.HttpServer         ] [NoData] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
-[2017-02-10T17:13:31,267][INFO ][o.e.n.Node               ] [NoData] started
-[2017-02-10T17:13:31,278][INFO ][o.e.g.GatewayService     ] [NoData] recovered [0] indices into cluster_state
-[2017-02-10T17:13:42,818][INFO ][o.e.n.Node               ] [NoData] stopping ...
-[2017-02-10T17:13:42,833][INFO ][o.e.n.Node               ] [NoData] stopped
-[2017-02-10T17:13:42,834][INFO ][o.e.n.Node               ] [NoData] closing ...
-[2017-02-10T17:13:42,842][INFO ][o.e.n.Node               ] [NoData] closed
-[2017-02-10T17:17:44,221][INFO ][o.e.n.Node               ] [NoData] initializing ...
-[2017-02-10T17:17:44,317][INFO ][o.e.e.NodeEnvironment    ] [NoData] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [36.3gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T17:17:44,317][INFO ][o.e.e.NodeEnvironment    ] [NoData] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T17:17:44,319][INFO ][o.e.n.Node               ] [NoData] node name [NoData], node ID [PtNw1GTpRdiP6ud6MWhDpw]
-[2017-02-10T17:17:44,321][INFO ][o.e.n.Node               ] [NoData] version[5.2.0], pid[16974], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T17:17:45,355][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [aggs-matrix-stats]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [ingest-common]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-expression]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-groovy]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-mustache]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [lang-painless]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [percolator]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [reindex]
-[2017-02-10T17:17:45,356][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty3]
-[2017-02-10T17:17:45,357][INFO ][o.e.p.PluginsService     ] [NoData] loaded module [transport-netty4]
-[2017-02-10T17:17:45,357][INFO ][o.e.p.PluginsService     ] [NoData] no plugins loaded
-[2017-02-10T17:17:47,935][INFO ][o.e.n.Node               ] [NoData] initialized
-[2017-02-10T17:17:47,936][INFO ][o.e.n.Node               ] [NoData] starting ...
-[2017-02-10T17:17:48,283][INFO ][o.e.t.TransportService   ] [NoData] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
-[2017-02-10T17:17:51,363][INFO ][o.e.c.s.ClusterService   ] [NoData] new_master {NoData}{PtNw1GTpRdiP6ud6MWhDpw}{gFoIgjCVRKyECiKC0UENnw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-02-10T17:17:51,398][INFO ][o.e.h.HttpServer         ] [NoData] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
-[2017-02-10T17:17:51,398][INFO ][o.e.n.Node               ] [NoData] started
-[2017-02-10T17:17:51,410][INFO ][o.e.g.GatewayService     ] [NoData] recovered [0] indices into cluster_state
-[2017-02-10T17:22:46,133][INFO ][o.e.c.m.MetaDataCreateIndexService] [NoData] [sw] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
-[2017-02-10T17:24:16,191][WARN ][r.suppressed             ] path: /sw/people/1, params: {index=sw, id=1, type=people}
-org.elasticsearch.action.UnavailableShardsException: [sw][3] primary shard is not active Timeout: [1m], request: [index {[sw][people][1], source[{"detail": "Not found"}]}]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.retryBecauseUnavailable(TransportReplicationAction.java:838) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.retryIfUnavailable(TransportReplicationAction.java:675) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:628) [elasticsearch-5.2.0.jar:5.2.0]
+[2017-02-11T14:12:00,414][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 31.7gb[13.6%], replicas will not be assigned to this node
+[2017-02-11T14:12:30,973][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T14:13:00,983][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.3gb[14.3%], replicas will not be assigned to this node
+[2017-02-11T14:13:30,992][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T14:14:00,997][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T14:14:31,006][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T14:15:01,023][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T14:15:31,033][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:16:01,052][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:16:31,061][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:17:01,066][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:17:31,076][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:18:01,093][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:18:31,105][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:19:01,115][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:19:31,125][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:20:01,135][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:20:31,145][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:21:01,164][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:21:31,175][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:22:01,190][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:22:31,200][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:23:01,212][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:23:31,229][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:24:01,241][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:24:31,262][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:25:01,274][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:25:31,284][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:26:01,299][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:26:31,310][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:27:01,322][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:27:31,337][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:28:01,348][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:28:31,362][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:29:01,368][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:29:31,383][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:30:01,406][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:30:31,420][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:31:01,433][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:31:31,456][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:32:01,469][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:32:31,483][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:33:01,498][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:33:31,508][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:34:01,514][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:34:31,522][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:35:01,531][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:35:31,539][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:36:01,548][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:36:31,558][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:37:01,564][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:37:31,571][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:38:01,576][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:38:31,586][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:39:01,594][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:39:31,199][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:40:01,208][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:40:31,213][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:41:01,221][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:41:31,240][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.6gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:42:01,248][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:42:31,268][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:43:01,290][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:43:31,300][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:44:01,320][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:44:31,326][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:45:01,337][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:45:31,360][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:46:01,368][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:46:31,377][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:47:01,386][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:47:31,394][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:48:01,403][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:48:31,412][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:49:01,420][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:49:31,426][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:50:01,433][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:50:31,443][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:51:01,453][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:51:31,463][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:52:01,481][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:52:31,495][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:53:01,501][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:53:31,522][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:54:01,535][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:54:31,543][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:55:01,554][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:55:31,567][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:56:01,578][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:56:31,589][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:57:01,597][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:57:31,607][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:58:01,614][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:58:31,633][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:59:01,638][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T14:59:31,644][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:00:01,654][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:00:31,664][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:01:01,674][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:01:31,682][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:02:01,696][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:02:31,706][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:03:01,723][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:03:31,733][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:04:01,744][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:04:31,752][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:05:01,758][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:05:31,768][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:06:01,774][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:06:31,786][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:07:01,818][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:07:31,823][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.7gb[14.4%], replicas will not be assigned to this node
+[2017-02-11T15:08:01,833][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.7gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:08:31,839][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:08:55,715][INFO ][o.e.n.Node               ] [DataOne] stopping ...
+[2017-02-11T15:08:55,786][INFO ][o.e.n.Node               ] [DataOne] stopped
+[2017-02-11T15:08:55,786][INFO ][o.e.n.Node               ] [DataOne] closing ...
+[2017-02-11T15:08:55,805][INFO ][o.e.n.Node               ] [DataOne] closed
+[2017-02-11T15:28:26,428][INFO ][o.e.n.Node               ] [DataOne] initializing ...
+[2017-02-11T15:28:26,537][INFO ][o.e.e.NodeEnvironment    ] [DataOne] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [34.6gb], net total_space [232.9gb], spins? [unknown], types [hfs]
+[2017-02-11T15:28:26,538][INFO ][o.e.e.NodeEnvironment    ] [DataOne] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-11T15:28:26,555][INFO ][o.e.n.Node               ] [DataOne] node name [DataOne], node ID [PtNw1GTpRdiP6ud6MWhDpw]
+[2017-02-11T15:28:26,560][INFO ][o.e.n.Node               ] [DataOne] version[5.2.0], pid[53008], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
+[2017-02-11T15:28:27,711][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [aggs-matrix-stats]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [ingest-common]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-expression]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-groovy]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-mustache]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-painless]
+[2017-02-11T15:28:27,712][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [percolator]
+[2017-02-11T15:28:27,713][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [reindex]
+[2017-02-11T15:28:27,713][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty3]
+[2017-02-11T15:28:27,713][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty4]
+[2017-02-11T15:28:27,714][INFO ][o.e.p.PluginsService     ] [DataOne] no plugins loaded
+[2017-02-11T15:28:31,390][INFO ][o.e.n.Node               ] [DataOne] initialized
+[2017-02-11T15:28:31,391][INFO ][o.e.n.Node               ] [DataOne] starting ...
+[2017-02-11T15:28:31,633][INFO ][o.e.t.TransportService   ] [DataOne] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-11T15:28:34,774][INFO ][o.e.c.s.ClusterService   ] [DataOne] new_master {DataOne}{PtNw1GTpRdiP6ud6MWhDpw}{UL8inUkUSpWvFtyUX7bfAw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-11T15:28:34,796][INFO ][o.e.h.HttpServer         ] [DataOne] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-11T15:28:34,796][INFO ][o.e.n.Node               ] [DataOne] started
+[2017-02-11T15:28:34,969][INFO ][o.e.g.GatewayService     ] [DataOne] recovered [1] indices into cluster_state
+[2017-02-11T15:28:35,219][INFO ][o.e.c.r.a.AllocationService] [DataOne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[sw][0]] ...]).
+[2017-02-11T15:29:04,835][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:29:34,844][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:30:04,852][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:30:34,861][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:31:04,871][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:31:34,881][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:32:04,889][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:32:34,900][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:33:04,907][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:33:34,919][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:34:04,929][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:34:34,936][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:34:44,550][INFO ][o.e.n.Node               ] [DataOne] stopping ...
+[2017-02-11T15:34:44,578][INFO ][o.e.n.Node               ] [DataOne] stopped
+[2017-02-11T15:34:44,579][INFO ][o.e.n.Node               ] [DataOne] closing ...
+[2017-02-11T15:34:44,592][INFO ][o.e.n.Node               ] [DataOne] closed
+[2017-02-11T15:37:10,270][INFO ][o.e.n.Node               ] [DataOne] initializing ...
+[2017-02-11T15:37:10,357][INFO ][o.e.e.NodeEnvironment    ] [DataOne] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [34.6gb], net total_space [232.9gb], spins? [unknown], types [hfs]
+[2017-02-11T15:37:10,357][INFO ][o.e.e.NodeEnvironment    ] [DataOne] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-11T15:37:10,373][INFO ][o.e.n.Node               ] [DataOne] node name [DataOne], node ID [PtNw1GTpRdiP6ud6MWhDpw]
+[2017-02-11T15:37:10,376][INFO ][o.e.n.Node               ] [DataOne] version[5.2.0], pid[53996], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
+[2017-02-11T15:37:11,427][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [aggs-matrix-stats]
+[2017-02-11T15:37:11,427][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [ingest-common]
+[2017-02-11T15:37:11,427][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-expression]
+[2017-02-11T15:37:11,427][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-groovy]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-mustache]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-painless]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [percolator]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [reindex]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty3]
+[2017-02-11T15:37:11,428][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty4]
+[2017-02-11T15:37:11,429][INFO ][o.e.p.PluginsService     ] [DataOne] no plugins loaded
+[2017-02-11T15:37:13,694][INFO ][o.e.n.Node               ] [DataOne] initialized
+[2017-02-11T15:37:13,695][INFO ][o.e.n.Node               ] [DataOne] starting ...
+[2017-02-11T15:37:13,935][INFO ][o.e.t.TransportService   ] [DataOne] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-11T15:37:17,076][INFO ][o.e.c.s.ClusterService   ] [DataOne] new_master {DataOne}{PtNw1GTpRdiP6ud6MWhDpw}{CNsguxjYRkeybJugJRa4ZA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-11T15:37:17,104][INFO ][o.e.h.HttpServer         ] [DataOne] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-11T15:37:17,104][INFO ][o.e.n.Node               ] [DataOne] started
+[2017-02-11T15:37:17,294][INFO ][o.e.g.GatewayService     ] [DataOne] recovered [1] indices into cluster_state
+[2017-02-11T15:37:17,550][INFO ][o.e.c.r.a.AllocationService] [DataOne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[sw][2]] ...]).
+[2017-02-11T15:37:47,159][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:38:17,170][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:38:32,673][INFO ][o.e.n.Node               ] [DataOne] stopping ...
+[2017-02-11T15:38:32,699][INFO ][o.e.n.Node               ] [DataOne] stopped
+[2017-02-11T15:38:32,699][INFO ][o.e.n.Node               ] [DataOne] closing ...
+[2017-02-11T15:38:32,708][INFO ][o.e.n.Node               ] [DataOne] closed
+[2017-02-11T15:41:03,871][INFO ][o.e.n.Node               ] [DataOne] initializing ...
+[2017-02-11T15:41:03,959][INFO ][o.e.e.NodeEnvironment    ] [DataOne] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [34.6gb], net total_space [232.9gb], spins? [unknown], types [hfs]
+[2017-02-11T15:41:03,960][INFO ][o.e.e.NodeEnvironment    ] [DataOne] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-11T15:41:03,974][INFO ][o.e.n.Node               ] [DataOne] node name [DataOne], node ID [PtNw1GTpRdiP6ud6MWhDpw]
+[2017-02-11T15:41:03,976][INFO ][o.e.n.Node               ] [DataOne] version[5.2.0], pid[54453], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
+[2017-02-11T15:41:05,365][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [aggs-matrix-stats]
+[2017-02-11T15:41:05,365][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [ingest-common]
+[2017-02-11T15:41:05,366][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-expression]
+[2017-02-11T15:41:05,366][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-groovy]
+[2017-02-11T15:41:05,366][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-mustache]
+[2017-02-11T15:41:05,366][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-painless]
+[2017-02-11T15:41:05,366][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [percolator]
+[2017-02-11T15:41:05,367][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [reindex]
+[2017-02-11T15:41:05,367][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty3]
+[2017-02-11T15:41:05,367][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty4]
+[2017-02-11T15:41:05,368][INFO ][o.e.p.PluginsService     ] [DataOne] no plugins loaded
+[2017-02-11T15:41:07,754][INFO ][o.e.n.Node               ] [DataOne] initialized
+[2017-02-11T15:41:07,755][INFO ][o.e.n.Node               ] [DataOne] starting ...
+[2017-02-11T15:41:07,920][INFO ][o.e.t.TransportService   ] [DataOne] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-11T15:41:11,048][INFO ][o.e.c.s.ClusterService   ] [DataOne] new_master {DataOne}{PtNw1GTpRdiP6ud6MWhDpw}{D5m6zHm5RZyAjAK_Lmpg6A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-11T15:41:11,071][INFO ][o.e.h.HttpServer         ] [DataOne] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-11T15:41:11,071][INFO ][o.e.n.Node               ] [DataOne] started
+[2017-02-11T15:41:11,220][INFO ][o.e.g.GatewayService     ] [DataOne] recovered [1] indices into cluster_state
+[2017-02-11T15:41:11,436][INFO ][o.e.c.r.a.AllocationService] [DataOne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[sw][3]] ...]).
+[2017-02-11T15:41:41,107][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:42:11,122][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:42:41,132][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:43:11,143][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:43:41,153][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:44:11,163][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:44:39,909][INFO ][o.e.n.Node               ] [DataOne] stopping ...
+[2017-02-11T15:44:39,936][INFO ][o.e.n.Node               ] [DataOne] stopped
+[2017-02-11T15:44:39,937][INFO ][o.e.n.Node               ] [DataOne] closing ...
+[2017-02-11T15:44:39,945][INFO ][o.e.n.Node               ] [DataOne] closed
+[2017-02-11T15:57:43,720][INFO ][o.e.n.Node               ] [DataOne] initializing ...
+[2017-02-11T15:57:43,807][INFO ][o.e.e.NodeEnvironment    ] [DataOne] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [34.6gb], net total_space [232.9gb], spins? [unknown], types [hfs]
+[2017-02-11T15:57:43,807][INFO ][o.e.e.NodeEnvironment    ] [DataOne] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-11T15:57:43,822][INFO ][o.e.n.Node               ] [DataOne] node name [DataOne], node ID [PtNw1GTpRdiP6ud6MWhDpw]
+[2017-02-11T15:57:43,824][INFO ][o.e.n.Node               ] [DataOne] version[5.2.0], pid[56297], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
+[2017-02-11T15:57:44,905][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [aggs-matrix-stats]
+[2017-02-11T15:57:44,906][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [ingest-common]
+[2017-02-11T15:57:44,906][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-expression]
+[2017-02-11T15:57:44,907][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-groovy]
+[2017-02-11T15:57:44,907][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-mustache]
+[2017-02-11T15:57:44,907][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-painless]
+[2017-02-11T15:57:44,907][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [percolator]
+[2017-02-11T15:57:44,907][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [reindex]
+[2017-02-11T15:57:44,908][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty3]
+[2017-02-11T15:57:44,908][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty4]
+[2017-02-11T15:57:44,909][INFO ][o.e.p.PluginsService     ] [DataOne] no plugins loaded
+[2017-02-11T15:57:47,309][INFO ][o.e.n.Node               ] [DataOne] initialized
+[2017-02-11T15:57:47,309][INFO ][o.e.n.Node               ] [DataOne] starting ...
+[2017-02-11T15:57:47,544][INFO ][o.e.t.TransportService   ] [DataOne] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-11T15:57:50,675][INFO ][o.e.c.s.ClusterService   ] [DataOne] new_master {DataOne}{PtNw1GTpRdiP6ud6MWhDpw}{TQNsFWqPR82LIw0LsPoVIw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-11T15:57:50,744][INFO ][o.e.h.HttpServer         ] [DataOne] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-11T15:57:50,745][INFO ][o.e.n.Node               ] [DataOne] started
+[2017-02-11T15:57:50,912][INFO ][o.e.g.GatewayService     ] [DataOne] recovered [1] indices into cluster_state
+[2017-02-11T15:57:51,199][INFO ][o.e.c.r.a.AllocationService] [DataOne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[sw][1]] ...]).
+[2017-02-11T15:58:20,734][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:58:50,746][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:59:20,755][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T15:59:50,767][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:00:20,776][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.6gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:00:50,787][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:01:20,799][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.2gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:01:50,807][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.2gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:02:20,814][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.2gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:02:50,824][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.2gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:03:20,833][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.1gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:03:45,486][INFO ][o.e.c.m.MetaDataCreateIndexService] [DataOne] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2017-02-11T16:03:50,841][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.1gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:03:55,650][INFO ][o.e.c.m.MetaDataMappingService] [DataOne] [.kibana/GH8AO1RFQgOF7Y-UZqPUfQ] create_mapping [index-pattern]
+[2017-02-11T16:04:20,849][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.1gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:04:50,858][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:04:58,904][INFO ][o.e.c.m.MetaDataMappingService] [DataOne] [.kibana/GH8AO1RFQgOF7Y-UZqPUfQ] create_mapping [timelion-sheet]
+[2017-02-11T16:05:20,865][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:05:50,875][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.1gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:06:20,884][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:06:50,895][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:07:20,905][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:07:50,911][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:08:20,917][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:08:50,924][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:09:17,283][INFO ][o.e.c.m.MetaDataCreateIndexService] [DataOne] [articles] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2017-02-11T16:09:17,400][INFO ][o.e.c.m.MetaDataMappingService] [DataOne] [articles/B4NCD68MRLuRg1WR3RE7tQ] create_mapping [article]
+[2017-02-11T16:09:20,931][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:09:47,607][INFO ][o.e.c.m.MetaDataMappingService] [DataOne] [.kibana/GH8AO1RFQgOF7Y-UZqPUfQ] update_mapping [config]
+[2017-02-11T16:09:50,944][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:10:20,958][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:10:50,969][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:11:20,979][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:11:50,990][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:12:21,000][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:12:51,016][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:13:21,026][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.6%], replicas will not be assigned to this node
+[2017-02-11T16:13:51,042][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:14:21,068][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:14:51,079][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:15:21,092][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:15:51,103][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:16:21,114][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:16:51,127][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.8gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:17:21,139][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 33.9gb[14.5%], replicas will not be assigned to this node
+[2017-02-11T16:17:51,150][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:18:21,166][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:18:51,180][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:19:21,190][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:19:51,198][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:20:21,209][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:20:51,219][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.5gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:21:21,233][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:21:51,242][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.8%], replicas will not be assigned to this node
+[2017-02-11T16:22:21,254][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:22:51,262][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:23:21,275][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:23:51,286][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:24:19,066][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] [articles][0], node[PtNw1GTpRdiP6ud6MWhDpw], [P], s[STARTED], a[id=cxe2UiebTbq88rd7adRICg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[articles], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[article], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "query" : {
+    "query_string" : {
+      "query" : "author:",
+      "fields" : [ ],
+      "use_dis_max" : true,
+      "tie_breaker" : 0.0,
+      "default_operator" : "or",
+      "auto_generate_phrase_queries" : false,
+      "max_determined_states" : 10000,
+      "enable_position_increment" : true,
+      "fuzziness" : "AUTO",
+      "fuzzy_prefix_length" : 0,
+      "fuzzy_max_expansions" : 50,
+      "phrase_slop" : 0,
+      "analyze_wildcard" : false,
+      "escape" : false,
+      "split_on_whitespace" : true,
+      "boost" : 1.0
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
 	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onTimeout(TransportReplicationAction.java:792) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onTimeout(ClusterStateObserver.java:307) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.onTimeout(ClusterStateObserver.java:237) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.service.ClusterService$NotifyTimeout.run(ClusterService.java:1157) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
-[2017-02-10T17:24:27,766][INFO ][o.e.n.Node               ] [NoData] stopping ...
-[2017-02-10T17:24:27,775][WARN ][r.suppressed             ] path: /sw/people/1, params: {index=sw, id=1, type=people}
-org.elasticsearch.node.NodeClosedException: node closed {NoData}{PtNw1GTpRdiP6ud6MWhDpw}{gFoIgjCVRKyECiKC0UENnw}{127.0.0.1}{127.0.0.1:9300}
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onClusterServiceClose(TransportReplicationAction.java:786) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onClusterServiceClose(ClusterStateObserver.java:300) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.onClose(ClusterStateObserver.java:223) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.service.ClusterService.doStop(ClusterService.java:232) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.component.AbstractLifecycleComponent.stop(AbstractLifecycleComponent.java:88) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.stop(Node.java:686) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.close(Node.java:708) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) [lucene-core-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:57:29]
-	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) [lucene-core-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:57:29]
-	at org.elasticsearch.bootstrap.Bootstrap$5.run(Bootstrap.java:217) [elasticsearch-5.2.0.jar:5.2.0]
-[2017-02-10T17:24:27,776][ERROR][i.n.u.c.D.rejectedExecution] Failed to submit a listener notification task. Event loop shut down?
-java.util.concurrent.RejectedExecutionException: event executor terminated
-	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:821) ~[netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:327) ~[netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:320) ~[netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:746) ~[netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:760) [netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:428) [netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:113) [netty-common-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:87) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1011) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:826) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:795) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:832) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) [netty-transport-4.1.7.Final.jar:4.1.7.Final]
-	at org.elasticsearch.http.netty4.Netty4HttpChannel.sendResponse(Netty4HttpChannel.java:138) [transport-netty4-5.2.0.jar:5.2.0]
-	at org.elasticsearch.http.HttpServer$ResourceHandlingHttpChannel.sendResponse(HttpServer.java:189) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.rest.action.RestActionListener.onFailure(RestActionListener.java:58) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.TransportAction$1.onFailure(TransportAction.java:97) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.finishAsFailed(TransportReplicationAction.java:803) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onClusterServiceClose(TransportReplicationAction.java:786) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onClusterServiceClose(ClusterStateObserver.java:300) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.onClose(ClusterStateObserver.java:223) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.cluster.service.ClusterService.doStop(ClusterService.java:232) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.common.component.AbstractLifecycleComponent.stop(AbstractLifecycleComponent.java:88) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.stop(Node.java:686) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.elasticsearch.node.Node.close(Node.java:708) [elasticsearch-5.2.0.jar:5.2.0]
-	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) [lucene-core-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:57:29]
-	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) [lucene-core-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:57:29]
-	at org.elasticsearch.bootstrap.Bootstrap$5.run(Bootstrap.java:217) [elasticsearch-5.2.0.jar:5.2.0]
-[2017-02-10T17:24:27,782][INFO ][o.e.n.Node               ] [NoData] stopped
-[2017-02-10T17:24:27,782][INFO ][o.e.n.Node               ] [NoData] closing ...
-[2017-02-10T17:24:27,790][INFO ][o.e.n.Node               ] [NoData] closed
-[2017-02-10T17:24:54,446][INFO ][o.e.n.Node               ] [DataOne] initializing ...
-[2017-02-10T17:24:54,534][INFO ][o.e.e.NodeEnvironment    ] [DataOne] using [1] data paths, mounts [[/ (/dev/disk0s2)]], net usable_space [36.3gb], net total_space [232.9gb], spins? [unknown], types [hfs]
-[2017-02-10T17:24:54,534][INFO ][o.e.e.NodeEnvironment    ] [DataOne] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-02-10T17:24:54,544][INFO ][o.e.n.Node               ] [DataOne] node name [DataOne], node ID [PtNw1GTpRdiP6ud6MWhDpw]
-[2017-02-10T17:24:54,547][INFO ][o.e.n.Node               ] [DataOne] version[5.2.0], pid[17849], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.12.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_65/25.65-b01]
-[2017-02-10T17:24:55,546][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [aggs-matrix-stats]
-[2017-02-10T17:24:55,547][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [ingest-common]
-[2017-02-10T17:24:55,547][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-expression]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-groovy]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-mustache]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [lang-painless]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [percolator]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [reindex]
-[2017-02-10T17:24:55,548][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty3]
-[2017-02-10T17:24:55,549][INFO ][o.e.p.PluginsService     ] [DataOne] loaded module [transport-netty4]
-[2017-02-10T17:24:55,549][INFO ][o.e.p.PluginsService     ] [DataOne] no plugins loaded
-[2017-02-10T17:24:57,899][INFO ][o.e.n.Node               ] [DataOne] initialized
-[2017-02-10T17:24:57,899][INFO ][o.e.n.Node               ] [DataOne] starting ...
-[2017-02-10T17:24:58,224][INFO ][o.e.t.TransportService   ] [DataOne] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
-[2017-02-10T17:25:01,297][INFO ][o.e.c.s.ClusterService   ] [DataOne] new_master {DataOne}{PtNw1GTpRdiP6ud6MWhDpw}{DFTN2DVPRdW2wj8O7fqarQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-02-10T17:25:01,344][INFO ][o.e.h.HttpServer         ] [DataOne] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
-[2017-02-10T17:25:01,344][INFO ][o.e.n.Node               ] [DataOne] started
-[2017-02-10T17:25:01,526][INFO ][o.e.g.GatewayService     ] [DataOne] recovered [1] indices into cluster_state
-[2017-02-10T17:25:18,415][INFO ][o.e.c.m.MetaDataMappingService] [DataOne] [sw/tPK304UuSWqyvTMdNu9IEg] create_mapping [people]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:19,066][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] [articles][2], node[PtNw1GTpRdiP6ud6MWhDpw], [P], s[STARTED], a[id=Ssr9aFksTPyqvlXvDLSnZg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[articles], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[article], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "query" : {
+    "query_string" : {
+      "query" : "author:",
+      "fields" : [ ],
+      "use_dis_max" : true,
+      "tie_breaker" : 0.0,
+      "default_operator" : "or",
+      "auto_generate_phrase_queries" : false,
+      "max_determined_states" : 10000,
+      "enable_position_increment" : true,
+      "fuzziness" : "AUTO",
+      "fuzzy_prefix_length" : 0,
+      "fuzzy_max_expansions" : 50,
+      "phrase_slop" : 0,
+      "analyze_wildcard" : false,
+      "escape" : false,
+      "split_on_whitespace" : true,
+      "boost" : 1.0
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:19,066][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] [articles][4], node[PtNw1GTpRdiP6ud6MWhDpw], [P], s[STARTED], a[id=9yKb8PqdQtSVoM0jIS3ghw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[articles], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[article], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "query" : {
+    "query_string" : {
+      "query" : "author:",
+      "fields" : [ ],
+      "use_dis_max" : true,
+      "tie_breaker" : 0.0,
+      "default_operator" : "or",
+      "auto_generate_phrase_queries" : false,
+      "max_determined_states" : 10000,
+      "enable_position_increment" : true,
+      "fuzziness" : "AUTO",
+      "fuzzy_prefix_length" : 0,
+      "fuzzy_max_expansions" : 50,
+      "phrase_slop" : 0,
+      "analyze_wildcard" : false,
+      "escape" : false,
+      "split_on_whitespace" : true,
+      "boost" : 1.0
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:19,066][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] [articles][1], node[PtNw1GTpRdiP6ud6MWhDpw], [P], s[STARTED], a[id=3FnLO_1gTiCUC9eJ-Em3Iw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[articles], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[article], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "query" : {
+    "query_string" : {
+      "query" : "author:",
+      "fields" : [ ],
+      "use_dis_max" : true,
+      "tie_breaker" : 0.0,
+      "default_operator" : "or",
+      "auto_generate_phrase_queries" : false,
+      "max_determined_states" : 10000,
+      "enable_position_increment" : true,
+      "fuzziness" : "AUTO",
+      "fuzzy_prefix_length" : 0,
+      "fuzzy_max_expansions" : 50,
+      "phrase_slop" : 0,
+      "analyze_wildcard" : false,
+      "escape" : false,
+      "split_on_whitespace" : true,
+      "boost" : 1.0
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:19,066][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] [articles][3], node[PtNw1GTpRdiP6ud6MWhDpw], [P], s[STARTED], a[id=6wW2Jj9NRMGQwu2AE-3Zbg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[articles], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[article], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "query" : {
+    "query_string" : {
+      "query" : "author:",
+      "fields" : [ ],
+      "use_dis_max" : true,
+      "tie_breaker" : 0.0,
+      "default_operator" : "or",
+      "auto_generate_phrase_queries" : false,
+      "max_determined_states" : 10000,
+      "enable_position_increment" : true,
+      "fuzziness" : "AUTO",
+      "fuzzy_prefix_length" : 0,
+      "fuzzy_max_expansions" : 50,
+      "phrase_slop" : 0,
+      "analyze_wildcard" : false,
+      "escape" : false,
+      "split_on_whitespace" : true,
+      "boost" : 1.0
+    }
+  }
+}}]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:19,088][DEBUG][o.e.a.s.TransportSearchAction] [DataOne] All shards failed for phase: [query]
+org.elasticsearch.transport.RemoteTransportException: [DataOne][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [author:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1034) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'author:': Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:116) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 7.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:932) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:814) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:111) ~[lucene-queryparser-6.4.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:786) ~[elasticsearch-5.2.0.jar:6.4.0 bbe4b08cc1fb673d0c3eb4b8455f23ddc1364124 - jim - 2017-01-17 15:58:02]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1032) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:97) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$1(QueryShardContext.java:312) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:329) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:311) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
+[2017-02-11T16:24:21,294][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:24:51,308][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:25:21,316][INFO ][o.e.c.r.a.DiskThresholdMonitor] [DataOne] low disk watermark [85%] exceeded on [PtNw1GTpRdiP6ud6MWhDpw][DataOne][/Users/Jake/Documents/Project-Master/elasticSearch/data/nodes/0] free: 34.4gb[14.7%], replicas will not be assigned to this node
+[2017-02-11T16:25:33,653][INFO ][o.e.n.Node               ] [DataOne] stopping ...
+[2017-02-11T16:25:33,698][INFO ][o.e.n.Node               ] [DataOne] stopped
+[2017-02-11T16:25:33,699][INFO ][o.e.n.Node               ] [DataOne] closing ...
+[2017-02-11T16:25:33,712][INFO ][o.e.n.Node               ] [DataOne] closed

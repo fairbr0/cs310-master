@@ -20,7 +20,7 @@ def test():
 def processDocument():
     ae.inputDocument(request)
     #inject document into the sentiment module
-    return jsonify({'task': task}), 201
+    return jsonify({'msg':'success'}), 201
 
 @auth.get_password
 def get_password(username):
