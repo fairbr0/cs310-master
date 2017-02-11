@@ -1,5 +1,5 @@
 from time import gmtime, strftime
-from elasticservice import ElasticService
+from storageservice import StorageService
 from article import Article
 import threading
 import logging
@@ -10,10 +10,10 @@ import Queue
 
 class AnalysisWorker(threading.Thread):
 
-    def __init__(self, queue, es):
+    def __init__(self, queue, ss):
         threading.Thread.__init__(self)
         self.queue = queue
-        self.es = es
+        self.ss = ss
         logging.debug('Created Worker Thread')
 
     def run(self):
@@ -23,19 +23,19 @@ class AnalysisWorker(threading.Thread):
             logging.debug('Got article from Queue')
             summarize.summarize(article)
             sentiment.sentiment(article)
-            self.es.postArticle(article)
+            self.ss.postArticle(article)
             logging.debug('Posted article to ES')
 
 class AnalysisEngine():
 
-    def __init__(self, elasticService):
+    def __init__(self, storageService):
 
-        self.elasticService = elasticService
+        self.storageService = storageService
         self.inputQueue = Queue.Queue()
         self.worker = self.startWorkers()
 
     def startWorkers(self):
-        t = AnalysisWorker(self.inputQueue, self.elasticService)
+        t = AnalysisWorker(self.inputQueue, self.storageService)
         t.start()
         return t
 

@@ -3,16 +3,16 @@ from flask import abort, make_response, request
 from flask.ext.httpauth import HTTPBasicAuth
 auth = HTTPBasicAuth()
 from app import app
-from elasticservice import ElasticService
+from storageservice import StorageService
 import config
 from analysisengine import AnalysisEngine
 
-es = ElasticService(config.elasticAddr)
-ae = AnalysisEngine(es)
+ss = StorageService(config.dbAddr)
+ae = AnalysisEngine(ss)
 
 @app.route('/test', methods=['GET'])
 def test():
-    resp = es.es.get(index='sw', doc_type='people', id=1)
+    #resp = ss.es.get(index='sw', doc_type='people', id=1)
     return jsonify(resp)
 
 @app.route('/process', methods=['POST'])

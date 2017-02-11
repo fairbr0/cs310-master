@@ -1,3 +1,3 @@
 #!/bin/sh
-./elastic-cluster-start.sh
+mongod --dbpath ./db
 ./rest-start.sh
