@@ -11,7 +11,5 @@ class StorageService():
     def postArticle(self, article):
         request = article.getJson()
         id = self.article_table.insert_one(request).inserted_id
-        #resp = self.es.index(index='articles', doc_type='article', body=request)
-        #insert into mongo
         print id
         return

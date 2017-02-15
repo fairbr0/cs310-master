@@ -1,0 +1,140 @@
+.color-primary {
+  background-color: #639833;
+}
+
+.color-primary-light {
+  background-color: #9DCF70;
+}
+
+.color-primary-lighter {
+  background-color: #c1ea9d;
+}
+
+.color-dark-light {
+  background-color: #3f6a18;
+}
+
+.color-primary-darker {
+  background-color: #264708;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+.nav-menu-item {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.topbar {
+  -webkit-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.34);
+  box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.34);
+}
+
+.bar-text {
+  color:white;
+}
+
+.page {
+  max-width: 1200px;
+}
+
+.product-row {
+  height:200px;
+  background-color: red;
+}
+
+@media (max-width: 1200px) {
+  .basket-view-mini-container {
+    display: none;
+  }
+}
+
+.basket-view-mini-container {
+  padding-left:20px;
+}
+
+.product-container {
+  overfloeww:scroll;
+  max-heiasght: 85vh;
+}
+
+
+#element::-webkit-scrollbar {
+    display: none;
+}
+
+.display-toggles {
+  margin-bottom: 20px;
+}
+
+.basket-view-mini {
+  border: 1px solid grey;
+  border-radius: 5px;
+  max-height:500px;
+  min-height:500px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.image{
+  height:90px;
+  width: auto;
+}
+
+.basket-view-mini-controls {
+}
+
+.basket-view-mini-products {
+  height:370px;
+}
+
+.footer {
+  width:100%;
+  height:20vh;
+  margin-top: 30px;
+}
+
+.product-grid-item* {
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.08);
+box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.08);
+}
+
+.product-grid-item:hover {
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.thumbnail {
+  width:100%;
+  height:auto;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+body {
+  padding-top:70px;
+}

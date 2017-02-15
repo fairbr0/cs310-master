@@ -10,6 +10,7 @@ class Article():
         self.source = source
         self.url = url
         self.keywords = []
+        self.sentiment = []
 
     def getJson(self):
         jsonString = {'title':self.title, 'content':self.content, 'author':self.author, 'date':self.date, 'source':self.source, 'url':self.url, 'keywords':self.keywords}
