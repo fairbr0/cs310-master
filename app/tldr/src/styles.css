@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+.default-background-color {
+  background-color: #AA4139;
+}
+
+.default-text-color-light {
+  color: #eeeeee;
+}
+
+.default-text-color-dark {
+  color: #333333;
+}
+
+.page {
+  max-width: 1200px;
+}
+
+body {
+  padding-top:70px;
+}

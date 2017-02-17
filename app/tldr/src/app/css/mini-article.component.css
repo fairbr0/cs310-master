@@ -1,0 +1,23 @@
+.img-area {
+  max-height: 100%;
+  background-color: #eeeeee;
+}
+
+.article-image {
+  height:100px;
+  width:auto;
+  display:inline-block;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.mini-article-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.mini-article {
+  margin-bottom:10px;
+  background-color: #eee;
+}
