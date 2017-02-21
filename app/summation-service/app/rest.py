@@ -1,11 +1,14 @@
 from flask import Flask, jsonify
 from flask import abort, make_response, request
 from flask.ext.httpauth import HTTPBasicAuth
+from flask_cors import CORS, cross_origin
 auth = HTTPBasicAuth()
 from app import app
 from storageservice import StorageService
 import config
 from analysisengine import AnalysisEngine
+
+CORS(app)
 
 ss = StorageService(config.dbAddr)
 ae = AnalysisEngine(ss)
@@ -21,6 +24,11 @@ def processDocument():
     ae.inputDocument(request)
     #inject document into the sentiment module
     return jsonify({'msg':'success'}), 201
+
+@app.route('/summarize', methods=['POST'])
+def summarizeUserDocument():
+    result = ae.returnDocument(request)
+    return jsonify({'response' : result})
 
 @auth.get_password
 def get_password(username):

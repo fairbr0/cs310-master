@@ -4,20 +4,24 @@
 }
 
 .article-image {
-  height:100px;
-  width:auto;
+
+  width:100%;
+  height:auto;
   display:inline-block;
-  margin-top:5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .mini-article-title {
   font-size: 20px;
   font-weight: bold;
-  padding-left: 20px;
 }
 
 .mini-article {
   margin-bottom:10px;
   background-color: #eee;
+  text-decoration: none;
+}
+
+.content-area {
+  margin-top:10px;
 }

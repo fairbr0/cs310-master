@@ -22,8 +22,9 @@ class AnalysisWorker(threading.Thread):
             article = self.queue.get()
             logging.debug('Got article from Queue')
             summarize.summarize(article)
-            sentiment.sentiment(article)
+            #sentiment.sentiment(article)
             self.ss.postArticle(article)
+            logging.debug(article.content, article.keywords)
             logging.debug('Posted article to ES')
 
 class AnalysisEngine():
@@ -48,6 +49,12 @@ class AnalysisEngine():
         self.inputQueue.put(article)
         logging.debug('Added request to input queue')
 
+    def returnDocument(self, request):
+        article = self.constructBareArticle(request)
+        summarize.summarize(article)
+        #sentiment.sentiment(article)
+        return article.getJson()
+
     def constructArticle(self, request):
         title=request.form['title']
         author=request.form['author']
@@ -56,6 +63,11 @@ class AnalysisEngine():
         url=request.form['url']
         date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-        article = Article(title, content, author, date, source, url)
+        article = Article(content, title, author, date, source, url)
 
+        return article
+
+    def constructBareArticle(self, request):
+        content = request.form['content']
+        article = Article(content)
         return article

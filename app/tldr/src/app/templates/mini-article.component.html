@@ -1,14 +1,20 @@
-<div class="col-md-12 mini-article">
+<div class="mini-article">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-2">
-        <div class="pull-left">
-          <img src="app/resources/img/placeholder.png" class="article-image" />
-        </div>
+      <div class="col-xs-4 col-md-5" >
+        <img src="app/resources/img/placeholder.png" class="article-image" />
       </div>
-      <div class="col-xs-10">
-        <span class="mini-article-title">{{article.title}}</span>
-          {{article.source}}
+      <div class="col-xs-8 col-md-7" >
+        <h4 class="mifni-article-title">{{article.title}}</h4>
+        <h5>{{article.source}}</h5>
+        <h5>{{article.date}}</h5>
+
+      </div>
+    </div>
+    <div class="row content-area">
+
+      <div class="col-xs-12">
+        {{article.content}}
       </div>
     </div>
   </div>

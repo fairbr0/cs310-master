@@ -1,0 +1,16 @@
+<div class="container-fluid page">
+  <div class="col-md-12">
+    <div class='page-header'>
+      <h1>Outlets</h1>
+    </div>
+    <div class='outlet-feed-area'>
+      <div class="row">
+        <a *ngFor="let outlet of outlets" [routerLink]="['/outlet', outlet.name]">
+          <div class="col-xs-4 col-md-3">
+            <mini-outlet [outlet]="outlet"></mini-outlet>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

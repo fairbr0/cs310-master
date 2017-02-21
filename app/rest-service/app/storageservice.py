@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 import pymongo
+from bson.objectid import ObjectId
 
 class StorageService():
 
@@ -7,9 +8,19 @@ class StorageService():
         self.client = MongoClient(config['host'], config['port'])
         self.db = self.client.articles
 
+    def getArticle(self, id):
+        print id
+        article = self.db.articles.find_one({"_id": ObjectId(id)})
+        article['_id'] = str(article['_id'])
+        return article
+
     def getOutletNames(self):
         outletList = self.db.articles.distinct("source")
-        outlets = {"outlets" : outletList}
+        outletObjList = []
+        for outlet in outletList:
+            outletObjList.append({'name': outlet})
+        outlets = {"outlets" : outletObjList}
+        print (outletList)
         return outlets
 
     def getOutletArticles(self, outlet, id=None):

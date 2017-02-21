@@ -1,1 +1,33 @@
-curl --data "title=Article&author=Jake&content=Testarticle&source=Home&url=google" http://localhost:6200/process -u jake:python
+curl --data `Rights groups have filed a lawsuit in a New York court to demand the release of refugees in transit who have been detained at John F Kennedy airport.
+Entry to the US for nationals of seven Muslim-majority countries has been stopped for 90 days by Donald Trump.
+The exact implications of his order remain unclear. The US State Department has told the BBC it is working on the immediate implementation of the ban.
+People fleeing Syria are banned until further notice.
+The two Iraqi refugees detained in New York, one of whom had worked as a US Army interpreter, were in transit when the executive order was signed on Friday.
+The National Immigration Law Centre (NILC) told the BBC that it was suing President Trump and the secretary of the Department of Homeland Security.
+It described the two Iraqis as "courageous Haneed Khalid Darweesh, who interpreted for US army and Haider Sameer Alshawi also targeted for aiding US military".
+The organisation had been unable to speak to the two men, it said.
+The American Civil Liberties Union (ACLU) is one of several other rights groups also involved in the lawsuit, filed in the Eastern District of New York on Saturday morning.
+Lawyers are "keeping tabs on several flights" the NILC told the BBC, but did not have a full number of people who had been detained at US airports.
+On Saturday several Iraqi passengers and a Yemeni national were prevented from boarding a flight at Cairo airport bound for New York, despite holding valid visas for the US.
+Google has urged travelling staff members who are nationals of the seven countries affect to return to the US as quickly as possible.
+Friday's wide-ranging order includes the following measures. The suspension of the entire US refugee admissions programme for 120 days.
+A ban on all refugees from Syria until "significant changes" are made.
+A 90-day suspension on anyone arriving from Iraq, Syria, Iran, Libya, Somalia, Sudan, and Yemen, except certain visa categories such as diplomats.
+Priority for future refugee applications from those persecuted for their religion - but only if the person is part of a minority religion in their home country.
+A cap of 50,000 refugees in 2017 - less than half of the upper limit under Mr Trump's predecessor, Barack Obama.
+Mr Trump signed the order on Friday, which was International Holocaust Remembrance Day.
+The president's statement to mark that occasion, on the 72nd anniversary of the liberation of Auschwitz, made no mention of Jews or anti-Semitism.
+In response to Mr Trump's order, the United Nations refugee agency said the needs of those fleeing conflict had never been greater.
+The Council on American Islamic Relations (CAIR) also says it will file a lawsuit.
+here have been reports of "green card" holders, who are legal permanent residents of the US, being prevented from getting on flights. However, green cards are not specifically mentioned in the executive order, and so the status of green card holders remains unclear.
+CAIR advised non-US citizens, including permanent residents, from the seven countries to plan to delay all international travel for at least 90 days.
+Mr Trump said the measures detailed in his executive order would "keep radical Islamic terrorists out of the US".
+But rights groups say there is no link between Syrian refugees in the US and terrorism.
+The sudden and severe immigration restrictions imposed on passport holders from seven Muslim countries could seriously demonstrate the law of unintended consequences. The president wants to restrict some Muslims but the effect could be to damage America's most important and profitable sector: technology.
+Google has recalled around 100 of its affected staff from overseas. Microsoft has warned its shareholders that curbs on immigration could have a material impact on its business.
+The technology sector relies heavily on highly skilled and well-paid workers from overseas on H1-B visas. If there's a risk, however small, that that brainpower could be restricted in some way or scare off others who may feel unwelcome, the big tech companies may have to rethink where they place their key staff in future.
+Some Republicans have welcomed Mr Trump's announcement, including the Speaker of the House of Representatives, Paul Ryan, who said it was "time to re-evaluate and strengthen the visa vetting process".
+The order also said all immigration programmes should include questions to "evaluate the applicant's likelihood of becoming a positively contributing member of society."
+Other measures include a broad review of the information required from all countries to approve a visa; a review of visa schemes between nations to ensure they are "truly reciprocal" for US citizens; and the immediate suspension of the Visa Interview Waiver Programme.
+But the document says exceptions could be made on a case-by-case basis.
+During the election campaign, Mr Trump suggested a "total and complete shutdown of Muslims entering the United States until our country's representatives can figure out what is going on".` http://localhost:6200/summarize -u jake:python

@@ -1,6 +1,8 @@
 from flask import Flask, jsonify
 from flask import abort, make_response, request
 from flask.ext.httpauth import HTTPBasicAuth
+from flask_cors import CORS, cross_origin
+
 auth = HTTPBasicAuth()
 from app import app
 import config
@@ -9,6 +11,8 @@ from storageservice import StorageService
 logging.basicConfig(level=logging.DEBUG)
 
 ss = StorageService(config.dbAddr)
+
+CORS(app)
 
 @app.route('/alive', methods=['GET'])
 def alive():
@@ -44,6 +48,10 @@ def getKeywordArticles(keyword, id=None):
     result = ss.getKeywordArticles(keyword, id)
     return jsonify({'response':result}), 200
 
+@app.route('/article/<string:id>')
+def getArticle(id):
+    result = ss.getArticle(id)
+    return jsonify({'response':result}), 200
 
 #returns a list of most recent
 @app.route('/getrecent', methods=['GET'])

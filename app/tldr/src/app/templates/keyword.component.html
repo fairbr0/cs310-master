@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngIf='keyword'>
+    <h1>{{keyword}}</h1>
+
+    <button class='btn btn-default' (click)='goBack()'>Back</button>
+
+    <div class='article-feed-area'>
+        <a *ngFor="let article of articles" [routerLink]="['/article', article._id]">
+          <div class="row">
+            <mini-article [article]="article"></mini-article>
+          </div>
+        </a>
+    </div>
+  </div>
+
+</div>

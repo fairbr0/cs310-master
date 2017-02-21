@@ -1,4 +1,3 @@
-
 import nltk
 import networkx as nx
 import numpy as np
@@ -7,7 +6,7 @@ import math
 import en, json
 
 
-s = open('../resources/stop_words.txt', 'r')
+s = open('/Users/Jake/Documents/Project-Master/app/summation-service/app/stop_words.txt', 'r')
 stop_words = s.read()
 
 def getSentenceAsTokens(content):
@@ -117,14 +116,18 @@ def summarize(article):
         for j in range(0, len(article.keywords)):
             if article.keywords[j] in sentenceTokens:
                 rankedSentences[i] += 0.1
-
     sortedSentences = sorted(rankedSentences, key=rankedSentences.get, reverse=True)
 
+    selectedSentences = selectSentences(sortedSentences, getSentenceAsTokens(article.content), 5)
+
+
     string = ''
-    for sentence in sortedSentences[:5]:
+    for sentence in selectedSentences:
         string += sentence + "\n\n"
-    article.reduction = getReduction(article.content, string)
+    reduction = getReduction(article.content, string)
+    article.reduction = reduction
     article.content = string
+    print (string, reduction, article.keywords)
     #apply sentiment boosts
     #reorder by keywords
 

@@ -1,0 +1,16 @@
+.mini-outlet-container {
+  background-color: #ddd;
+  height: 300px;
+  text-align: center;
+}
+
+.mini-outlet-container-content {
+  position: relative;
+  top: 50%;
+}
+
+.mini-outlet-container:hover {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.41);
+  box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.41);
+}

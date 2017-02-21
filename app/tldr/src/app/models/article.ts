@@ -1,7 +1,7 @@
 import { Sentiment } from './sentiment';
 
 export class Article {
-  id: string;
+  _id: string;
   title : string;
   author : string;
   date : string;
@@ -10,4 +10,5 @@ export class Article {
   url : string;
   keywords : string[];
   sentiment : Sentiment[];
+  reduction : number;
 }

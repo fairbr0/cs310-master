@@ -8,9 +8,9 @@
         <form>
           <div class="form-group">
             <label for="text-input-area">Text to Summarize</label>
-            <textarea class="form-control" rows="12"></textarea>
+            <textarea class="form-control" name="input-area" [(ngModel)]="content" rows="36"></textarea>
           </div>
-          <button type="submit" class="btn btn-default">Summarize!</button>
+          <button type="submit" class="btn btn-primary" (click)="summarize()" >Summarize!</button>
 
         </form>
       </div>
@@ -19,11 +19,19 @@
       <form>
         <div class="form-group">
           <label for="text-input-area">Summarized Text</label>
-          <textarea class="form-control" rows="12" disabled></textarea>
+          <textarea class="form-control" rows="24" name="summary-area" [(ngModel)]="summary.content" disabled></textarea>
         </div>
 
       </form>
-      
+
+      <div class="row">
+        <h1>Compression: </h1> <p>{{summary.reduction}}</p>
+        {{summary.keywords}}
+        <div *ngFor="let sentiment of summary.sentiment">
+          {{sentiment.word}} : {{sentiment.sentiment}}
+        </div>
+      </div>
+
     </div>
   </div>
 </div>

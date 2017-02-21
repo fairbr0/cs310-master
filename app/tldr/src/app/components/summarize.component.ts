@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Article } from '../models/article';
 
-import { ArticleService } from '../services/article.service';
+import { SummarizeService } from '../services/summarize.service';
 
 @Component({
   selector : 'summarize',
@@ -10,5 +10,12 @@ import { ArticleService } from '../services/article.service';
 
 export class SummarizeComponent {
 
-  constructor( private articleService : ArticleService ) {}
+  content : string;
+  summary : Article = new Article();
+
+  constructor( private summarizeService : SummarizeService ) {}
+
+  summarize() : void {
+    this.summarizeService.getSummary(this.content).then(response => this.summary = response);
+  }
 }

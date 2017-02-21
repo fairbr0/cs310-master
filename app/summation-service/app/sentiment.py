@@ -76,7 +76,6 @@ class TweetStreamWorker(threading.Thread):
         stream.filter(track=[self.word.word])
 
 def sentiment(article):
-
     threads = []
     sentiments = []
     for word in article.keywords:
@@ -94,9 +93,9 @@ def sentiment(article):
     sentimentDict = []
     tot = 0
     for sentiment in sentiments:
-        sentimentDict.append({sentiment.word : sentiment.totalSentiment})
+        sentimentDict.append({'word': sentiment.word, 'sentiment':sentiment.totalSentiment})
         tot += sentiment.totalSentiment
 
-    sentimentDict.append({'TOTAL' : tot})
-
+    sentimentDict.append({'word' : 'TOTAL', 'sentiment' : tot})
+    print (sentmientDict)
     article.sentiment = sentimentDict
