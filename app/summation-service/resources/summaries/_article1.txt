@@ -11,3 +11,5 @@ During the election campaign, Mr Trump suggested a "total and complete shutdown 
 
 
 0.874251497006
+
+['u', 'country', 'refugee', 'order', 'day', 'trump', 'immigration', 'muslim', 'national', 'mr']

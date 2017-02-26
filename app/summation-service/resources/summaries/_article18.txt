@@ -11,3 +11,5 @@ But it is not just a question of something happens to the Democratic National Co
 
 
 0.723723723724
+
+['party', 'advice', 'security', 'political', 'democratic', 'martin', 'personal', 'system', 'public', 'concern']

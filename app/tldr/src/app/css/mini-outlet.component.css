@@ -1,16 +1,29 @@
 .mini-outlet-container {
   background-color: #ddd;
-  height: 300px;
+  height: 350px;
   text-align: center;
+  display: table;
+  width:100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .mini-outlet-container-content {
-  position: relative;
-  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .mini-outlet-container:hover {
   -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.41);
   -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.41);
   box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.41);
+}
+
+#outlet-container {
+  height:100%;
+  overflow: scroll;
+}
+
+.separator {
+  display: inline-block;;
 }

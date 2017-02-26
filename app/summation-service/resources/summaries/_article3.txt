@@ -11,3 +11,5 @@ Mr Navalny is likely to only serve 18 months of the five-year suspended sentence
 
 
 0.846625766871
+
+['russium', 'mr', 'navalny', 'year', 'sentence', 'case', 'president', 'verdict', 'constitution', 'right']

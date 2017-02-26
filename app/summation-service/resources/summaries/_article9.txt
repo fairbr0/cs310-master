@@ -11,3 +11,5 @@ In 2016, the IOM helped more than 81,000 people return from Europe to their birt
 
 
 0.813784764208
+
+['country', 'eu', 'person', 'migrant', 'europe', 'refugee', 'work', 'iom', 'european', 'un']

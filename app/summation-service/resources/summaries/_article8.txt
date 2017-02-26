@@ -1,4 +1,4 @@
-Oroville, California (CNN)A massive crevasse that formed in a spillway at Northern California's Oroville Dam has spurred mass evacuations, with nearby residents fleeing the worst-case specter of a three-story wall of water rushing downstream.
+A massive crevasse that formed in a spillway at Northern California's Oroville Dam has spurred mass evacuations, with nearby residents fleeing the worst-case specter of a three-story wall of water rushing downstream.
 
 2 spillways, 2 problems
 Oroville Dam is the country's tallest, and the emergency spillway that's eroding had never been used in the 48 years that the dam has existed, the DWR says.
@@ -11,4 +11,6 @@ The main spillway was releasing water at 100,000 cubic feet per second in an eff
 
 
 
-0.8575
+0.859649122807
+
+['water', 'emergency', 'spillway', 'resident', 'dwr', 'foot', 'oroville', 'rain', 'lake', 'dam']

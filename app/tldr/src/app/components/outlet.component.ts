@@ -24,12 +24,42 @@ export class OutletComponent implements OnInit {
     this.location.back();
   }
 
+  getArticlesByOutlet() : void {
+    this.articleService.getArticlesByOutlet(this.count, [this.outlet.name]).then(articles => this.setArticles(articles));
+  }
+
+  setArticles(articles) : void {
+    this.count += articles.length;
+    if (this.count > 0) {
+      this.showBack = true;
+    }
+    this.articles = articles;
+  }
+
   setOutlet(outlet : Outlet) : void {
     this.outlet = outlet;
-    this.articleService.getArticlesByOutlet(0, this.outlet.name).then(articles => this.articles = articles);
+    this.getArticlesByOutlet();
+  }
+
+  next() : void {
+    this.getArticlesByOutlet();
+  }
+
+  back() : void {
+    this.count -= 20;
+    if (this.count <= 0) {
+      this.count = 0;
+    }
+    this.getArticlesByOutlet();
+    this.count -= 20;
+    if (this.count < 0) {
+      this.count = 0;
+      this.showBack = false
+    }
   }
 
   ngOnInit() : void {
+    this.outletname = this.route.params['id'];
     this.route.params
       .switchMap((params: Params) => this.articleService.getOutlet(params['id']))
       .subscribe(outlet => this.setOutlet(outlet));
@@ -37,4 +67,8 @@ export class OutletComponent implements OnInit {
 
   outlet : Outlet;
   articles : Article[];
+  outletname : string;
+  count = 0;
+  showBack : boolean = false;
+
 }

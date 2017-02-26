@@ -11,3 +11,5 @@ The PAC said the department "significantly underestimated" the costs of the thre
 
 
 0.673170731707
+
+['energy', 'scheme', 'government', 'bill', 'pac', 'cost', 'generator', 'framework', 'action', 'bei']

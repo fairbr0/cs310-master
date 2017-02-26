@@ -23,6 +23,22 @@ class StorageService():
         print (outletList)
         return outlets
 
+    def searchOutletNames(self, query):
+        outletList = self.db.articles.distinct("source")
+        outletObjList = []
+        for outlet in outletList:
+            if outlet.lower().startswith(query):
+                outletObjList.append({'name': outlet})
+                continue;
+            outletNameParts = outlet.split(' ');
+            for part in outletNameParts:
+                if part.lower().startswith(query):
+                    outletObjList.append({'name': outlet})
+                    break;
+        outlets = {"outlets" : outletObjList}
+        print (outletList)
+        return outlets
+
     def getOutletArticles(self, outlet, id=None):
         if id is None:
             id = 0
@@ -38,6 +54,16 @@ class StorageService():
         keywordsList = self.db.articles.distinct("keywords")
         keywords = {"keywords" : keywordsList}
         return keywords
+
+    def searchKeywords(self, query):
+        keywords = self.db.articles.distinct("keywords")
+
+        keywordList = []
+        for keyword in keywords:
+            print query
+            if keyword.lower().startswith(query):
+                keywordList.append(keyword)
+        return {'keywords': keywordList}
 
     def getKeywordArticles(self, keyword, id=None):
         if id is None:
@@ -70,4 +96,5 @@ class StorageService():
             article['_id'] = str(article['_id'])
             articleList.append(article)
         print articleList
+
         return {"articles" : articleList, "id":id + 20}

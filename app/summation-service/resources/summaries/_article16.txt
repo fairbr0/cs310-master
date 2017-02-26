@@ -11,3 +11,5 @@ The Security Council did not specify what steps might be taken beyond the U.N.-s
 
 
 0.745945945946
+
+['korea', 'north', 'state', 'south', 'missile', 'u', 'security', 'council', 'nuclear', 'united']

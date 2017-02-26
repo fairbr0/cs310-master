@@ -11,3 +11,5 @@ When women have a gap of at least three years between births, their children are
 
 
 0.862307692308
+
+['woman', 'world', 'letter', 'work', 'gate', 'life', 'trump', 'child', 'couple', 'foundation']

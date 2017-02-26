@@ -16,6 +16,7 @@ import { MiniOutletComponent } from './components/mini-outlet.component';
 import { KeywordsComponent } from './components/keywords.component';
 import { KeywordComponent } from './components/keyword.component';
 import { FooterComponent } from './components/footer.component';
+import { OutletWindowComponent } from './components/outlet-window.component';
 
 import { ArticleService } from './services/article.service';
 import { SummarizeService } from './services/summarize.service';
@@ -34,7 +35,8 @@ import { AppRoutingModule } from './app-routing.module';
     OutletComponent,
     KeywordsComponent,
     KeywordComponent,
-    FooterComponent
+    FooterComponent,
+    OutletWindowComponent
   ],
   imports: [
     BrowserModule,

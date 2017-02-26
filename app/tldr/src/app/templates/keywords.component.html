@@ -1,8 +1,20 @@
-<div class="container">
-  <h1>Keywords</h1>
-  <div class='row'>
-    <div class="col-xs-12 col-md-4" *ngFor="let keyword of keywords">
-      <a [routerLink]="['/keyword', keyword]">{{keyword}}</a>
+<div class="container-fluid page">
+  <div class="col-md-12">
+    <div class='page-header'>
+      <h1>Topics <small>The key topics of today</small></h1>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-md-offset-3">
+        <div class="form-group">
+          <input type="text" (keyup)="searchKeywords()" [(ngModel)]="searchTerm" name="searchBox" class="form-control" placeholder="Search Keywords" />
+        </div>
+      </div>
+      <div *ngFor="let keyword of keywords" class="col-xs-6 col-sm-4 col-md-4" id="keyword-container">
+        <a [routerLink]="['/keyword', keyword]">
+          <div class="keyword-box">{{keyword}}</div>
+        </a>
+      </div>
     </div>
   </div>
 </div>

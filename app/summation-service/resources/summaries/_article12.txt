@@ -11,3 +11,5 @@ Tusk's comments alluded to Britain's decision to pull out of the 28-nation Europ
 
 
 0.635514018692
+
+['european', 'president', 'germany', 'many', 'chancellor', 'trump', 'europe', 'merkel', 'government', 'world']

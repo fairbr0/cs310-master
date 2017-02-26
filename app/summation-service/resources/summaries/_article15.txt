@@ -11,3 +11,5 @@ Democratic House Minority Leader Nancy Pelosi on Monday called for Mr Trump to f
 
 
 0.829812206573
+
+['mr', 'flynn', 'president', 'house', 'trump', 'russian', 'u', 'sanction', 'russium', 'ambassador']

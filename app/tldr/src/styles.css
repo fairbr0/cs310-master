@@ -59,3 +59,16 @@ color: #000;  /*Sets the text hover color on navbar*/
 .navbar-default .navbar-brand:hover {
   color:#000;
 }
+
+
+
+.item {
+ display: inline-block;
+ padding:  .25rem;
+ width:  100%;
+}
+
+.well {
+ position:relative;
+ display: block;
+}

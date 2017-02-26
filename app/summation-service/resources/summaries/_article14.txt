@@ -11,3 +11,5 @@ In the first half of 2018, India plans to launch its second lunar mission -- in 
 
 
 0.851123595506
+
+['space', 'indium', 'satellite', 'launch', 'country', 'japan', 'u', 'mission', 'moon', 'technology']

@@ -1,16 +1,38 @@
 <div class="container">
   <div *ngIf='outlet'>
-    <h1>{{outlet.name}}</h1>
-
-    <button class='btn btn-default' (click)='goBack()'>Back</button>
-
+    <div class="row">
+      <div class="col-xs-3">
+        <button class='btn btn-default btn-sm' (click)='goBack()'>Back</button>
+      </div>
+      <div class="col-xs-6" style="text-align:center">
+        <h1>{{outlet.name}}</h1>
+      </div>
+    </div>
     <div class='article-feed-area'>
+      <div class="row">
         <a *ngFor="let article of articles" [routerLink]="['/article', article._id]">
-          <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-3">
             <mini-article [article]="article"></mini-article>
           </div>
         </a>
+      </div>
     </div>
   </div>
-
+  <div class="row">
+    <div class="col-xs-6">
+      <div *ngIf="showBack==true">
+        <button class="btn btn-primary btn-lg" (click)="back()">Prev</button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="pull-right">
+        <button class="btn btn-primary btn-lg" (click)="next()">Next</button>
+      </div>
+    </div>
+  </div>
+  <div [hidden]="!outlet">
+    <p>
+      The news outlet <strong>{{outletname}}</strong> was not found.
+    </p>
+  </div>
 </div>

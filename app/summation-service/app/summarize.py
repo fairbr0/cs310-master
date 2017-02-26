@@ -151,7 +151,7 @@ def summarizeTest(content):
     for sentence in selectedSentences:
         string += sentence + "\n\n"
     reduction = getReduction(content, string)
-    return string, reduction
+    return string, reduction, keywords
 
 def getArticle(name):
     f = open(name, 'r')

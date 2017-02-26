@@ -11,3 +11,5 @@ On New Year's Day, North Korean leader Kim Jong Un declared that the country had
 
 
 0.758420441347
+
+['missile', 'test', 'north', 'fuel', 'u', 'launch', 'korean', 'nuclear', 'ballistic', 'solid']

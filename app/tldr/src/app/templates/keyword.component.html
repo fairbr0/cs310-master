@@ -5,12 +5,25 @@
     <button class='btn btn-default' (click)='goBack()'>Back</button>
 
     <div class='article-feed-area'>
+      <div class="row">
         <a *ngFor="let article of articles" [routerLink]="['/article', article._id]">
-          <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
             <mini-article [article]="article"></mini-article>
           </div>
         </a>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <div *ngIf="showBack==true">
+            <button class="btn btn-primary btn-lg" (click)="back()">Prev</button>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="pull-right">
+            <button class="btn btn-primary btn-lg" (click)="next()">Next</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
 </div>

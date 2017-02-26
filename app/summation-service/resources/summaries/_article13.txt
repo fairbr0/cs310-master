@@ -11,3 +11,5 @@ But she added that the team members had "provided clear evidence that the deep o
 
 
 0.696691176471
+
+['pollutant', 'pcb', 'deep', 'pacific', 'concentration', 'chemical', 'study', 'environment', 'ocean', 'level']

@@ -11,3 +11,5 @@ Apple's annual sales fell in the 2016 fiscal year for the first time since 2001 
 
 
 0.664335664336
+
+['apple', 'iphone', 'sale', 'stock', 'high', 'time', 'new', 'investor', 'year', 'cash']

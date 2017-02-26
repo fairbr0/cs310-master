@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
       .footer {
         background-color: #AA3130;
         color: white;
+        margin-top:30px;
       }
-
-      `]
+    `]
 
 })
 

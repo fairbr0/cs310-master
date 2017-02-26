@@ -1,0 +1,7 @@
+#outlet-container-desktop {
+  overflow: scroll;
+  background-color: #AA3130;
+  padding:20px;
+  padding-left:40px;
+  padding-right: 40px;
+}

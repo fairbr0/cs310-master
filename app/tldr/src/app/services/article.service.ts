@@ -40,11 +40,19 @@ export class ArticleService {
       .catch(this.handleError);
   }
 
-  getArticlesByOutlet(id:number, outlet:string) {
-    const url = this.articleBaseUrl + '/outlet/' + outlet + '/' + id;
+  getArticlesByOutlet(id:number, outlets:string[]) {
+    var url = this.articleBaseUrl + '/getrecentoutlet/' + id + '?';
+    for (var i = 0; i < outlets.length; i++) {
+      url += 'outlet=' + outlets[i] + '&';
+    }
     return this.http.get(url).toPromise()
       .then(response => response.json().response.articles as Article[])
       .catch(this.handleError);
+  }
+
+  getMostRead() {
+    var url = this.articleBaseUrl + '/getMostRead';
+    return Promise.resolve(ARTICLES);
   }
 
   getOutlet(id:string) : Promise<Outlet> {
@@ -55,6 +63,20 @@ export class ArticleService {
       }
     }
     return Promise.resolve(outlet);
+  }
+
+  searchKeywords(query : string) : Promise<string[]> {
+    const url = this.articleBaseUrl + '/keywordsearch/' + query;
+    return this.http.get(url).toPromise()
+      .then(response => response.json().response.keywords)
+      .catch(this.handleError);
+  }
+
+  searchOutlets(query : string) : Promise<Outlet[]> {
+    const url = this.articleBaseUrl + '/outletsearch?query=' + query;
+    return this.http.get(url).toPromise()
+      .then(response => response.json().response.outlets)
+      .catch(this.handleError);
   }
 
   getArticlesByKeyword(count:number, id : string) : Promise<Article[]> {

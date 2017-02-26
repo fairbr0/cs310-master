@@ -11,3 +11,5 @@ Perhaps anticipating an outcry from human rights groups, the draft order says th
 
 
 0.709251101322
+
+['mineral', 'u', 'group', 'order', 'company', 'draft', 'conflict', 'new', 'congo', 'dodd']

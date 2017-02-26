@@ -11,3 +11,5 @@ Ms Warren's reading was interrupted by the Senate's presiding officer, Republica
 
 
 0.853524229075
+
+['senator', 'm', 'senate', 'mr', 'republican', 'letter', 'session', 'rule', 'many', 'vote']

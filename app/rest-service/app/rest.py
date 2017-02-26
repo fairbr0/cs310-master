@@ -73,6 +73,16 @@ def getTopArticlesOutlets(id=None):
     return jsonify({'response':result}), 200
     #return jsonify({'msg':'success'}), 200
 
+@app.route('/keywordsearch/<string:query>', methods=['GET'])
+def searchForKeyword(query):
+    matches = ss.searchKeywords(query)
+    return jsonify({'response' : matches})
+
+@app.route('/outletsearch', methods=['GET'])
+def searchForOutlet():
+    query = request.args.get('query')
+    matches = ss.searchOutletNames(query)
+    return jsonify({'response' : matches})
 
 @auth.error_handler
 def unauthorized():

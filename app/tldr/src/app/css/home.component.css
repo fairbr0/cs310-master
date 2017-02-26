@@ -6,3 +6,8 @@
   background-color: #AA3130;
   color : white;
 }
+
+.most-read-list {
+  line-height: 30px;
+  font-size: 20px;
+}

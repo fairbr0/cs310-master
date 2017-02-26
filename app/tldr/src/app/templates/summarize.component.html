@@ -2,6 +2,8 @@
   <div class='page-header'>
     <h1>Summarize Text <small>Enter your own news to summarize...</small></h1>
   </div>
+
+
   <div class='row'>
     <div class='col-md-6 col-sm-12'>
       <div>
@@ -10,7 +12,16 @@
             <label for="text-input-area">Text to Summarize</label>
             <textarea class="form-control" name="input-area" [(ngModel)]="content" rows="36"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" (click)="summarize()" >Summarize!</button>
+          <div class="row">
+            <div class="col-xs-6">
+              <button type="submit" class="btn btn-primary" (click)="clear()" >Clear</button>
+            </div>
+            <div class="col-xs-6">
+              <div class="pull-right">
+                <button type="submit" class="btn btn-primary" (click)="summarize()" >Summarize!</button>
+              </div>
+            </div>
+          </div>
 
         </form>
       </div>
@@ -19,19 +30,35 @@
       <form>
         <div class="form-group">
           <label for="text-input-area">Summarized Text</label>
-          <textarea class="form-control" rows="24" name="summary-area" [(ngModel)]="summary.content" disabled></textarea>
+          <textarea class="form-control" rows="24" name="summary-area" [(ngModel)]="summary.content" readonly></textarea>
         </div>
 
       </form>
 
       <div class="row">
-        <h1>Compression: </h1> <p>{{summary.reduction}}</p>
-        {{summary.keywords}}
+        <h4><span class="small">Compression:</span> <span *ngIf="summary.reduction">{{summary.reduction}}%</span></h4>
+        <h4><span class="small">Keywords:</span></h4>
+        <div class="row">
+          <ol>
+            <li *ngFor="let keyword of summary.keywords" class="col-xs-6">
+            {{keyword}}
+            </li>
+          </ol>
+        </div>
         <div *ngFor="let sentiment of summary.sentiment">
           {{sentiment.word}} : {{sentiment.sentiment}}
         </div>
       </div>
 
     </div>
+  </div>
+
+</div>
+<div *ngIf='isLoading' class="loading-container">
+  <div class="loading" >
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
   </div>
 </div>

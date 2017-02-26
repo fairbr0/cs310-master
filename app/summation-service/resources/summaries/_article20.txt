@@ -11,3 +11,5 @@ The public sector is expected to be severely impacted by the risk of a drop in E
 
 
 0.696092619392
+
+['labour', 'food', 'uk', 'job', 'month', 'national', 'employer', 'eu', 'employment', 'sector']

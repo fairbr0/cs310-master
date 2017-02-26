@@ -8,6 +8,7 @@ import 'rxjs/add/operator/switchMap';
 @Component({
   selector: 'article',
   templateUrl: '../templates/article.component.html',
+  styleUrls : ['../css/article.component.css']
 })
 
 export class ArticleComponent implements OnInit {
@@ -19,6 +20,11 @@ export class ArticleComponent implements OnInit {
     private route : ActivatedRoute,
     private location: Location
   ) {}
+
+  setArticle(article : Article) {
+    this.article = article;
+    this.article.reduction = Number(this.article.reduction.toFixed(2));
+  }
 
   ngOnInit() : void {
     this.route.params

@@ -11,3 +11,5 @@ Labour and some Tories had pushed for MPs to have a decisive say on the final te
 
 
 0.58883248731
+
+['government', 'bill', 'minister', 'labour', 'vote', 'shadow', 'brexit', 'final', 'national', 'amendment']

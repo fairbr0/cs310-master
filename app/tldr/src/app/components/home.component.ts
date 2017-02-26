@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   private articles : Article[];
   private count = 0;
   private showBack = false;
+  private topArticles : Article[];
 
   constructor(
     private articleService : ArticleService
@@ -20,10 +21,15 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() : void {
     this.getArticles();
+    this.getTopArticles();
   }
 
   getArticles() : void {
     this.articleService.getArticles(this.count).then(response => this.setArticles(response));
+  }
+
+  getTopArticles() : void {
+    this.articleService.getMostRead().then(response => this.topArticles = response);
   }
 
   setArticles(response) : void {

@@ -11,3 +11,5 @@ Mr Trump's 27 January order seeks to bar travellers from Iran, Iraq, Libya, Soma
 
 
 0.719696969697
+
+['court', 'trump', 'u', 'mr', 'president', 'i', 'day', 'judge', 'order', 'law']
