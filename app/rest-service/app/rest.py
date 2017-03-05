@@ -82,7 +82,20 @@ def searchForKeyword(query):
 def searchForOutlet():
     query = request.args.get('query')
     matches = ss.searchOutletNames(query)
-    return jsonify({'response' : matches})
+    return jsonify({'response' : matches}), 200
+
+@app.route('/mostread', methods=['GET'])
+def getMostRead():
+    articles = ss.getTopRecentlyRead()
+    return jsonify({'response' : articles})
+
+@app.route('/article/rate', methods=['POST'])
+def postedArticleRating():
+    print 'got request'
+    artid = request.form['id']
+    resp = request.form['response']
+    ss.addVote(artid, resp)
+    return jsonify({'response': 'success'}), 200
 
 @auth.error_handler
 def unauthorized():

@@ -14,6 +14,10 @@ import 'rxjs/add/operator/switchMap';
 export class ArticleComponent implements OnInit {
 
   article : Article;
+  hasRated : boolean = false;
+  vote : string = 'True';
+  percentgood = 0;
+  percentbad = 0;
 
   constructor (
     private articleService : ArticleService,
@@ -23,16 +27,29 @@ export class ArticleComponent implements OnInit {
 
   setArticle(article : Article) {
     this.article = article;
-    this.article.reduction = Number(this.article.reduction.toFixed(2));
+    const totalVotes = article.positivevotes + article.negativevotes;
+    if (totalVotes > 0) {
+      this.percentgood = Number((article.positivevotes / totalVotes).toFixed(4)) * 100;
+      this.percentbad =  Number((article.negativevotes / totalVotes).toFixed(4)) * 100;
+    }
+    this.article.reduction = Number(this.article.reduction.toFixed(4)) * 100;
   }
+
 
   ngOnInit() : void {
     this.route.params
       .switchMap((params: Params) => this.articleService.getArticle(params['id']))
-      .subscribe(article => this.article = article);
+      .subscribe(article => this.setArticle(article));
   }
 
   goBack(): void {
     this.location.back();
   }
+
+  submitRating() : void {
+    this.hasRated = true;
+    this.articleService.putArticleRating(this.article._id, this.vote);
+  }
+
+
 }

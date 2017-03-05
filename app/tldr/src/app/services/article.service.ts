@@ -50,9 +50,11 @@ export class ArticleService {
       .catch(this.handleError);
   }
 
-  getMostRead() {
-    var url = this.articleBaseUrl + '/getMostRead';
-    return Promise.resolve(ARTICLES);
+  getMostRead() : Promise<Article[]> {
+    var url = this.articleBaseUrl + '/mostread';
+    return this.http.get(url).toPromise()
+      .then(response => response.json().response.articles)
+      .catch(this.handleError);
   }
 
   getOutlet(id:string) : Promise<Outlet> {
@@ -63,6 +65,16 @@ export class ArticleService {
       }
     }
     return Promise.resolve(outlet);
+  }
+
+  putArticleRating(id:string, response:string) : void {
+    const url = this.articleBaseUrl + '/article/rate';
+    const body = 'id='+ id + "&response=" + response;
+    var headers = new Headers();
+    headers.append('Content-Type', 'application/x-www-form-urlencoded');
+    this.http.post(url, body, {headers : headers}).toPromise()
+      .then(response => console.log(response))
+      .catch(this.handleError);
   }
 
   searchKeywords(query : string) : Promise<string[]> {

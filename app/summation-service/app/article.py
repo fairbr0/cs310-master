@@ -23,5 +23,5 @@ class Article():
             self.keywords = ['Trump', 'Obama']
 
     def getJson(self):
-        jsonString = {'title':self.title, 'content':self.content, 'author':self.author, 'date':self.date, 'source':self.source, 'url':self.url, 'keywords':self.keywords, 'reduction':self.reduction}
+        jsonString = {'title':self.title, 'content':self.content, 'author':self.author, 'date':self.date, 'source':self.source, 'url':self.url, 'keywords':self.keywords, 'reduction':self.reduction, 'count': 0}
         return jsonString

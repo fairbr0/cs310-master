@@ -18,7 +18,7 @@ export class SummarizeComponent {
   constructor( private summarizeService : SummarizeService ) {}
 
   formatReduction(reduction) : number {
-    var num = Number(reduction.toFixed(2));
+    var num = Number(reduction.toFixed(4) * 100);
     return num;
   }
 

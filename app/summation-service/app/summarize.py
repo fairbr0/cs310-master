@@ -22,6 +22,9 @@ def normalize(tokens):
     #convert words to lower case, and then convert from plural to singular
     return [en.noun.singular(item.lower()) for item in tokens]
 
+def normalizeWord(token):
+    return en.noun.singular(token.lower())
+
 def wfilter(tokens, tags=['NN', 'JJ', 'NNP']):
     #filter out words by tags
     tagged = nltk.pos_tag(tokens)
@@ -59,6 +62,39 @@ def buildSentenceGraph(nodes):
         gr.add_edge(s1, s2, weight=weight)
 
     return gr
+
+def recoverKeywords(keywords, text):
+    textTokens = getWordsAsTokens(text)
+    originalKeywords = []
+    used = []
+    usedStems = []
+    print keywords
+    i = 0
+    '''while i < len(textTokens):
+        token = textTokens[i]
+        t = normalizeWord(token)
+
+        if i + 1 < len(textTokens):
+            tok2 = textTokens[i+1]
+            t2 = normalizeWord(tok2)
+            if t in keywords and t2 in keywords and token + ' ' + tok2 not in originalKeywords:
+                originalKeywords.append(token + ' ' + tok2)
+                used.append(token)
+                used.append(tok2)
+                i+=2
+                continue;
+        i += 1
+    '''
+    i = 0
+    while i < len(textTokens):
+        token = textTokens[i]
+        t = normalizeWord(token)
+
+        if t in keywords and token not in originalKeywords and token not in used and t not in usedStems:
+            originalKeywords.append(token)
+            usedStems.append(t)
+        i+=1
+    return originalKeywords
 
 def buildWordGraph(nodes, k):
     n = k - 1
@@ -120,7 +156,7 @@ def summarize(article):
 
     selectedSentences = selectSentences(sortedSentences, getSentenceAsTokens(article.content), 5)
 
-
+    article.keywords = recoverKeywords(article.keywords, article.content)
     string = ''
     for sentence in selectedSentences:
         string += sentence + "\n\n"
@@ -146,6 +182,9 @@ def summarizeTest(content):
 
     selectedSentences = selectSentences(sortedSentences, getSentenceAsTokens(content), 5)
 
+    keywords = recoverKeywords(keywords, content)
+
+    print keywords
 
     string = ''
     for sentence in selectedSentences:

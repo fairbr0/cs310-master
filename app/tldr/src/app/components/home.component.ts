@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
 
   setArticles(response) : void {
     this.count += response.length;
-    if (this.count > 20) {
+    if (this.count > 0) {
       this.showBack = true;
     }
     this.articles = response;

@@ -1,6 +1,6 @@
 import summarize
 
-for i in range(1, 21):
+for i in range(1, 2):
     print 'processing ' + str(i)
     f = open('../resources/bodies/article' + str(i) + '.txt', 'r')
     content = f.read()

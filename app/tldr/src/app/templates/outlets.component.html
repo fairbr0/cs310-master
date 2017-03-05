@@ -1,9 +1,5 @@
 <div class="container-fluid page">
   <div class="col-md-12">
-    <div class='page-header'>
-      <h1>Outlets <small>Browse summaries by news outlet</small></h1>
-
-    </div>
     <div class='outlet-feed-area'>
       <div class="hidden-xs">
         <div class="row">
@@ -11,14 +7,18 @@
             <div class="form-group">
               <input type="text" (keyup)="searchOutlets()" [(ngModel)]="searchTerm" name="searchBox" class="form-control" placeholder="Search Outlets" />
             </div>
-            <div class="row">
-              <mini-outlet *ngFor="let outlet of outlets" [outlet]="outlet" (click)="selectOutlet(outlet)"></mini-outlet>
+            <div id='outlet-container-desktop-outlets'>
+              <div class="row">
+                <mini-outlet *ngFor="let outlet of outlets" [outlet]="outlet" (click)="selectOutlet(outlet)"></mini-outlet>
+              </div>
             </div>
           </div>
 
           <div class="col-sm-8 col-md-9">
-            <div class="vertical_line"></div>
-            <div >
+            <div>
+              <div class='page-header'>
+                <h1>Outlets <small>Browse summaries by news outlet</small></h1>
+              </div>
               <outlet-window [(outlet)]="selectedOutlet"></outlet-window>
             </div>
           </div>
@@ -26,6 +26,10 @@
         </div>
       </div>
       <div class="visible-xs">
+        <div class='page-header'>
+          <h1>Outlets <small>Browse summaries by news outlet</small></h1>
+
+        </div>
         <div class="row">
           <div class="form-group">
             <input type="text" (keyup)="searchOutlets()" [(ngModel)]="searchTerm" name="searchBox" class="form-control" placeholder="Search Outlets" />

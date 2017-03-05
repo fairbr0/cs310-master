@@ -11,6 +11,7 @@ class StorageService():
     def getArticle(self, id):
         print id
         article = self.db.articles.find_one({"_id": ObjectId(id)})
+        self.db.articles.update_one({"_id" : ObjectId(id)}, {'$inc': {'count': 1}}, upsert=False)
         article['_id'] = str(article['_id'])
         return article
 
@@ -22,6 +23,15 @@ class StorageService():
         outlets = {"outlets" : outletObjList}
         print (outletList)
         return outlets
+
+    def getTopRecentlyRead(self):
+        articles = self.db.articles.find().sort('count', pymongo.DESCENDING).limit(10)
+        articleList = []
+        for article in articles:
+            article['_id'] = str(article['_id'])
+            articleList.append(article)
+        print articleList
+        return {"articles" : articleList}
 
     def searchOutletNames(self, query):
         outletList = self.db.articles.distinct("source")
@@ -98,3 +108,9 @@ class StorageService():
         print articleList
 
         return {"articles" : articleList, "id":id + 20}
+
+    def addVote(self, id, vote):
+        if vote == 'True':
+            self.db.articles.update_one({"_id" : ObjectId(id)}, {'$inc': {'positivevotes': 1}}, upsert=False )
+        else:
+            self.db.articles.update_one({"_id" : ObjectId(id)}, {'$inc': {'negativevotes': 1}}, upsert=False )
