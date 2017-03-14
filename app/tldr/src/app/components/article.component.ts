@@ -32,7 +32,8 @@ export class ArticleComponent implements OnInit {
       this.percentgood = Number((article.positivevotes / totalVotes).toFixed(4)) * 100;
       this.percentbad =  Number((article.negativevotes / totalVotes).toFixed(4)) * 100;
     }
-    this.article.reduction = Number(this.article.reduction.toFixed(4)) * 100;
+    this.article.date = this.article.date.split(" ")[0];
+    this.article.reduction = Number((this.article.reduction * 100).toFixed(2));
   }
 
 

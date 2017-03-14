@@ -12,9 +12,15 @@
   border-radius: 5px;
 }
 
+.stretch {
+    width:100%;
+    min-height: 100%;
+}
+
 .mini-article-title {
   font-size: 20px;
   font-weight: bold;
+  height:120px;
 }
 
 .mini-article {
@@ -22,6 +28,8 @@
   background-color: #eee;
   text-decoration: none;
   border-radius: 5px;
+  height: 350px;
+  overflow:hidden;
 }
 
 .mini-article:hover {

@@ -61,9 +61,10 @@ class AnalysisEngine():
         content=request.form['content']
         source=request.form['source']
         url=request.form['url']
+        img_url=request.form['img_url']
         date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-        article = Article(content, title, author, date, source, url)
+        article = Article(content, title, author, date, source, url, img_url)
 
         return article
 

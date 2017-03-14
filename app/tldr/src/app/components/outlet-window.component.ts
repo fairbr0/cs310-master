@@ -47,6 +47,9 @@ export class OutletWindowComponent implements OnChanges {
     if (this.count > 0) {
       this.showBack = true;
     }
+    for (var i = 0; i < response.length; i++) {
+      response[i].date = response[i].date.split(" ")[0];
+    }
     this.articles = response;
   }
 

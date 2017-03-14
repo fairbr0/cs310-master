@@ -1,3 +1,3 @@
 #!/bin/sh
-mongod --dbpath ./db
+#mongod --dbpath ./db
 ./rest-start.sh

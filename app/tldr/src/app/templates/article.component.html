@@ -17,7 +17,12 @@
           <div class="background-container">
 
             <div id='background'>
-              <img src="app/resources/img/placeholder.png" class='stretch'/>
+              <div *ngIf="article.img_url">
+                <img src="{{article.img_url}}" class='stretch'/>
+              </div>
+              <div *ngIf="!article.img_url">
+                <img src="app/resources/img/placeholder.png" class='stretch'/>
+              </div>
             </div>
           </div>
           <div class='row'>
@@ -26,9 +31,10 @@
 
               <!--<button class='btn btn-default' style="margin-top:10px;" (click)="goBack()">Back</button>-->
               <h1>{{article.title}}</h1>
-              <p>
+              <p style="white-space: pre-line;font-size:18px;">
                 {{article.content}}
               </p>
+              <hr />
               <div class="row">
                 <div class="col-xs-12 col-md-6">
                   <div [hidden]="hasRated">
@@ -68,7 +74,7 @@
             <h4><span class="small">Author:</span> {{article.author}}</h4>
             <h4><span class="small">Outlet:</span> <a [routerLink]="['/outlet', article.source]">{{article.source}}</a></h4>
             <h4><span class="small">Published:</span> {{article.date}}</h4>
-            <h4><span class="small">Original:</span> <a href="{{article.url}}">{{article.url}}</a></h4>
+            <h4><span class="small">Original:</span> <a href="{{article.url}}">{{article.source}}</a></h4>
           </div>
         </div>
 

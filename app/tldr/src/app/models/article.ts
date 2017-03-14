@@ -9,6 +9,7 @@ export class Article {
   date : string;
   content : string;
   source : string;
+  img_url: string;
   url : string;
   keywords : string[];
   sentiment : Sentiment[];

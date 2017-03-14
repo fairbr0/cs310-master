@@ -22,6 +22,7 @@ def main(path):
 
     text = process(text)
 
+    path = path.split('.')[0]
     f = open(path + 'processed.txt', 'w')
     f.write(text)
     f.close()
@@ -36,5 +37,6 @@ for file in os.listdir("resources/bodies"):
     if file.endswith(".txt"):
         onlyfiles.append(os.path.join("resources/bodies", file))
 
-for path in onlyfiles:
-    main(path)
+#for path in onlyfiles:
+    #main(path)
+main('resources/bodies/article17.txt')

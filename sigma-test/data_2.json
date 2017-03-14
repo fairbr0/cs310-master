@@ -1,0 +1,7455 @@
+{
+    "links": [
+      {
+        "source": "refugees",
+        "target": "US"
+      },
+      {
+        "source": "refugees",
+        "target": "nationals"
+      },
+      {
+        "source": "refugees",
+        "target": "Muslim"
+      },
+      {
+        "source": "refugees",
+        "target": "countries"
+      },
+      {
+        "source": "refugees",
+        "target": "days"
+      },
+      {
+        "source": "refugees",
+        "target": "Trump"
+      },
+      {
+        "source": "refugees",
+        "target": "order"
+      },
+      {
+        "source": "refugees",
+        "target": "Immigration"
+      },
+      {
+        "source": "refugees",
+        "target": "Mr"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "nationals"
+      },
+      {
+        "source": "US",
+        "target": "Muslim"
+      },
+      {
+        "source": "US",
+        "target": "countries"
+      },
+      {
+        "source": "US",
+        "target": "days"
+      },
+      {
+        "source": "US",
+        "target": "Trump"
+      },
+      {
+        "source": "US",
+        "target": "order"
+      },
+      {
+        "source": "US",
+        "target": "Immigration"
+      },
+      {
+        "source": "US",
+        "target": "Mr"
+      },
+      {
+        "source": "nationals",
+        "target": "US"
+      },
+      {
+        "source": "nationals",
+        "target": "nationals"
+      },
+      {
+        "source": "nationals",
+        "target": "Muslim"
+      },
+      {
+        "source": "nationals",
+        "target": "countries"
+      },
+      {
+        "source": "nationals",
+        "target": "days"
+      },
+      {
+        "source": "nationals",
+        "target": "Trump"
+      },
+      {
+        "source": "nationals",
+        "target": "order"
+      },
+      {
+        "source": "nationals",
+        "target": "Immigration"
+      },
+      {
+        "source": "nationals",
+        "target": "Mr"
+      },
+      {
+        "source": "Muslim",
+        "target": "US"
+      },
+      {
+        "source": "Muslim",
+        "target": "nationals"
+      },
+      {
+        "source": "Muslim",
+        "target": "Muslim"
+      },
+      {
+        "source": "Muslim",
+        "target": "countries"
+      },
+      {
+        "source": "Muslim",
+        "target": "days"
+      },
+      {
+        "source": "Muslim",
+        "target": "Trump"
+      },
+      {
+        "source": "Muslim",
+        "target": "order"
+      },
+      {
+        "source": "Muslim",
+        "target": "Immigration"
+      },
+      {
+        "source": "Muslim",
+        "target": "Mr"
+      },
+      {
+        "source": "countries",
+        "target": "US"
+      },
+      {
+        "source": "countries",
+        "target": "nationals"
+      },
+      {
+        "source": "countries",
+        "target": "Muslim"
+      },
+      {
+        "source": "countries",
+        "target": "countries"
+      },
+      {
+        "source": "countries",
+        "target": "days"
+      },
+      {
+        "source": "countries",
+        "target": "Trump"
+      },
+      {
+        "source": "countries",
+        "target": "order"
+      },
+      {
+        "source": "countries",
+        "target": "Immigration"
+      },
+      {
+        "source": "countries",
+        "target": "Mr"
+      },
+      {
+        "source": "days",
+        "target": "US"
+      },
+      {
+        "source": "days",
+        "target": "nationals"
+      },
+      {
+        "source": "days",
+        "target": "Muslim"
+      },
+      {
+        "source": "days",
+        "target": "countries"
+      },
+      {
+        "source": "days",
+        "target": "days"
+      },
+      {
+        "source": "days",
+        "target": "Trump"
+      },
+      {
+        "source": "days",
+        "target": "order"
+      },
+      {
+        "source": "days",
+        "target": "Immigration"
+      },
+      {
+        "source": "days",
+        "target": "Mr"
+      },
+      {
+        "source": "Trump",
+        "target": "US"
+      },
+      {
+        "source": "Trump",
+        "target": "nationals"
+      },
+      {
+        "source": "Trump",
+        "target": "Muslim"
+      },
+      {
+        "source": "Trump",
+        "target": "countries"
+      },
+      {
+        "source": "Trump",
+        "target": "days"
+      },
+      {
+        "source": "Trump",
+        "target": "Trump"
+      },
+      {
+        "source": "Trump",
+        "target": "order"
+      },
+      {
+        "source": "Trump",
+        "target": "Immigration"
+      },
+      {
+        "source": "Trump",
+        "target": "Mr"
+      },
+      {
+        "source": "order",
+        "target": "US"
+      },
+      {
+        "source": "order",
+        "target": "nationals"
+      },
+      {
+        "source": "order",
+        "target": "Muslim"
+      },
+      {
+        "source": "order",
+        "target": "countries"
+      },
+      {
+        "source": "order",
+        "target": "days"
+      },
+      {
+        "source": "order",
+        "target": "Trump"
+      },
+      {
+        "source": "order",
+        "target": "order"
+      },
+      {
+        "source": "order",
+        "target": "Immigration"
+      },
+      {
+        "source": "order",
+        "target": "Mr"
+      },
+      {
+        "source": "Immigration",
+        "target": "US"
+      },
+      {
+        "source": "Immigration",
+        "target": "nationals"
+      },
+      {
+        "source": "Immigration",
+        "target": "Muslim"
+      },
+      {
+        "source": "Immigration",
+        "target": "countries"
+      },
+      {
+        "source": "Immigration",
+        "target": "days"
+      },
+      {
+        "source": "Immigration",
+        "target": "Trump"
+      },
+      {
+        "source": "Immigration",
+        "target": "order"
+      },
+      {
+        "source": "Immigration",
+        "target": "Immigration"
+      },
+      {
+        "source": "Immigration",
+        "target": "Mr"
+      },
+      {
+        "source": "Mr",
+        "target": "US"
+      },
+      {
+        "source": "Mr",
+        "target": "nationals"
+      },
+      {
+        "source": "Mr",
+        "target": "Muslim"
+      },
+      {
+        "source": "Mr",
+        "target": "countries"
+      },
+      {
+        "source": "Mr",
+        "target": "days"
+      },
+      {
+        "source": "Mr",
+        "target": "Trump"
+      },
+      {
+        "source": "Mr",
+        "target": "order"
+      },
+      {
+        "source": "Mr",
+        "target": "Immigration"
+      },
+      {
+        "source": "Mr",
+        "target": "Mr"
+      },
+      {
+        "source": "US",
+        "target": "President"
+      },
+      {
+        "source": "US",
+        "target": "Trump"
+      },
+      {
+        "source": "US",
+        "target": "courts"
+      },
+      {
+        "source": "US",
+        "target": "Mr"
+      },
+      {
+        "source": "US",
+        "target": "order"
+      },
+      {
+        "source": "US",
+        "target": "day"
+      },
+      {
+        "source": "US",
+        "target": "I"
+      },
+      {
+        "source": "US",
+        "target": "law"
+      },
+      {
+        "source": "US",
+        "target": "judge"
+      },
+      {
+        "source": "President",
+        "target": "President"
+      },
+      {
+        "source": "President",
+        "target": "Trump"
+      },
+      {
+        "source": "President",
+        "target": "courts"
+      },
+      {
+        "source": "President",
+        "target": "Mr"
+      },
+      {
+        "source": "President",
+        "target": "order"
+      },
+      {
+        "source": "President",
+        "target": "day"
+      },
+      {
+        "source": "President",
+        "target": "I"
+      },
+      {
+        "source": "President",
+        "target": "law"
+      },
+      {
+        "source": "President",
+        "target": "judge"
+      },
+      {
+        "source": "Trump",
+        "target": "President"
+      },
+      {
+        "source": "Trump",
+        "target": "Trump"
+      },
+      {
+        "source": "Trump",
+        "target": "courts"
+      },
+      {
+        "source": "Trump",
+        "target": "Mr"
+      },
+      {
+        "source": "Trump",
+        "target": "order"
+      },
+      {
+        "source": "Trump",
+        "target": "day"
+      },
+      {
+        "source": "Trump",
+        "target": "I"
+      },
+      {
+        "source": "Trump",
+        "target": "law"
+      },
+      {
+        "source": "Trump",
+        "target": "judge"
+      },
+      {
+        "source": "courts",
+        "target": "President"
+      },
+      {
+        "source": "courts",
+        "target": "Trump"
+      },
+      {
+        "source": "courts",
+        "target": "courts"
+      },
+      {
+        "source": "courts",
+        "target": "Mr"
+      },
+      {
+        "source": "courts",
+        "target": "order"
+      },
+      {
+        "source": "courts",
+        "target": "day"
+      },
+      {
+        "source": "courts",
+        "target": "I"
+      },
+      {
+        "source": "courts",
+        "target": "law"
+      },
+      {
+        "source": "courts",
+        "target": "judge"
+      },
+      {
+        "source": "Mr",
+        "target": "President"
+      },
+      {
+        "source": "Mr",
+        "target": "Trump"
+      },
+      {
+        "source": "Mr",
+        "target": "courts"
+      },
+      {
+        "source": "Mr",
+        "target": "Mr"
+      },
+      {
+        "source": "Mr",
+        "target": "order"
+      },
+      {
+        "source": "Mr",
+        "target": "day"
+      },
+      {
+        "source": "Mr",
+        "target": "I"
+      },
+      {
+        "source": "Mr",
+        "target": "law"
+      },
+      {
+        "source": "Mr",
+        "target": "judge"
+      },
+      {
+        "source": "order",
+        "target": "President"
+      },
+      {
+        "source": "order",
+        "target": "Trump"
+      },
+      {
+        "source": "order",
+        "target": "courts"
+      },
+      {
+        "source": "order",
+        "target": "Mr"
+      },
+      {
+        "source": "order",
+        "target": "order"
+      },
+      {
+        "source": "order",
+        "target": "day"
+      },
+      {
+        "source": "order",
+        "target": "I"
+      },
+      {
+        "source": "order",
+        "target": "law"
+      },
+      {
+        "source": "order",
+        "target": "judge"
+      },
+      {
+        "source": "day",
+        "target": "President"
+      },
+      {
+        "source": "day",
+        "target": "Trump"
+      },
+      {
+        "source": "day",
+        "target": "courts"
+      },
+      {
+        "source": "day",
+        "target": "Mr"
+      },
+      {
+        "source": "day",
+        "target": "order"
+      },
+      {
+        "source": "day",
+        "target": "day"
+      },
+      {
+        "source": "day",
+        "target": "I"
+      },
+      {
+        "source": "day",
+        "target": "law"
+      },
+      {
+        "source": "day",
+        "target": "judge"
+      },
+      {
+        "source": "I",
+        "target": "President"
+      },
+      {
+        "source": "I",
+        "target": "Trump"
+      },
+      {
+        "source": "I",
+        "target": "courts"
+      },
+      {
+        "source": "I",
+        "target": "Mr"
+      },
+      {
+        "source": "I",
+        "target": "order"
+      },
+      {
+        "source": "I",
+        "target": "day"
+      },
+      {
+        "source": "I",
+        "target": "I"
+      },
+      {
+        "source": "I",
+        "target": "law"
+      },
+      {
+        "source": "I",
+        "target": "judge"
+      },
+      {
+        "source": "law",
+        "target": "President"
+      },
+      {
+        "source": "law",
+        "target": "Trump"
+      },
+      {
+        "source": "law",
+        "target": "courts"
+      },
+      {
+        "source": "law",
+        "target": "Mr"
+      },
+      {
+        "source": "law",
+        "target": "order"
+      },
+      {
+        "source": "law",
+        "target": "day"
+      },
+      {
+        "source": "law",
+        "target": "I"
+      },
+      {
+        "source": "law",
+        "target": "law"
+      },
+      {
+        "source": "law",
+        "target": "judge"
+      },
+      {
+        "source": "judge",
+        "target": "President"
+      },
+      {
+        "source": "judge",
+        "target": "Trump"
+      },
+      {
+        "source": "judge",
+        "target": "courts"
+      },
+      {
+        "source": "judge",
+        "target": "Mr"
+      },
+      {
+        "source": "judge",
+        "target": "order"
+      },
+      {
+        "source": "judge",
+        "target": "day"
+      },
+      {
+        "source": "judge",
+        "target": "I"
+      },
+      {
+        "source": "judge",
+        "target": "law"
+      },
+      {
+        "source": "judge",
+        "target": "judge"
+      },
+      {
+        "source": "Russia",
+        "target": "Navalny"
+      },
+      {
+        "source": "Russia",
+        "target": "year"
+      },
+      {
+        "source": "Russia",
+        "target": "sentence"
+      },
+      {
+        "source": "Russia",
+        "target": "president"
+      },
+      {
+        "source": "Russia",
+        "target": "Mr"
+      },
+      {
+        "source": "Russia",
+        "target": "Rights"
+      },
+      {
+        "source": "Russia",
+        "target": "case"
+      },
+      {
+        "source": "Russia",
+        "target": "constitution"
+      },
+      {
+        "source": "Russia",
+        "target": "verdict"
+      },
+      {
+        "source": "Navalny",
+        "target": "Navalny"
+      },
+      {
+        "source": "Navalny",
+        "target": "year"
+      },
+      {
+        "source": "Navalny",
+        "target": "sentence"
+      },
+      {
+        "source": "Navalny",
+        "target": "president"
+      },
+      {
+        "source": "Navalny",
+        "target": "Mr"
+      },
+      {
+        "source": "Navalny",
+        "target": "Rights"
+      },
+      {
+        "source": "Navalny",
+        "target": "case"
+      },
+      {
+        "source": "Navalny",
+        "target": "constitution"
+      },
+      {
+        "source": "Navalny",
+        "target": "verdict"
+      },
+      {
+        "source": "year",
+        "target": "Navalny"
+      },
+      {
+        "source": "year",
+        "target": "year"
+      },
+      {
+        "source": "year",
+        "target": "sentence"
+      },
+      {
+        "source": "year",
+        "target": "president"
+      },
+      {
+        "source": "year",
+        "target": "Mr"
+      },
+      {
+        "source": "year",
+        "target": "Rights"
+      },
+      {
+        "source": "year",
+        "target": "case"
+      },
+      {
+        "source": "year",
+        "target": "constitution"
+      },
+      {
+        "source": "year",
+        "target": "verdict"
+      },
+      {
+        "source": "sentence",
+        "target": "Navalny"
+      },
+      {
+        "source": "sentence",
+        "target": "year"
+      },
+      {
+        "source": "sentence",
+        "target": "sentence"
+      },
+      {
+        "source": "sentence",
+        "target": "president"
+      },
+      {
+        "source": "sentence",
+        "target": "Mr"
+      },
+      {
+        "source": "sentence",
+        "target": "Rights"
+      },
+      {
+        "source": "sentence",
+        "target": "case"
+      },
+      {
+        "source": "sentence",
+        "target": "constitution"
+      },
+      {
+        "source": "sentence",
+        "target": "verdict"
+      },
+      {
+        "source": "president",
+        "target": "Navalny"
+      },
+      {
+        "source": "president",
+        "target": "year"
+      },
+      {
+        "source": "president",
+        "target": "sentence"
+      },
+      {
+        "source": "president",
+        "target": "president"
+      },
+      {
+        "source": "president",
+        "target": "Mr"
+      },
+      {
+        "source": "president",
+        "target": "Rights"
+      },
+      {
+        "source": "president",
+        "target": "case"
+      },
+      {
+        "source": "president",
+        "target": "constitution"
+      },
+      {
+        "source": "president",
+        "target": "verdict"
+      },
+      {
+        "source": "Mr",
+        "target": "Navalny"
+      },
+      {
+        "source": "Mr",
+        "target": "year"
+      },
+      {
+        "source": "Mr",
+        "target": "sentence"
+      },
+      {
+        "source": "Mr",
+        "target": "president"
+      },
+      {
+        "source": "Mr",
+        "target": "Mr"
+      },
+      {
+        "source": "Mr",
+        "target": "Rights"
+      },
+      {
+        "source": "Mr",
+        "target": "case"
+      },
+      {
+        "source": "Mr",
+        "target": "constitution"
+      },
+      {
+        "source": "Mr",
+        "target": "verdict"
+      },
+      {
+        "source": "Rights",
+        "target": "Navalny"
+      },
+      {
+        "source": "Rights",
+        "target": "year"
+      },
+      {
+        "source": "Rights",
+        "target": "sentence"
+      },
+      {
+        "source": "Rights",
+        "target": "president"
+      },
+      {
+        "source": "Rights",
+        "target": "Mr"
+      },
+      {
+        "source": "Rights",
+        "target": "Rights"
+      },
+      {
+        "source": "Rights",
+        "target": "case"
+      },
+      {
+        "source": "Rights",
+        "target": "constitution"
+      },
+      {
+        "source": "Rights",
+        "target": "verdict"
+      },
+      {
+        "source": "case",
+        "target": "Navalny"
+      },
+      {
+        "source": "case",
+        "target": "year"
+      },
+      {
+        "source": "case",
+        "target": "sentence"
+      },
+      {
+        "source": "case",
+        "target": "president"
+      },
+      {
+        "source": "case",
+        "target": "Mr"
+      },
+      {
+        "source": "case",
+        "target": "Rights"
+      },
+      {
+        "source": "case",
+        "target": "case"
+      },
+      {
+        "source": "case",
+        "target": "constitution"
+      },
+      {
+        "source": "case",
+        "target": "verdict"
+      },
+      {
+        "source": "constitution",
+        "target": "Navalny"
+      },
+      {
+        "source": "constitution",
+        "target": "year"
+      },
+      {
+        "source": "constitution",
+        "target": "sentence"
+      },
+      {
+        "source": "constitution",
+        "target": "president"
+      },
+      {
+        "source": "constitution",
+        "target": "Mr"
+      },
+      {
+        "source": "constitution",
+        "target": "Rights"
+      },
+      {
+        "source": "constitution",
+        "target": "case"
+      },
+      {
+        "source": "constitution",
+        "target": "constitution"
+      },
+      {
+        "source": "constitution",
+        "target": "verdict"
+      },
+      {
+        "source": "verdict",
+        "target": "Navalny"
+      },
+      {
+        "source": "verdict",
+        "target": "year"
+      },
+      {
+        "source": "verdict",
+        "target": "sentence"
+      },
+      {
+        "source": "verdict",
+        "target": "president"
+      },
+      {
+        "source": "verdict",
+        "target": "Mr"
+      },
+      {
+        "source": "verdict",
+        "target": "Rights"
+      },
+      {
+        "source": "verdict",
+        "target": "case"
+      },
+      {
+        "source": "verdict",
+        "target": "constitution"
+      },
+      {
+        "source": "verdict",
+        "target": "verdict"
+      },
+      {
+        "source": "bill",
+        "target": "government"
+      },
+      {
+        "source": "bill",
+        "target": "final"
+      },
+      {
+        "source": "bill",
+        "target": "Labour"
+      },
+      {
+        "source": "bill",
+        "target": "shadow"
+      },
+      {
+        "source": "bill",
+        "target": "vote"
+      },
+      {
+        "source": "bill",
+        "target": "Minister"
+      },
+      {
+        "source": "bill",
+        "target": "Brexit"
+      },
+      {
+        "source": "bill",
+        "target": "amendments"
+      },
+      {
+        "source": "bill",
+        "target": "nationals"
+      },
+      {
+        "source": "government",
+        "target": "government"
+      },
+      {
+        "source": "government",
+        "target": "final"
+      },
+      {
+        "source": "government",
+        "target": "Labour"
+      },
+      {
+        "source": "government",
+        "target": "shadow"
+      },
+      {
+        "source": "government",
+        "target": "vote"
+      },
+      {
+        "source": "government",
+        "target": "Minister"
+      },
+      {
+        "source": "government",
+        "target": "Brexit"
+      },
+      {
+        "source": "government",
+        "target": "amendments"
+      },
+      {
+        "source": "government",
+        "target": "nationals"
+      },
+      {
+        "source": "final",
+        "target": "government"
+      },
+      {
+        "source": "final",
+        "target": "final"
+      },
+      {
+        "source": "final",
+        "target": "Labour"
+      },
+      {
+        "source": "final",
+        "target": "shadow"
+      },
+      {
+        "source": "final",
+        "target": "vote"
+      },
+      {
+        "source": "final",
+        "target": "Minister"
+      },
+      {
+        "source": "final",
+        "target": "Brexit"
+      },
+      {
+        "source": "final",
+        "target": "amendments"
+      },
+      {
+        "source": "final",
+        "target": "nationals"
+      },
+      {
+        "source": "Labour",
+        "target": "government"
+      },
+      {
+        "source": "Labour",
+        "target": "final"
+      },
+      {
+        "source": "Labour",
+        "target": "Labour"
+      },
+      {
+        "source": "Labour",
+        "target": "shadow"
+      },
+      {
+        "source": "Labour",
+        "target": "vote"
+      },
+      {
+        "source": "Labour",
+        "target": "Minister"
+      },
+      {
+        "source": "Labour",
+        "target": "Brexit"
+      },
+      {
+        "source": "Labour",
+        "target": "amendments"
+      },
+      {
+        "source": "Labour",
+        "target": "nationals"
+      },
+      {
+        "source": "shadow",
+        "target": "government"
+      },
+      {
+        "source": "shadow",
+        "target": "final"
+      },
+      {
+        "source": "shadow",
+        "target": "Labour"
+      },
+      {
+        "source": "shadow",
+        "target": "shadow"
+      },
+      {
+        "source": "shadow",
+        "target": "vote"
+      },
+      {
+        "source": "shadow",
+        "target": "Minister"
+      },
+      {
+        "source": "shadow",
+        "target": "Brexit"
+      },
+      {
+        "source": "shadow",
+        "target": "amendments"
+      },
+      {
+        "source": "shadow",
+        "target": "nationals"
+      },
+      {
+        "source": "vote",
+        "target": "government"
+      },
+      {
+        "source": "vote",
+        "target": "final"
+      },
+      {
+        "source": "vote",
+        "target": "Labour"
+      },
+      {
+        "source": "vote",
+        "target": "shadow"
+      },
+      {
+        "source": "vote",
+        "target": "vote"
+      },
+      {
+        "source": "vote",
+        "target": "Minister"
+      },
+      {
+        "source": "vote",
+        "target": "Brexit"
+      },
+      {
+        "source": "vote",
+        "target": "amendments"
+      },
+      {
+        "source": "vote",
+        "target": "nationals"
+      },
+      {
+        "source": "Minister",
+        "target": "government"
+      },
+      {
+        "source": "Minister",
+        "target": "final"
+      },
+      {
+        "source": "Minister",
+        "target": "Labour"
+      },
+      {
+        "source": "Minister",
+        "target": "shadow"
+      },
+      {
+        "source": "Minister",
+        "target": "vote"
+      },
+      {
+        "source": "Minister",
+        "target": "Minister"
+      },
+      {
+        "source": "Minister",
+        "target": "Brexit"
+      },
+      {
+        "source": "Minister",
+        "target": "amendments"
+      },
+      {
+        "source": "Minister",
+        "target": "nationals"
+      },
+      {
+        "source": "Brexit",
+        "target": "government"
+      },
+      {
+        "source": "Brexit",
+        "target": "final"
+      },
+      {
+        "source": "Brexit",
+        "target": "Labour"
+      },
+      {
+        "source": "Brexit",
+        "target": "shadow"
+      },
+      {
+        "source": "Brexit",
+        "target": "vote"
+      },
+      {
+        "source": "Brexit",
+        "target": "Minister"
+      },
+      {
+        "source": "Brexit",
+        "target": "Brexit"
+      },
+      {
+        "source": "Brexit",
+        "target": "amendments"
+      },
+      {
+        "source": "Brexit",
+        "target": "nationals"
+      },
+      {
+        "source": "amendments",
+        "target": "government"
+      },
+      {
+        "source": "amendments",
+        "target": "final"
+      },
+      {
+        "source": "amendments",
+        "target": "Labour"
+      },
+      {
+        "source": "amendments",
+        "target": "shadow"
+      },
+      {
+        "source": "amendments",
+        "target": "vote"
+      },
+      {
+        "source": "amendments",
+        "target": "Minister"
+      },
+      {
+        "source": "amendments",
+        "target": "Brexit"
+      },
+      {
+        "source": "amendments",
+        "target": "amendments"
+      },
+      {
+        "source": "amendments",
+        "target": "nationals"
+      },
+      {
+        "source": "nationals",
+        "target": "government"
+      },
+      {
+        "source": "nationals",
+        "target": "final"
+      },
+      {
+        "source": "nationals",
+        "target": "Labour"
+      },
+      {
+        "source": "nationals",
+        "target": "shadow"
+      },
+      {
+        "source": "nationals",
+        "target": "vote"
+      },
+      {
+        "source": "nationals",
+        "target": "Minister"
+      },
+      {
+        "source": "nationals",
+        "target": "Brexit"
+      },
+      {
+        "source": "nationals",
+        "target": "amendments"
+      },
+      {
+        "source": "nationals",
+        "target": "nationals"
+      },
+      {
+        "source": "government",
+        "target": "energy"
+      },
+      {
+        "source": "government",
+        "target": "schemes"
+      },
+      {
+        "source": "government",
+        "target": "bill"
+      },
+      {
+        "source": "government",
+        "target": "PAC"
+      },
+      {
+        "source": "government",
+        "target": "BEIS"
+      },
+      {
+        "source": "government",
+        "target": "Framework"
+      },
+      {
+        "source": "government",
+        "target": "cost"
+      },
+      {
+        "source": "government",
+        "target": "generators"
+      },
+      {
+        "source": "government",
+        "target": "action"
+      },
+      {
+        "source": "energy",
+        "target": "energy"
+      },
+      {
+        "source": "energy",
+        "target": "schemes"
+      },
+      {
+        "source": "energy",
+        "target": "bill"
+      },
+      {
+        "source": "energy",
+        "target": "PAC"
+      },
+      {
+        "source": "energy",
+        "target": "BEIS"
+      },
+      {
+        "source": "energy",
+        "target": "Framework"
+      },
+      {
+        "source": "energy",
+        "target": "cost"
+      },
+      {
+        "source": "energy",
+        "target": "generators"
+      },
+      {
+        "source": "energy",
+        "target": "action"
+      },
+      {
+        "source": "schemes",
+        "target": "energy"
+      },
+      {
+        "source": "schemes",
+        "target": "schemes"
+      },
+      {
+        "source": "schemes",
+        "target": "bill"
+      },
+      {
+        "source": "schemes",
+        "target": "PAC"
+      },
+      {
+        "source": "schemes",
+        "target": "BEIS"
+      },
+      {
+        "source": "schemes",
+        "target": "Framework"
+      },
+      {
+        "source": "schemes",
+        "target": "cost"
+      },
+      {
+        "source": "schemes",
+        "target": "generators"
+      },
+      {
+        "source": "schemes",
+        "target": "action"
+      },
+      {
+        "source": "bill",
+        "target": "energy"
+      },
+      {
+        "source": "bill",
+        "target": "schemes"
+      },
+      {
+        "source": "bill",
+        "target": "bill"
+      },
+      {
+        "source": "bill",
+        "target": "PAC"
+      },
+      {
+        "source": "bill",
+        "target": "BEIS"
+      },
+      {
+        "source": "bill",
+        "target": "Framework"
+      },
+      {
+        "source": "bill",
+        "target": "cost"
+      },
+      {
+        "source": "bill",
+        "target": "generators"
+      },
+      {
+        "source": "bill",
+        "target": "action"
+      },
+      {
+        "source": "PAC",
+        "target": "energy"
+      },
+      {
+        "source": "PAC",
+        "target": "schemes"
+      },
+      {
+        "source": "PAC",
+        "target": "bill"
+      },
+      {
+        "source": "PAC",
+        "target": "PAC"
+      },
+      {
+        "source": "PAC",
+        "target": "BEIS"
+      },
+      {
+        "source": "PAC",
+        "target": "Framework"
+      },
+      {
+        "source": "PAC",
+        "target": "cost"
+      },
+      {
+        "source": "PAC",
+        "target": "generators"
+      },
+      {
+        "source": "PAC",
+        "target": "action"
+      },
+      {
+        "source": "BEIS",
+        "target": "energy"
+      },
+      {
+        "source": "BEIS",
+        "target": "schemes"
+      },
+      {
+        "source": "BEIS",
+        "target": "bill"
+      },
+      {
+        "source": "BEIS",
+        "target": "PAC"
+      },
+      {
+        "source": "BEIS",
+        "target": "BEIS"
+      },
+      {
+        "source": "BEIS",
+        "target": "Framework"
+      },
+      {
+        "source": "BEIS",
+        "target": "cost"
+      },
+      {
+        "source": "BEIS",
+        "target": "generators"
+      },
+      {
+        "source": "BEIS",
+        "target": "action"
+      },
+      {
+        "source": "Framework",
+        "target": "energy"
+      },
+      {
+        "source": "Framework",
+        "target": "schemes"
+      },
+      {
+        "source": "Framework",
+        "target": "bill"
+      },
+      {
+        "source": "Framework",
+        "target": "PAC"
+      },
+      {
+        "source": "Framework",
+        "target": "BEIS"
+      },
+      {
+        "source": "Framework",
+        "target": "Framework"
+      },
+      {
+        "source": "Framework",
+        "target": "cost"
+      },
+      {
+        "source": "Framework",
+        "target": "generators"
+      },
+      {
+        "source": "Framework",
+        "target": "action"
+      },
+      {
+        "source": "cost",
+        "target": "energy"
+      },
+      {
+        "source": "cost",
+        "target": "schemes"
+      },
+      {
+        "source": "cost",
+        "target": "bill"
+      },
+      {
+        "source": "cost",
+        "target": "PAC"
+      },
+      {
+        "source": "cost",
+        "target": "BEIS"
+      },
+      {
+        "source": "cost",
+        "target": "Framework"
+      },
+      {
+        "source": "cost",
+        "target": "cost"
+      },
+      {
+        "source": "cost",
+        "target": "generators"
+      },
+      {
+        "source": "cost",
+        "target": "action"
+      },
+      {
+        "source": "generators",
+        "target": "energy"
+      },
+      {
+        "source": "generators",
+        "target": "schemes"
+      },
+      {
+        "source": "generators",
+        "target": "bill"
+      },
+      {
+        "source": "generators",
+        "target": "PAC"
+      },
+      {
+        "source": "generators",
+        "target": "BEIS"
+      },
+      {
+        "source": "generators",
+        "target": "Framework"
+      },
+      {
+        "source": "generators",
+        "target": "cost"
+      },
+      {
+        "source": "generators",
+        "target": "generators"
+      },
+      {
+        "source": "generators",
+        "target": "action"
+      },
+      {
+        "source": "action",
+        "target": "energy"
+      },
+      {
+        "source": "action",
+        "target": "schemes"
+      },
+      {
+        "source": "action",
+        "target": "bill"
+      },
+      {
+        "source": "action",
+        "target": "PAC"
+      },
+      {
+        "source": "action",
+        "target": "BEIS"
+      },
+      {
+        "source": "action",
+        "target": "Framework"
+      },
+      {
+        "source": "action",
+        "target": "cost"
+      },
+      {
+        "source": "action",
+        "target": "generators"
+      },
+      {
+        "source": "action",
+        "target": "action"
+      },
+      {
+        "source": "Senator",
+        "target": "Senate"
+      },
+      {
+        "source": "Senator",
+        "target": "Republicans"
+      },
+      {
+        "source": "Senator",
+        "target": "letter"
+      },
+      {
+        "source": "Senator",
+        "target": "Sessions"
+      },
+      {
+        "source": "Senator",
+        "target": "Ms"
+      },
+      {
+        "source": "Senator",
+        "target": "rules"
+      },
+      {
+        "source": "Senator",
+        "target": "Mr"
+      },
+      {
+        "source": "Senator",
+        "target": "vote"
+      },
+      {
+        "source": "Senator",
+        "target": "many"
+      },
+      {
+        "source": "Senate",
+        "target": "Senate"
+      },
+      {
+        "source": "Senate",
+        "target": "Republicans"
+      },
+      {
+        "source": "Senate",
+        "target": "letter"
+      },
+      {
+        "source": "Senate",
+        "target": "Sessions"
+      },
+      {
+        "source": "Senate",
+        "target": "Ms"
+      },
+      {
+        "source": "Senate",
+        "target": "rules"
+      },
+      {
+        "source": "Senate",
+        "target": "Mr"
+      },
+      {
+        "source": "Senate",
+        "target": "vote"
+      },
+      {
+        "source": "Senate",
+        "target": "many"
+      },
+      {
+        "source": "Republicans",
+        "target": "Senate"
+      },
+      {
+        "source": "Republicans",
+        "target": "Republicans"
+      },
+      {
+        "source": "Republicans",
+        "target": "letter"
+      },
+      {
+        "source": "Republicans",
+        "target": "Sessions"
+      },
+      {
+        "source": "Republicans",
+        "target": "Ms"
+      },
+      {
+        "source": "Republicans",
+        "target": "rules"
+      },
+      {
+        "source": "Republicans",
+        "target": "Mr"
+      },
+      {
+        "source": "Republicans",
+        "target": "vote"
+      },
+      {
+        "source": "Republicans",
+        "target": "many"
+      },
+      {
+        "source": "letter",
+        "target": "Senate"
+      },
+      {
+        "source": "letter",
+        "target": "Republicans"
+      },
+      {
+        "source": "letter",
+        "target": "letter"
+      },
+      {
+        "source": "letter",
+        "target": "Sessions"
+      },
+      {
+        "source": "letter",
+        "target": "Ms"
+      },
+      {
+        "source": "letter",
+        "target": "rules"
+      },
+      {
+        "source": "letter",
+        "target": "Mr"
+      },
+      {
+        "source": "letter",
+        "target": "vote"
+      },
+      {
+        "source": "letter",
+        "target": "many"
+      },
+      {
+        "source": "Sessions",
+        "target": "Senate"
+      },
+      {
+        "source": "Sessions",
+        "target": "Republicans"
+      },
+      {
+        "source": "Sessions",
+        "target": "letter"
+      },
+      {
+        "source": "Sessions",
+        "target": "Sessions"
+      },
+      {
+        "source": "Sessions",
+        "target": "Ms"
+      },
+      {
+        "source": "Sessions",
+        "target": "rules"
+      },
+      {
+        "source": "Sessions",
+        "target": "Mr"
+      },
+      {
+        "source": "Sessions",
+        "target": "vote"
+      },
+      {
+        "source": "Sessions",
+        "target": "many"
+      },
+      {
+        "source": "Ms",
+        "target": "Senate"
+      },
+      {
+        "source": "Ms",
+        "target": "Republicans"
+      },
+      {
+        "source": "Ms",
+        "target": "letter"
+      },
+      {
+        "source": "Ms",
+        "target": "Sessions"
+      },
+      {
+        "source": "Ms",
+        "target": "Ms"
+      },
+      {
+        "source": "Ms",
+        "target": "rules"
+      },
+      {
+        "source": "Ms",
+        "target": "Mr"
+      },
+      {
+        "source": "Ms",
+        "target": "vote"
+      },
+      {
+        "source": "Ms",
+        "target": "many"
+      },
+      {
+        "source": "rules",
+        "target": "Senate"
+      },
+      {
+        "source": "rules",
+        "target": "Republicans"
+      },
+      {
+        "source": "rules",
+        "target": "letter"
+      },
+      {
+        "source": "rules",
+        "target": "Sessions"
+      },
+      {
+        "source": "rules",
+        "target": "Ms"
+      },
+      {
+        "source": "rules",
+        "target": "rules"
+      },
+      {
+        "source": "rules",
+        "target": "Mr"
+      },
+      {
+        "source": "rules",
+        "target": "vote"
+      },
+      {
+        "source": "rules",
+        "target": "many"
+      },
+      {
+        "source": "Mr",
+        "target": "Senate"
+      },
+      {
+        "source": "Mr",
+        "target": "Republicans"
+      },
+      {
+        "source": "Mr",
+        "target": "letter"
+      },
+      {
+        "source": "Mr",
+        "target": "Sessions"
+      },
+      {
+        "source": "Mr",
+        "target": "Ms"
+      },
+      {
+        "source": "Mr",
+        "target": "rules"
+      },
+      {
+        "source": "Mr",
+        "target": "Mr"
+      },
+      {
+        "source": "Mr",
+        "target": "vote"
+      },
+      {
+        "source": "Mr",
+        "target": "many"
+      },
+      {
+        "source": "vote",
+        "target": "Senate"
+      },
+      {
+        "source": "vote",
+        "target": "Republicans"
+      },
+      {
+        "source": "vote",
+        "target": "letter"
+      },
+      {
+        "source": "vote",
+        "target": "Sessions"
+      },
+      {
+        "source": "vote",
+        "target": "Ms"
+      },
+      {
+        "source": "vote",
+        "target": "rules"
+      },
+      {
+        "source": "vote",
+        "target": "Mr"
+      },
+      {
+        "source": "vote",
+        "target": "vote"
+      },
+      {
+        "source": "vote",
+        "target": "many"
+      },
+      {
+        "source": "many",
+        "target": "Senate"
+      },
+      {
+        "source": "many",
+        "target": "Republicans"
+      },
+      {
+        "source": "many",
+        "target": "letter"
+      },
+      {
+        "source": "many",
+        "target": "Sessions"
+      },
+      {
+        "source": "many",
+        "target": "Ms"
+      },
+      {
+        "source": "many",
+        "target": "rules"
+      },
+      {
+        "source": "many",
+        "target": "Mr"
+      },
+      {
+        "source": "many",
+        "target": "vote"
+      },
+      {
+        "source": "many",
+        "target": "many"
+      },
+      {
+        "source": "new",
+        "target": "order"
+      },
+      {
+        "source": "new",
+        "target": "US"
+      },
+      {
+        "source": "new",
+        "target": "companies"
+      },
+      {
+        "source": "new",
+        "target": "conflict"
+      },
+      {
+        "source": "new",
+        "target": "minerals"
+      },
+      {
+        "source": "new",
+        "target": "Congo"
+      },
+      {
+        "source": "new",
+        "target": "draft"
+      },
+      {
+        "source": "new",
+        "target": "Dodd"
+      },
+      {
+        "source": "new",
+        "target": "groups"
+      },
+      {
+        "source": "order",
+        "target": "order"
+      },
+      {
+        "source": "order",
+        "target": "US"
+      },
+      {
+        "source": "order",
+        "target": "companies"
+      },
+      {
+        "source": "order",
+        "target": "conflict"
+      },
+      {
+        "source": "order",
+        "target": "minerals"
+      },
+      {
+        "source": "order",
+        "target": "Congo"
+      },
+      {
+        "source": "order",
+        "target": "draft"
+      },
+      {
+        "source": "order",
+        "target": "Dodd"
+      },
+      {
+        "source": "order",
+        "target": "groups"
+      },
+      {
+        "source": "US",
+        "target": "order"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "companies"
+      },
+      {
+        "source": "US",
+        "target": "conflict"
+      },
+      {
+        "source": "US",
+        "target": "minerals"
+      },
+      {
+        "source": "US",
+        "target": "Congo"
+      },
+      {
+        "source": "US",
+        "target": "draft"
+      },
+      {
+        "source": "US",
+        "target": "Dodd"
+      },
+      {
+        "source": "US",
+        "target": "groups"
+      },
+      {
+        "source": "companies",
+        "target": "order"
+      },
+      {
+        "source": "companies",
+        "target": "US"
+      },
+      {
+        "source": "companies",
+        "target": "companies"
+      },
+      {
+        "source": "companies",
+        "target": "conflict"
+      },
+      {
+        "source": "companies",
+        "target": "minerals"
+      },
+      {
+        "source": "companies",
+        "target": "Congo"
+      },
+      {
+        "source": "companies",
+        "target": "draft"
+      },
+      {
+        "source": "companies",
+        "target": "Dodd"
+      },
+      {
+        "source": "companies",
+        "target": "groups"
+      },
+      {
+        "source": "conflict",
+        "target": "order"
+      },
+      {
+        "source": "conflict",
+        "target": "US"
+      },
+      {
+        "source": "conflict",
+        "target": "companies"
+      },
+      {
+        "source": "conflict",
+        "target": "conflict"
+      },
+      {
+        "source": "conflict",
+        "target": "minerals"
+      },
+      {
+        "source": "conflict",
+        "target": "Congo"
+      },
+      {
+        "source": "conflict",
+        "target": "draft"
+      },
+      {
+        "source": "conflict",
+        "target": "Dodd"
+      },
+      {
+        "source": "conflict",
+        "target": "groups"
+      },
+      {
+        "source": "minerals",
+        "target": "order"
+      },
+      {
+        "source": "minerals",
+        "target": "US"
+      },
+      {
+        "source": "minerals",
+        "target": "companies"
+      },
+      {
+        "source": "minerals",
+        "target": "conflict"
+      },
+      {
+        "source": "minerals",
+        "target": "minerals"
+      },
+      {
+        "source": "minerals",
+        "target": "Congo"
+      },
+      {
+        "source": "minerals",
+        "target": "draft"
+      },
+      {
+        "source": "minerals",
+        "target": "Dodd"
+      },
+      {
+        "source": "minerals",
+        "target": "groups"
+      },
+      {
+        "source": "Congo",
+        "target": "order"
+      },
+      {
+        "source": "Congo",
+        "target": "US"
+      },
+      {
+        "source": "Congo",
+        "target": "companies"
+      },
+      {
+        "source": "Congo",
+        "target": "conflict"
+      },
+      {
+        "source": "Congo",
+        "target": "minerals"
+      },
+      {
+        "source": "Congo",
+        "target": "Congo"
+      },
+      {
+        "source": "Congo",
+        "target": "draft"
+      },
+      {
+        "source": "Congo",
+        "target": "Dodd"
+      },
+      {
+        "source": "Congo",
+        "target": "groups"
+      },
+      {
+        "source": "draft",
+        "target": "order"
+      },
+      {
+        "source": "draft",
+        "target": "US"
+      },
+      {
+        "source": "draft",
+        "target": "companies"
+      },
+      {
+        "source": "draft",
+        "target": "conflict"
+      },
+      {
+        "source": "draft",
+        "target": "minerals"
+      },
+      {
+        "source": "draft",
+        "target": "Congo"
+      },
+      {
+        "source": "draft",
+        "target": "draft"
+      },
+      {
+        "source": "draft",
+        "target": "Dodd"
+      },
+      {
+        "source": "draft",
+        "target": "groups"
+      },
+      {
+        "source": "Dodd",
+        "target": "order"
+      },
+      {
+        "source": "Dodd",
+        "target": "US"
+      },
+      {
+        "source": "Dodd",
+        "target": "companies"
+      },
+      {
+        "source": "Dodd",
+        "target": "conflict"
+      },
+      {
+        "source": "Dodd",
+        "target": "minerals"
+      },
+      {
+        "source": "Dodd",
+        "target": "Congo"
+      },
+      {
+        "source": "Dodd",
+        "target": "draft"
+      },
+      {
+        "source": "Dodd",
+        "target": "Dodd"
+      },
+      {
+        "source": "Dodd",
+        "target": "groups"
+      },
+      {
+        "source": "groups",
+        "target": "order"
+      },
+      {
+        "source": "groups",
+        "target": "US"
+      },
+      {
+        "source": "groups",
+        "target": "companies"
+      },
+      {
+        "source": "groups",
+        "target": "conflict"
+      },
+      {
+        "source": "groups",
+        "target": "minerals"
+      },
+      {
+        "source": "groups",
+        "target": "Congo"
+      },
+      {
+        "source": "groups",
+        "target": "draft"
+      },
+      {
+        "source": "groups",
+        "target": "Dodd"
+      },
+      {
+        "source": "groups",
+        "target": "groups"
+      },
+      {
+        "source": "Turkish",
+        "target": "US"
+      },
+      {
+        "source": "Turkish",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Turkish",
+        "target": "Syria"
+      },
+      {
+        "source": "Turkish",
+        "target": "support"
+      },
+      {
+        "source": "Turkish",
+        "target": "Turkey"
+      },
+      {
+        "source": "Turkish",
+        "target": "Bab"
+      },
+      {
+        "source": "Turkish",
+        "target": "Isis"
+      },
+      {
+        "source": "Turkish",
+        "target": "last"
+      },
+      {
+        "source": "Turkish",
+        "target": "party"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "US",
+        "target": "Syria"
+      },
+      {
+        "source": "US",
+        "target": "support"
+      },
+      {
+        "source": "US",
+        "target": "Turkey"
+      },
+      {
+        "source": "US",
+        "target": "Bab"
+      },
+      {
+        "source": "US",
+        "target": "Isis"
+      },
+      {
+        "source": "US",
+        "target": "last"
+      },
+      {
+        "source": "US",
+        "target": "party"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "US"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "Syria"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "support"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "Turkey"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "Bab"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "Isis"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "last"
+      },
+      {
+        "source": "Erdo\u011fan",
+        "target": "party"
+      },
+      {
+        "source": "Syria",
+        "target": "US"
+      },
+      {
+        "source": "Syria",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Syria",
+        "target": "Syria"
+      },
+      {
+        "source": "Syria",
+        "target": "support"
+      },
+      {
+        "source": "Syria",
+        "target": "Turkey"
+      },
+      {
+        "source": "Syria",
+        "target": "Bab"
+      },
+      {
+        "source": "Syria",
+        "target": "Isis"
+      },
+      {
+        "source": "Syria",
+        "target": "last"
+      },
+      {
+        "source": "Syria",
+        "target": "party"
+      },
+      {
+        "source": "support",
+        "target": "US"
+      },
+      {
+        "source": "support",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "support",
+        "target": "Syria"
+      },
+      {
+        "source": "support",
+        "target": "support"
+      },
+      {
+        "source": "support",
+        "target": "Turkey"
+      },
+      {
+        "source": "support",
+        "target": "Bab"
+      },
+      {
+        "source": "support",
+        "target": "Isis"
+      },
+      {
+        "source": "support",
+        "target": "last"
+      },
+      {
+        "source": "support",
+        "target": "party"
+      },
+      {
+        "source": "Turkey",
+        "target": "US"
+      },
+      {
+        "source": "Turkey",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Turkey",
+        "target": "Syria"
+      },
+      {
+        "source": "Turkey",
+        "target": "support"
+      },
+      {
+        "source": "Turkey",
+        "target": "Turkey"
+      },
+      {
+        "source": "Turkey",
+        "target": "Bab"
+      },
+      {
+        "source": "Turkey",
+        "target": "Isis"
+      },
+      {
+        "source": "Turkey",
+        "target": "last"
+      },
+      {
+        "source": "Turkey",
+        "target": "party"
+      },
+      {
+        "source": "Bab",
+        "target": "US"
+      },
+      {
+        "source": "Bab",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Bab",
+        "target": "Syria"
+      },
+      {
+        "source": "Bab",
+        "target": "support"
+      },
+      {
+        "source": "Bab",
+        "target": "Turkey"
+      },
+      {
+        "source": "Bab",
+        "target": "Bab"
+      },
+      {
+        "source": "Bab",
+        "target": "Isis"
+      },
+      {
+        "source": "Bab",
+        "target": "last"
+      },
+      {
+        "source": "Bab",
+        "target": "party"
+      },
+      {
+        "source": "Isis",
+        "target": "US"
+      },
+      {
+        "source": "Isis",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "Isis",
+        "target": "Syria"
+      },
+      {
+        "source": "Isis",
+        "target": "support"
+      },
+      {
+        "source": "Isis",
+        "target": "Turkey"
+      },
+      {
+        "source": "Isis",
+        "target": "Bab"
+      },
+      {
+        "source": "Isis",
+        "target": "Isis"
+      },
+      {
+        "source": "Isis",
+        "target": "last"
+      },
+      {
+        "source": "Isis",
+        "target": "party"
+      },
+      {
+        "source": "last",
+        "target": "US"
+      },
+      {
+        "source": "last",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "last",
+        "target": "Syria"
+      },
+      {
+        "source": "last",
+        "target": "support"
+      },
+      {
+        "source": "last",
+        "target": "Turkey"
+      },
+      {
+        "source": "last",
+        "target": "Bab"
+      },
+      {
+        "source": "last",
+        "target": "Isis"
+      },
+      {
+        "source": "last",
+        "target": "last"
+      },
+      {
+        "source": "last",
+        "target": "party"
+      },
+      {
+        "source": "party",
+        "target": "US"
+      },
+      {
+        "source": "party",
+        "target": "Erdo\u011fan"
+      },
+      {
+        "source": "party",
+        "target": "Syria"
+      },
+      {
+        "source": "party",
+        "target": "support"
+      },
+      {
+        "source": "party",
+        "target": "Turkey"
+      },
+      {
+        "source": "party",
+        "target": "Bab"
+      },
+      {
+        "source": "party",
+        "target": "Isis"
+      },
+      {
+        "source": "party",
+        "target": "last"
+      },
+      {
+        "source": "party",
+        "target": "party"
+      },
+      {
+        "source": "Europe",
+        "target": "migrants"
+      },
+      {
+        "source": "Europe",
+        "target": "work"
+      },
+      {
+        "source": "Europe",
+        "target": "UN"
+      },
+      {
+        "source": "Europe",
+        "target": "people"
+      },
+      {
+        "source": "Europe",
+        "target": "EU"
+      },
+      {
+        "source": "Europe",
+        "target": "European"
+      },
+      {
+        "source": "Europe",
+        "target": "country"
+      },
+      {
+        "source": "Europe",
+        "target": "IOM"
+      },
+      {
+        "source": "Europe",
+        "target": "refugees"
+      },
+      {
+        "source": "migrants",
+        "target": "migrants"
+      },
+      {
+        "source": "migrants",
+        "target": "work"
+      },
+      {
+        "source": "migrants",
+        "target": "UN"
+      },
+      {
+        "source": "migrants",
+        "target": "people"
+      },
+      {
+        "source": "migrants",
+        "target": "EU"
+      },
+      {
+        "source": "migrants",
+        "target": "European"
+      },
+      {
+        "source": "migrants",
+        "target": "country"
+      },
+      {
+        "source": "migrants",
+        "target": "IOM"
+      },
+      {
+        "source": "migrants",
+        "target": "refugees"
+      },
+      {
+        "source": "work",
+        "target": "migrants"
+      },
+      {
+        "source": "work",
+        "target": "work"
+      },
+      {
+        "source": "work",
+        "target": "UN"
+      },
+      {
+        "source": "work",
+        "target": "people"
+      },
+      {
+        "source": "work",
+        "target": "EU"
+      },
+      {
+        "source": "work",
+        "target": "European"
+      },
+      {
+        "source": "work",
+        "target": "country"
+      },
+      {
+        "source": "work",
+        "target": "IOM"
+      },
+      {
+        "source": "work",
+        "target": "refugees"
+      },
+      {
+        "source": "UN",
+        "target": "migrants"
+      },
+      {
+        "source": "UN",
+        "target": "work"
+      },
+      {
+        "source": "UN",
+        "target": "UN"
+      },
+      {
+        "source": "UN",
+        "target": "people"
+      },
+      {
+        "source": "UN",
+        "target": "EU"
+      },
+      {
+        "source": "UN",
+        "target": "European"
+      },
+      {
+        "source": "UN",
+        "target": "country"
+      },
+      {
+        "source": "UN",
+        "target": "IOM"
+      },
+      {
+        "source": "UN",
+        "target": "refugees"
+      },
+      {
+        "source": "people",
+        "target": "migrants"
+      },
+      {
+        "source": "people",
+        "target": "work"
+      },
+      {
+        "source": "people",
+        "target": "UN"
+      },
+      {
+        "source": "people",
+        "target": "people"
+      },
+      {
+        "source": "people",
+        "target": "EU"
+      },
+      {
+        "source": "people",
+        "target": "European"
+      },
+      {
+        "source": "people",
+        "target": "country"
+      },
+      {
+        "source": "people",
+        "target": "IOM"
+      },
+      {
+        "source": "people",
+        "target": "refugees"
+      },
+      {
+        "source": "EU",
+        "target": "migrants"
+      },
+      {
+        "source": "EU",
+        "target": "work"
+      },
+      {
+        "source": "EU",
+        "target": "UN"
+      },
+      {
+        "source": "EU",
+        "target": "people"
+      },
+      {
+        "source": "EU",
+        "target": "EU"
+      },
+      {
+        "source": "EU",
+        "target": "European"
+      },
+      {
+        "source": "EU",
+        "target": "country"
+      },
+      {
+        "source": "EU",
+        "target": "IOM"
+      },
+      {
+        "source": "EU",
+        "target": "refugees"
+      },
+      {
+        "source": "European",
+        "target": "migrants"
+      },
+      {
+        "source": "European",
+        "target": "work"
+      },
+      {
+        "source": "European",
+        "target": "UN"
+      },
+      {
+        "source": "European",
+        "target": "people"
+      },
+      {
+        "source": "European",
+        "target": "EU"
+      },
+      {
+        "source": "European",
+        "target": "European"
+      },
+      {
+        "source": "European",
+        "target": "country"
+      },
+      {
+        "source": "European",
+        "target": "IOM"
+      },
+      {
+        "source": "European",
+        "target": "refugees"
+      },
+      {
+        "source": "country",
+        "target": "migrants"
+      },
+      {
+        "source": "country",
+        "target": "work"
+      },
+      {
+        "source": "country",
+        "target": "UN"
+      },
+      {
+        "source": "country",
+        "target": "people"
+      },
+      {
+        "source": "country",
+        "target": "EU"
+      },
+      {
+        "source": "country",
+        "target": "European"
+      },
+      {
+        "source": "country",
+        "target": "country"
+      },
+      {
+        "source": "country",
+        "target": "IOM"
+      },
+      {
+        "source": "country",
+        "target": "refugees"
+      },
+      {
+        "source": "IOM",
+        "target": "migrants"
+      },
+      {
+        "source": "IOM",
+        "target": "work"
+      },
+      {
+        "source": "IOM",
+        "target": "UN"
+      },
+      {
+        "source": "IOM",
+        "target": "people"
+      },
+      {
+        "source": "IOM",
+        "target": "EU"
+      },
+      {
+        "source": "IOM",
+        "target": "European"
+      },
+      {
+        "source": "IOM",
+        "target": "country"
+      },
+      {
+        "source": "IOM",
+        "target": "IOM"
+      },
+      {
+        "source": "IOM",
+        "target": "refugees"
+      },
+      {
+        "source": "refugees",
+        "target": "migrants"
+      },
+      {
+        "source": "refugees",
+        "target": "work"
+      },
+      {
+        "source": "refugees",
+        "target": "UN"
+      },
+      {
+        "source": "refugees",
+        "target": "people"
+      },
+      {
+        "source": "refugees",
+        "target": "EU"
+      },
+      {
+        "source": "refugees",
+        "target": "European"
+      },
+      {
+        "source": "refugees",
+        "target": "country"
+      },
+      {
+        "source": "refugees",
+        "target": "IOM"
+      },
+      {
+        "source": "refugees",
+        "target": "refugees"
+      },
+      {
+        "source": "UK",
+        "target": "term"
+      },
+      {
+        "source": "UK",
+        "target": "economy"
+      },
+      {
+        "source": "UK",
+        "target": "report"
+      },
+      {
+        "source": "UK",
+        "target": "PwC"
+      },
+      {
+        "source": "UK",
+        "target": "growth"
+      },
+      {
+        "source": "UK",
+        "target": "place"
+      },
+      {
+        "source": "UK",
+        "target": "forecast"
+      },
+      {
+        "source": "UK",
+        "target": "long"
+      },
+      {
+        "source": "UK",
+        "target": "US"
+      },
+      {
+        "source": "term",
+        "target": "term"
+      },
+      {
+        "source": "term",
+        "target": "economy"
+      },
+      {
+        "source": "term",
+        "target": "report"
+      },
+      {
+        "source": "term",
+        "target": "PwC"
+      },
+      {
+        "source": "term",
+        "target": "growth"
+      },
+      {
+        "source": "term",
+        "target": "place"
+      },
+      {
+        "source": "term",
+        "target": "forecast"
+      },
+      {
+        "source": "term",
+        "target": "long"
+      },
+      {
+        "source": "term",
+        "target": "US"
+      },
+      {
+        "source": "economy",
+        "target": "term"
+      },
+      {
+        "source": "economy",
+        "target": "economy"
+      },
+      {
+        "source": "economy",
+        "target": "report"
+      },
+      {
+        "source": "economy",
+        "target": "PwC"
+      },
+      {
+        "source": "economy",
+        "target": "growth"
+      },
+      {
+        "source": "economy",
+        "target": "place"
+      },
+      {
+        "source": "economy",
+        "target": "forecast"
+      },
+      {
+        "source": "economy",
+        "target": "long"
+      },
+      {
+        "source": "economy",
+        "target": "US"
+      },
+      {
+        "source": "report",
+        "target": "term"
+      },
+      {
+        "source": "report",
+        "target": "economy"
+      },
+      {
+        "source": "report",
+        "target": "report"
+      },
+      {
+        "source": "report",
+        "target": "PwC"
+      },
+      {
+        "source": "report",
+        "target": "growth"
+      },
+      {
+        "source": "report",
+        "target": "place"
+      },
+      {
+        "source": "report",
+        "target": "forecast"
+      },
+      {
+        "source": "report",
+        "target": "long"
+      },
+      {
+        "source": "report",
+        "target": "US"
+      },
+      {
+        "source": "PwC",
+        "target": "term"
+      },
+      {
+        "source": "PwC",
+        "target": "economy"
+      },
+      {
+        "source": "PwC",
+        "target": "report"
+      },
+      {
+        "source": "PwC",
+        "target": "PwC"
+      },
+      {
+        "source": "PwC",
+        "target": "growth"
+      },
+      {
+        "source": "PwC",
+        "target": "place"
+      },
+      {
+        "source": "PwC",
+        "target": "forecast"
+      },
+      {
+        "source": "PwC",
+        "target": "long"
+      },
+      {
+        "source": "PwC",
+        "target": "US"
+      },
+      {
+        "source": "growth",
+        "target": "term"
+      },
+      {
+        "source": "growth",
+        "target": "economy"
+      },
+      {
+        "source": "growth",
+        "target": "report"
+      },
+      {
+        "source": "growth",
+        "target": "PwC"
+      },
+      {
+        "source": "growth",
+        "target": "growth"
+      },
+      {
+        "source": "growth",
+        "target": "place"
+      },
+      {
+        "source": "growth",
+        "target": "forecast"
+      },
+      {
+        "source": "growth",
+        "target": "long"
+      },
+      {
+        "source": "growth",
+        "target": "US"
+      },
+      {
+        "source": "place",
+        "target": "term"
+      },
+      {
+        "source": "place",
+        "target": "economy"
+      },
+      {
+        "source": "place",
+        "target": "report"
+      },
+      {
+        "source": "place",
+        "target": "PwC"
+      },
+      {
+        "source": "place",
+        "target": "growth"
+      },
+      {
+        "source": "place",
+        "target": "place"
+      },
+      {
+        "source": "place",
+        "target": "forecast"
+      },
+      {
+        "source": "place",
+        "target": "long"
+      },
+      {
+        "source": "place",
+        "target": "US"
+      },
+      {
+        "source": "forecast",
+        "target": "term"
+      },
+      {
+        "source": "forecast",
+        "target": "economy"
+      },
+      {
+        "source": "forecast",
+        "target": "report"
+      },
+      {
+        "source": "forecast",
+        "target": "PwC"
+      },
+      {
+        "source": "forecast",
+        "target": "growth"
+      },
+      {
+        "source": "forecast",
+        "target": "place"
+      },
+      {
+        "source": "forecast",
+        "target": "forecast"
+      },
+      {
+        "source": "forecast",
+        "target": "long"
+      },
+      {
+        "source": "forecast",
+        "target": "US"
+      },
+      {
+        "source": "long",
+        "target": "term"
+      },
+      {
+        "source": "long",
+        "target": "economy"
+      },
+      {
+        "source": "long",
+        "target": "report"
+      },
+      {
+        "source": "long",
+        "target": "PwC"
+      },
+      {
+        "source": "long",
+        "target": "growth"
+      },
+      {
+        "source": "long",
+        "target": "place"
+      },
+      {
+        "source": "long",
+        "target": "forecast"
+      },
+      {
+        "source": "long",
+        "target": "long"
+      },
+      {
+        "source": "long",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "term"
+      },
+      {
+        "source": "US",
+        "target": "economy"
+      },
+      {
+        "source": "US",
+        "target": "report"
+      },
+      {
+        "source": "US",
+        "target": "PwC"
+      },
+      {
+        "source": "US",
+        "target": "growth"
+      },
+      {
+        "source": "US",
+        "target": "place"
+      },
+      {
+        "source": "US",
+        "target": "forecast"
+      },
+      {
+        "source": "US",
+        "target": "long"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "North",
+        "target": "missile"
+      },
+      {
+        "source": "North",
+        "target": "launch"
+      },
+      {
+        "source": "North",
+        "target": "US"
+      },
+      {
+        "source": "North",
+        "target": "test"
+      },
+      {
+        "source": "North",
+        "target": "Korean"
+      },
+      {
+        "source": "North",
+        "target": "solid"
+      },
+      {
+        "source": "North",
+        "target": "fuel"
+      },
+      {
+        "source": "North",
+        "target": "ballistic"
+      },
+      {
+        "source": "North",
+        "target": "nuclear"
+      },
+      {
+        "source": "missile",
+        "target": "missile"
+      },
+      {
+        "source": "missile",
+        "target": "launch"
+      },
+      {
+        "source": "missile",
+        "target": "US"
+      },
+      {
+        "source": "missile",
+        "target": "test"
+      },
+      {
+        "source": "missile",
+        "target": "Korean"
+      },
+      {
+        "source": "missile",
+        "target": "solid"
+      },
+      {
+        "source": "missile",
+        "target": "fuel"
+      },
+      {
+        "source": "missile",
+        "target": "ballistic"
+      },
+      {
+        "source": "missile",
+        "target": "nuclear"
+      },
+      {
+        "source": "launch",
+        "target": "missile"
+      },
+      {
+        "source": "launch",
+        "target": "launch"
+      },
+      {
+        "source": "launch",
+        "target": "US"
+      },
+      {
+        "source": "launch",
+        "target": "test"
+      },
+      {
+        "source": "launch",
+        "target": "Korean"
+      },
+      {
+        "source": "launch",
+        "target": "solid"
+      },
+      {
+        "source": "launch",
+        "target": "fuel"
+      },
+      {
+        "source": "launch",
+        "target": "ballistic"
+      },
+      {
+        "source": "launch",
+        "target": "nuclear"
+      },
+      {
+        "source": "US",
+        "target": "missile"
+      },
+      {
+        "source": "US",
+        "target": "launch"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "test"
+      },
+      {
+        "source": "US",
+        "target": "Korean"
+      },
+      {
+        "source": "US",
+        "target": "solid"
+      },
+      {
+        "source": "US",
+        "target": "fuel"
+      },
+      {
+        "source": "US",
+        "target": "ballistic"
+      },
+      {
+        "source": "US",
+        "target": "nuclear"
+      },
+      {
+        "source": "test",
+        "target": "missile"
+      },
+      {
+        "source": "test",
+        "target": "launch"
+      },
+      {
+        "source": "test",
+        "target": "US"
+      },
+      {
+        "source": "test",
+        "target": "test"
+      },
+      {
+        "source": "test",
+        "target": "Korean"
+      },
+      {
+        "source": "test",
+        "target": "solid"
+      },
+      {
+        "source": "test",
+        "target": "fuel"
+      },
+      {
+        "source": "test",
+        "target": "ballistic"
+      },
+      {
+        "source": "test",
+        "target": "nuclear"
+      },
+      {
+        "source": "Korean",
+        "target": "missile"
+      },
+      {
+        "source": "Korean",
+        "target": "launch"
+      },
+      {
+        "source": "Korean",
+        "target": "US"
+      },
+      {
+        "source": "Korean",
+        "target": "test"
+      },
+      {
+        "source": "Korean",
+        "target": "Korean"
+      },
+      {
+        "source": "Korean",
+        "target": "solid"
+      },
+      {
+        "source": "Korean",
+        "target": "fuel"
+      },
+      {
+        "source": "Korean",
+        "target": "ballistic"
+      },
+      {
+        "source": "Korean",
+        "target": "nuclear"
+      },
+      {
+        "source": "solid",
+        "target": "missile"
+      },
+      {
+        "source": "solid",
+        "target": "launch"
+      },
+      {
+        "source": "solid",
+        "target": "US"
+      },
+      {
+        "source": "solid",
+        "target": "test"
+      },
+      {
+        "source": "solid",
+        "target": "Korean"
+      },
+      {
+        "source": "solid",
+        "target": "solid"
+      },
+      {
+        "source": "solid",
+        "target": "fuel"
+      },
+      {
+        "source": "solid",
+        "target": "ballistic"
+      },
+      {
+        "source": "solid",
+        "target": "nuclear"
+      },
+      {
+        "source": "fuel",
+        "target": "missile"
+      },
+      {
+        "source": "fuel",
+        "target": "launch"
+      },
+      {
+        "source": "fuel",
+        "target": "US"
+      },
+      {
+        "source": "fuel",
+        "target": "test"
+      },
+      {
+        "source": "fuel",
+        "target": "Korean"
+      },
+      {
+        "source": "fuel",
+        "target": "solid"
+      },
+      {
+        "source": "fuel",
+        "target": "fuel"
+      },
+      {
+        "source": "fuel",
+        "target": "ballistic"
+      },
+      {
+        "source": "fuel",
+        "target": "nuclear"
+      },
+      {
+        "source": "ballistic",
+        "target": "missile"
+      },
+      {
+        "source": "ballistic",
+        "target": "launch"
+      },
+      {
+        "source": "ballistic",
+        "target": "US"
+      },
+      {
+        "source": "ballistic",
+        "target": "test"
+      },
+      {
+        "source": "ballistic",
+        "target": "Korean"
+      },
+      {
+        "source": "ballistic",
+        "target": "solid"
+      },
+      {
+        "source": "ballistic",
+        "target": "fuel"
+      },
+      {
+        "source": "ballistic",
+        "target": "ballistic"
+      },
+      {
+        "source": "ballistic",
+        "target": "nuclear"
+      },
+      {
+        "source": "nuclear",
+        "target": "missile"
+      },
+      {
+        "source": "nuclear",
+        "target": "launch"
+      },
+      {
+        "source": "nuclear",
+        "target": "US"
+      },
+      {
+        "source": "nuclear",
+        "target": "test"
+      },
+      {
+        "source": "nuclear",
+        "target": "Korean"
+      },
+      {
+        "source": "nuclear",
+        "target": "solid"
+      },
+      {
+        "source": "nuclear",
+        "target": "fuel"
+      },
+      {
+        "source": "nuclear",
+        "target": "ballistic"
+      },
+      {
+        "source": "nuclear",
+        "target": "nuclear"
+      },
+      {
+        "source": "Germany",
+        "target": "president"
+      },
+      {
+        "source": "Germany",
+        "target": "chancellor"
+      },
+      {
+        "source": "Germany",
+        "target": "government"
+      },
+      {
+        "source": "Germany",
+        "target": "world"
+      },
+      {
+        "source": "Germany",
+        "target": "Merkel"
+      },
+      {
+        "source": "Germany",
+        "target": "many"
+      },
+      {
+        "source": "Germany",
+        "target": "Trump"
+      },
+      {
+        "source": "Germany",
+        "target": "Europe"
+      },
+      {
+        "source": "Germany",
+        "target": "European"
+      },
+      {
+        "source": "president",
+        "target": "president"
+      },
+      {
+        "source": "president",
+        "target": "chancellor"
+      },
+      {
+        "source": "president",
+        "target": "government"
+      },
+      {
+        "source": "president",
+        "target": "world"
+      },
+      {
+        "source": "president",
+        "target": "Merkel"
+      },
+      {
+        "source": "president",
+        "target": "many"
+      },
+      {
+        "source": "president",
+        "target": "Trump"
+      },
+      {
+        "source": "president",
+        "target": "Europe"
+      },
+      {
+        "source": "president",
+        "target": "European"
+      },
+      {
+        "source": "chancellor",
+        "target": "president"
+      },
+      {
+        "source": "chancellor",
+        "target": "chancellor"
+      },
+      {
+        "source": "chancellor",
+        "target": "government"
+      },
+      {
+        "source": "chancellor",
+        "target": "world"
+      },
+      {
+        "source": "chancellor",
+        "target": "Merkel"
+      },
+      {
+        "source": "chancellor",
+        "target": "many"
+      },
+      {
+        "source": "chancellor",
+        "target": "Trump"
+      },
+      {
+        "source": "chancellor",
+        "target": "Europe"
+      },
+      {
+        "source": "chancellor",
+        "target": "European"
+      },
+      {
+        "source": "government",
+        "target": "president"
+      },
+      {
+        "source": "government",
+        "target": "chancellor"
+      },
+      {
+        "source": "government",
+        "target": "government"
+      },
+      {
+        "source": "government",
+        "target": "world"
+      },
+      {
+        "source": "government",
+        "target": "Merkel"
+      },
+      {
+        "source": "government",
+        "target": "many"
+      },
+      {
+        "source": "government",
+        "target": "Trump"
+      },
+      {
+        "source": "government",
+        "target": "Europe"
+      },
+      {
+        "source": "government",
+        "target": "European"
+      },
+      {
+        "source": "world",
+        "target": "president"
+      },
+      {
+        "source": "world",
+        "target": "chancellor"
+      },
+      {
+        "source": "world",
+        "target": "government"
+      },
+      {
+        "source": "world",
+        "target": "world"
+      },
+      {
+        "source": "world",
+        "target": "Merkel"
+      },
+      {
+        "source": "world",
+        "target": "many"
+      },
+      {
+        "source": "world",
+        "target": "Trump"
+      },
+      {
+        "source": "world",
+        "target": "Europe"
+      },
+      {
+        "source": "world",
+        "target": "European"
+      },
+      {
+        "source": "Merkel",
+        "target": "president"
+      },
+      {
+        "source": "Merkel",
+        "target": "chancellor"
+      },
+      {
+        "source": "Merkel",
+        "target": "government"
+      },
+      {
+        "source": "Merkel",
+        "target": "world"
+      },
+      {
+        "source": "Merkel",
+        "target": "Merkel"
+      },
+      {
+        "source": "Merkel",
+        "target": "many"
+      },
+      {
+        "source": "Merkel",
+        "target": "Trump"
+      },
+      {
+        "source": "Merkel",
+        "target": "Europe"
+      },
+      {
+        "source": "Merkel",
+        "target": "European"
+      },
+      {
+        "source": "many",
+        "target": "president"
+      },
+      {
+        "source": "many",
+        "target": "chancellor"
+      },
+      {
+        "source": "many",
+        "target": "government"
+      },
+      {
+        "source": "many",
+        "target": "world"
+      },
+      {
+        "source": "many",
+        "target": "Merkel"
+      },
+      {
+        "source": "many",
+        "target": "many"
+      },
+      {
+        "source": "many",
+        "target": "Trump"
+      },
+      {
+        "source": "many",
+        "target": "Europe"
+      },
+      {
+        "source": "many",
+        "target": "European"
+      },
+      {
+        "source": "Trump",
+        "target": "president"
+      },
+      {
+        "source": "Trump",
+        "target": "chancellor"
+      },
+      {
+        "source": "Trump",
+        "target": "government"
+      },
+      {
+        "source": "Trump",
+        "target": "world"
+      },
+      {
+        "source": "Trump",
+        "target": "Merkel"
+      },
+      {
+        "source": "Trump",
+        "target": "many"
+      },
+      {
+        "source": "Trump",
+        "target": "Trump"
+      },
+      {
+        "source": "Trump",
+        "target": "Europe"
+      },
+      {
+        "source": "Trump",
+        "target": "European"
+      },
+      {
+        "source": "Europe",
+        "target": "president"
+      },
+      {
+        "source": "Europe",
+        "target": "chancellor"
+      },
+      {
+        "source": "Europe",
+        "target": "government"
+      },
+      {
+        "source": "Europe",
+        "target": "world"
+      },
+      {
+        "source": "Europe",
+        "target": "Merkel"
+      },
+      {
+        "source": "Europe",
+        "target": "many"
+      },
+      {
+        "source": "Europe",
+        "target": "Trump"
+      },
+      {
+        "source": "Europe",
+        "target": "Europe"
+      },
+      {
+        "source": "Europe",
+        "target": "European"
+      },
+      {
+        "source": "European",
+        "target": "president"
+      },
+      {
+        "source": "European",
+        "target": "chancellor"
+      },
+      {
+        "source": "European",
+        "target": "government"
+      },
+      {
+        "source": "European",
+        "target": "world"
+      },
+      {
+        "source": "European",
+        "target": "Merkel"
+      },
+      {
+        "source": "European",
+        "target": "many"
+      },
+      {
+        "source": "European",
+        "target": "Trump"
+      },
+      {
+        "source": "European",
+        "target": "Europe"
+      },
+      {
+        "source": "European",
+        "target": "European"
+      },
+      {
+        "source": "Chemicals",
+        "target": "Pacific"
+      },
+      {
+        "source": "Chemicals",
+        "target": "Ocean"
+      },
+      {
+        "source": "Chemicals",
+        "target": "study"
+      },
+      {
+        "source": "Chemicals",
+        "target": "concentrations"
+      },
+      {
+        "source": "Chemicals",
+        "target": "pollutants"
+      },
+      {
+        "source": "Chemicals",
+        "target": "PCBs"
+      },
+      {
+        "source": "Chemicals",
+        "target": "deep"
+      },
+      {
+        "source": "Chemicals",
+        "target": "environment"
+      },
+      {
+        "source": "Chemicals",
+        "target": "levels"
+      },
+      {
+        "source": "Pacific",
+        "target": "Pacific"
+      },
+      {
+        "source": "Pacific",
+        "target": "Ocean"
+      },
+      {
+        "source": "Pacific",
+        "target": "study"
+      },
+      {
+        "source": "Pacific",
+        "target": "concentrations"
+      },
+      {
+        "source": "Pacific",
+        "target": "pollutants"
+      },
+      {
+        "source": "Pacific",
+        "target": "PCBs"
+      },
+      {
+        "source": "Pacific",
+        "target": "deep"
+      },
+      {
+        "source": "Pacific",
+        "target": "environment"
+      },
+      {
+        "source": "Pacific",
+        "target": "levels"
+      },
+      {
+        "source": "Ocean",
+        "target": "Pacific"
+      },
+      {
+        "source": "Ocean",
+        "target": "Ocean"
+      },
+      {
+        "source": "Ocean",
+        "target": "study"
+      },
+      {
+        "source": "Ocean",
+        "target": "concentrations"
+      },
+      {
+        "source": "Ocean",
+        "target": "pollutants"
+      },
+      {
+        "source": "Ocean",
+        "target": "PCBs"
+      },
+      {
+        "source": "Ocean",
+        "target": "deep"
+      },
+      {
+        "source": "Ocean",
+        "target": "environment"
+      },
+      {
+        "source": "Ocean",
+        "target": "levels"
+      },
+      {
+        "source": "study",
+        "target": "Pacific"
+      },
+      {
+        "source": "study",
+        "target": "Ocean"
+      },
+      {
+        "source": "study",
+        "target": "study"
+      },
+      {
+        "source": "study",
+        "target": "concentrations"
+      },
+      {
+        "source": "study",
+        "target": "pollutants"
+      },
+      {
+        "source": "study",
+        "target": "PCBs"
+      },
+      {
+        "source": "study",
+        "target": "deep"
+      },
+      {
+        "source": "study",
+        "target": "environment"
+      },
+      {
+        "source": "study",
+        "target": "levels"
+      },
+      {
+        "source": "concentrations",
+        "target": "Pacific"
+      },
+      {
+        "source": "concentrations",
+        "target": "Ocean"
+      },
+      {
+        "source": "concentrations",
+        "target": "study"
+      },
+      {
+        "source": "concentrations",
+        "target": "concentrations"
+      },
+      {
+        "source": "concentrations",
+        "target": "pollutants"
+      },
+      {
+        "source": "concentrations",
+        "target": "PCBs"
+      },
+      {
+        "source": "concentrations",
+        "target": "deep"
+      },
+      {
+        "source": "concentrations",
+        "target": "environment"
+      },
+      {
+        "source": "concentrations",
+        "target": "levels"
+      },
+      {
+        "source": "pollutants",
+        "target": "Pacific"
+      },
+      {
+        "source": "pollutants",
+        "target": "Ocean"
+      },
+      {
+        "source": "pollutants",
+        "target": "study"
+      },
+      {
+        "source": "pollutants",
+        "target": "concentrations"
+      },
+      {
+        "source": "pollutants",
+        "target": "pollutants"
+      },
+      {
+        "source": "pollutants",
+        "target": "PCBs"
+      },
+      {
+        "source": "pollutants",
+        "target": "deep"
+      },
+      {
+        "source": "pollutants",
+        "target": "environment"
+      },
+      {
+        "source": "pollutants",
+        "target": "levels"
+      },
+      {
+        "source": "PCBs",
+        "target": "Pacific"
+      },
+      {
+        "source": "PCBs",
+        "target": "Ocean"
+      },
+      {
+        "source": "PCBs",
+        "target": "study"
+      },
+      {
+        "source": "PCBs",
+        "target": "concentrations"
+      },
+      {
+        "source": "PCBs",
+        "target": "pollutants"
+      },
+      {
+        "source": "PCBs",
+        "target": "PCBs"
+      },
+      {
+        "source": "PCBs",
+        "target": "deep"
+      },
+      {
+        "source": "PCBs",
+        "target": "environment"
+      },
+      {
+        "source": "PCBs",
+        "target": "levels"
+      },
+      {
+        "source": "deep",
+        "target": "Pacific"
+      },
+      {
+        "source": "deep",
+        "target": "Ocean"
+      },
+      {
+        "source": "deep",
+        "target": "study"
+      },
+      {
+        "source": "deep",
+        "target": "concentrations"
+      },
+      {
+        "source": "deep",
+        "target": "pollutants"
+      },
+      {
+        "source": "deep",
+        "target": "PCBs"
+      },
+      {
+        "source": "deep",
+        "target": "deep"
+      },
+      {
+        "source": "deep",
+        "target": "environment"
+      },
+      {
+        "source": "deep",
+        "target": "levels"
+      },
+      {
+        "source": "environment",
+        "target": "Pacific"
+      },
+      {
+        "source": "environment",
+        "target": "Ocean"
+      },
+      {
+        "source": "environment",
+        "target": "study"
+      },
+      {
+        "source": "environment",
+        "target": "concentrations"
+      },
+      {
+        "source": "environment",
+        "target": "pollutants"
+      },
+      {
+        "source": "environment",
+        "target": "PCBs"
+      },
+      {
+        "source": "environment",
+        "target": "deep"
+      },
+      {
+        "source": "environment",
+        "target": "environment"
+      },
+      {
+        "source": "environment",
+        "target": "levels"
+      },
+      {
+        "source": "levels",
+        "target": "Pacific"
+      },
+      {
+        "source": "levels",
+        "target": "Ocean"
+      },
+      {
+        "source": "levels",
+        "target": "study"
+      },
+      {
+        "source": "levels",
+        "target": "concentrations"
+      },
+      {
+        "source": "levels",
+        "target": "pollutants"
+      },
+      {
+        "source": "levels",
+        "target": "PCBs"
+      },
+      {
+        "source": "levels",
+        "target": "deep"
+      },
+      {
+        "source": "levels",
+        "target": "environment"
+      },
+      {
+        "source": "levels",
+        "target": "levels"
+      },
+      {
+        "source": "US",
+        "target": "space"
+      },
+      {
+        "source": "US",
+        "target": "India"
+      },
+      {
+        "source": "US",
+        "target": "launch"
+      },
+      {
+        "source": "US",
+        "target": "satellites"
+      },
+      {
+        "source": "US",
+        "target": "country"
+      },
+      {
+        "source": "US",
+        "target": "mission"
+      },
+      {
+        "source": "US",
+        "target": "Japan"
+      },
+      {
+        "source": "US",
+        "target": "technology"
+      },
+      {
+        "source": "US",
+        "target": "moon"
+      },
+      {
+        "source": "space",
+        "target": "space"
+      },
+      {
+        "source": "space",
+        "target": "India"
+      },
+      {
+        "source": "space",
+        "target": "launch"
+      },
+      {
+        "source": "space",
+        "target": "satellites"
+      },
+      {
+        "source": "space",
+        "target": "country"
+      },
+      {
+        "source": "space",
+        "target": "mission"
+      },
+      {
+        "source": "space",
+        "target": "Japan"
+      },
+      {
+        "source": "space",
+        "target": "technology"
+      },
+      {
+        "source": "space",
+        "target": "moon"
+      },
+      {
+        "source": "India",
+        "target": "space"
+      },
+      {
+        "source": "India",
+        "target": "India"
+      },
+      {
+        "source": "India",
+        "target": "launch"
+      },
+      {
+        "source": "India",
+        "target": "satellites"
+      },
+      {
+        "source": "India",
+        "target": "country"
+      },
+      {
+        "source": "India",
+        "target": "mission"
+      },
+      {
+        "source": "India",
+        "target": "Japan"
+      },
+      {
+        "source": "India",
+        "target": "technology"
+      },
+      {
+        "source": "India",
+        "target": "moon"
+      },
+      {
+        "source": "launch",
+        "target": "space"
+      },
+      {
+        "source": "launch",
+        "target": "India"
+      },
+      {
+        "source": "launch",
+        "target": "launch"
+      },
+      {
+        "source": "launch",
+        "target": "satellites"
+      },
+      {
+        "source": "launch",
+        "target": "country"
+      },
+      {
+        "source": "launch",
+        "target": "mission"
+      },
+      {
+        "source": "launch",
+        "target": "Japan"
+      },
+      {
+        "source": "launch",
+        "target": "technology"
+      },
+      {
+        "source": "launch",
+        "target": "moon"
+      },
+      {
+        "source": "satellites",
+        "target": "space"
+      },
+      {
+        "source": "satellites",
+        "target": "India"
+      },
+      {
+        "source": "satellites",
+        "target": "launch"
+      },
+      {
+        "source": "satellites",
+        "target": "satellites"
+      },
+      {
+        "source": "satellites",
+        "target": "country"
+      },
+      {
+        "source": "satellites",
+        "target": "mission"
+      },
+      {
+        "source": "satellites",
+        "target": "Japan"
+      },
+      {
+        "source": "satellites",
+        "target": "technology"
+      },
+      {
+        "source": "satellites",
+        "target": "moon"
+      },
+      {
+        "source": "country",
+        "target": "space"
+      },
+      {
+        "source": "country",
+        "target": "India"
+      },
+      {
+        "source": "country",
+        "target": "launch"
+      },
+      {
+        "source": "country",
+        "target": "satellites"
+      },
+      {
+        "source": "country",
+        "target": "country"
+      },
+      {
+        "source": "country",
+        "target": "mission"
+      },
+      {
+        "source": "country",
+        "target": "Japan"
+      },
+      {
+        "source": "country",
+        "target": "technology"
+      },
+      {
+        "source": "country",
+        "target": "moon"
+      },
+      {
+        "source": "mission",
+        "target": "space"
+      },
+      {
+        "source": "mission",
+        "target": "India"
+      },
+      {
+        "source": "mission",
+        "target": "launch"
+      },
+      {
+        "source": "mission",
+        "target": "satellites"
+      },
+      {
+        "source": "mission",
+        "target": "country"
+      },
+      {
+        "source": "mission",
+        "target": "mission"
+      },
+      {
+        "source": "mission",
+        "target": "Japan"
+      },
+      {
+        "source": "mission",
+        "target": "technology"
+      },
+      {
+        "source": "mission",
+        "target": "moon"
+      },
+      {
+        "source": "Japan",
+        "target": "space"
+      },
+      {
+        "source": "Japan",
+        "target": "India"
+      },
+      {
+        "source": "Japan",
+        "target": "launch"
+      },
+      {
+        "source": "Japan",
+        "target": "satellites"
+      },
+      {
+        "source": "Japan",
+        "target": "country"
+      },
+      {
+        "source": "Japan",
+        "target": "mission"
+      },
+      {
+        "source": "Japan",
+        "target": "Japan"
+      },
+      {
+        "source": "Japan",
+        "target": "technology"
+      },
+      {
+        "source": "Japan",
+        "target": "moon"
+      },
+      {
+        "source": "technology",
+        "target": "space"
+      },
+      {
+        "source": "technology",
+        "target": "India"
+      },
+      {
+        "source": "technology",
+        "target": "launch"
+      },
+      {
+        "source": "technology",
+        "target": "satellites"
+      },
+      {
+        "source": "technology",
+        "target": "country"
+      },
+      {
+        "source": "technology",
+        "target": "mission"
+      },
+      {
+        "source": "technology",
+        "target": "Japan"
+      },
+      {
+        "source": "technology",
+        "target": "technology"
+      },
+      {
+        "source": "technology",
+        "target": "moon"
+      },
+      {
+        "source": "moon",
+        "target": "space"
+      },
+      {
+        "source": "moon",
+        "target": "India"
+      },
+      {
+        "source": "moon",
+        "target": "launch"
+      },
+      {
+        "source": "moon",
+        "target": "satellites"
+      },
+      {
+        "source": "moon",
+        "target": "country"
+      },
+      {
+        "source": "moon",
+        "target": "mission"
+      },
+      {
+        "source": "moon",
+        "target": "Japan"
+      },
+      {
+        "source": "moon",
+        "target": "technology"
+      },
+      {
+        "source": "moon",
+        "target": "moon"
+      },
+      {
+        "source": "House",
+        "target": "Russia"
+      },
+      {
+        "source": "House",
+        "target": "US"
+      },
+      {
+        "source": "House",
+        "target": "Flynn"
+      },
+      {
+        "source": "House",
+        "target": "Russian"
+      },
+      {
+        "source": "House",
+        "target": "ambassador"
+      },
+      {
+        "source": "House",
+        "target": "sanctions"
+      },
+      {
+        "source": "House",
+        "target": "Trump"
+      },
+      {
+        "source": "House",
+        "target": "Mr"
+      },
+      {
+        "source": "House",
+        "target": "President"
+      },
+      {
+        "source": "Russia",
+        "target": "Russia"
+      },
+      {
+        "source": "Russia",
+        "target": "US"
+      },
+      {
+        "source": "Russia",
+        "target": "Flynn"
+      },
+      {
+        "source": "Russia",
+        "target": "Russian"
+      },
+      {
+        "source": "Russia",
+        "target": "ambassador"
+      },
+      {
+        "source": "Russia",
+        "target": "sanctions"
+      },
+      {
+        "source": "Russia",
+        "target": "Trump"
+      },
+      {
+        "source": "Russia",
+        "target": "Mr"
+      },
+      {
+        "source": "Russia",
+        "target": "President"
+      },
+      {
+        "source": "US",
+        "target": "Russia"
+      },
+      {
+        "source": "US",
+        "target": "US"
+      },
+      {
+        "source": "US",
+        "target": "Flynn"
+      },
+      {
+        "source": "US",
+        "target": "Russian"
+      },
+      {
+        "source": "US",
+        "target": "ambassador"
+      },
+      {
+        "source": "US",
+        "target": "sanctions"
+      },
+      {
+        "source": "US",
+        "target": "Trump"
+      },
+      {
+        "source": "US",
+        "target": "Mr"
+      },
+      {
+        "source": "US",
+        "target": "President"
+      },
+      {
+        "source": "Flynn",
+        "target": "Russia"
+      },
+      {
+        "source": "Flynn",
+        "target": "US"
+      },
+      {
+        "source": "Flynn",
+        "target": "Flynn"
+      },
+      {
+        "source": "Flynn",
+        "target": "Russian"
+      },
+      {
+        "source": "Flynn",
+        "target": "ambassador"
+      },
+      {
+        "source": "Flynn",
+        "target": "sanctions"
+      },
+      {
+        "source": "Flynn",
+        "target": "Trump"
+      },
+      {
+        "source": "Flynn",
+        "target": "Mr"
+      },
+      {
+        "source": "Flynn",
+        "target": "President"
+      },
+      {
+        "source": "Russian",
+        "target": "Russia"
+      },
+      {
+        "source": "Russian",
+        "target": "US"
+      },
+      {
+        "source": "Russian",
+        "target": "Flynn"
+      },
+      {
+        "source": "Russian",
+        "target": "Russian"
+      },
+      {
+        "source": "Russian",
+        "target": "ambassador"
+      },
+      {
+        "source": "Russian",
+        "target": "sanctions"
+      },
+      {
+        "source": "Russian",
+        "target": "Trump"
+      },
+      {
+        "source": "Russian",
+        "target": "Mr"
+      },
+      {
+        "source": "Russian",
+        "target": "President"
+      },
+      {
+        "source": "ambassador",
+        "target": "Russia"
+      },
+      {
+        "source": "ambassador",
+        "target": "US"
+      },
+      {
+        "source": "ambassador",
+        "target": "Flynn"
+      },
+      {
+        "source": "ambassador",
+        "target": "Russian"
+      },
+      {
+        "source": "ambassador",
+        "target": "ambassador"
+      },
+      {
+        "source": "ambassador",
+        "target": "sanctions"
+      },
+      {
+        "source": "ambassador",
+        "target": "Trump"
+      },
+      {
+        "source": "ambassador",
+        "target": "Mr"
+      },
+      {
+        "source": "ambassador",
+        "target": "President"
+      },
+      {
+        "source": "sanctions",
+        "target": "Russia"
+      },
+      {
+        "source": "sanctions",
+        "target": "US"
+      },
+      {
+        "source": "sanctions",
+        "target": "Flynn"
+      },
+      {
+        "source": "sanctions",
+        "target": "Russian"
+      },
+      {
+        "source": "sanctions",
+        "target": "ambassador"
+      },
+      {
+        "source": "sanctions",
+        "target": "sanctions"
+      },
+      {
+        "source": "sanctions",
+        "target": "Trump"
+      },
+      {
+        "source": "sanctions",
+        "target": "Mr"
+      },
+      {
+        "source": "sanctions",
+        "target": "President"
+      },
+      {
+        "source": "Trump",
+        "target": "Russia"
+      },
+      {
+        "source": "Trump",
+        "target": "US"
+      },
+      {
+        "source": "Trump",
+        "target": "Flynn"
+      },
+      {
+        "source": "Trump",
+        "target": "Russian"
+      },
+      {
+        "source": "Trump",
+        "target": "ambassador"
+      },
+      {
+        "source": "Trump",
+        "target": "sanctions"
+      },
+      {
+        "source": "Trump",
+        "target": "Trump"
+      },
+      {
+        "source": "Trump",
+        "target": "Mr"
+      },
+      {
+        "source": "Trump",
+        "target": "President"
+      },
+      {
+        "source": "Mr",
+        "target": "Russia"
+      },
+      {
+        "source": "Mr",
+        "target": "US"
+      },
+      {
+        "source": "Mr",
+        "target": "Flynn"
+      },
+      {
+        "source": "Mr",
+        "target": "Russian"
+      },
+      {
+        "source": "Mr",
+        "target": "ambassador"
+      },
+      {
+        "source": "Mr",
+        "target": "sanctions"
+      },
+      {
+        "source": "Mr",
+        "target": "Trump"
+      },
+      {
+        "source": "Mr",
+        "target": "Mr"
+      },
+      {
+        "source": "Mr",
+        "target": "President"
+      },
+      {
+        "source": "President",
+        "target": "Russia"
+      },
+      {
+        "source": "President",
+        "target": "US"
+      },
+      {
+        "source": "President",
+        "target": "Flynn"
+      },
+      {
+        "source": "President",
+        "target": "Russian"
+      },
+      {
+        "source": "President",
+        "target": "ambassador"
+      },
+      {
+        "source": "President",
+        "target": "sanctions"
+      },
+      {
+        "source": "President",
+        "target": "Trump"
+      },
+      {
+        "source": "President",
+        "target": "Mr"
+      },
+      {
+        "source": "President",
+        "target": "President"
+      },
+      {
+        "source": "U",
+        "target": "Security"
+      },
+      {
+        "source": "U",
+        "target": "Council"
+      },
+      {
+        "source": "U",
+        "target": "North"
+      },
+      {
+        "source": "U",
+        "target": "Korea"
+      },
+      {
+        "source": "U",
+        "target": "missile"
+      },
+      {
+        "source": "U",
+        "target": "state"
+      },
+      {
+        "source": "U",
+        "target": "United"
+      },
+      {
+        "source": "U",
+        "target": "South"
+      },
+      {
+        "source": "U",
+        "target": "nuclear"
+      },
+      {
+        "source": "Security",
+        "target": "Security"
+      },
+      {
+        "source": "Security",
+        "target": "Council"
+      },
+      {
+        "source": "Security",
+        "target": "North"
+      },
+      {
+        "source": "Security",
+        "target": "Korea"
+      },
+      {
+        "source": "Security",
+        "target": "missile"
+      },
+      {
+        "source": "Security",
+        "target": "state"
+      },
+      {
+        "source": "Security",
+        "target": "United"
+      },
+      {
+        "source": "Security",
+        "target": "South"
+      },
+      {
+        "source": "Security",
+        "target": "nuclear"
+      },
+      {
+        "source": "Council",
+        "target": "Security"
+      },
+      {
+        "source": "Council",
+        "target": "Council"
+      },
+      {
+        "source": "Council",
+        "target": "North"
+      },
+      {
+        "source": "Council",
+        "target": "Korea"
+      },
+      {
+        "source": "Council",
+        "target": "missile"
+      },
+      {
+        "source": "Council",
+        "target": "state"
+      },
+      {
+        "source": "Council",
+        "target": "United"
+      },
+      {
+        "source": "Council",
+        "target": "South"
+      },
+      {
+        "source": "Council",
+        "target": "nuclear"
+      },
+      {
+        "source": "North",
+        "target": "Security"
+      },
+      {
+        "source": "North",
+        "target": "Council"
+      },
+      {
+        "source": "North",
+        "target": "North"
+      },
+      {
+        "source": "North",
+        "target": "Korea"
+      },
+      {
+        "source": "North",
+        "target": "missile"
+      },
+      {
+        "source": "North",
+        "target": "state"
+      },
+      {
+        "source": "North",
+        "target": "United"
+      },
+      {
+        "source": "North",
+        "target": "South"
+      },
+      {
+        "source": "North",
+        "target": "nuclear"
+      },
+      {
+        "source": "Korea",
+        "target": "Security"
+      },
+      {
+        "source": "Korea",
+        "target": "Council"
+      },
+      {
+        "source": "Korea",
+        "target": "North"
+      },
+      {
+        "source": "Korea",
+        "target": "Korea"
+      },
+      {
+        "source": "Korea",
+        "target": "missile"
+      },
+      {
+        "source": "Korea",
+        "target": "state"
+      },
+      {
+        "source": "Korea",
+        "target": "United"
+      },
+      {
+        "source": "Korea",
+        "target": "South"
+      },
+      {
+        "source": "Korea",
+        "target": "nuclear"
+      },
+      {
+        "source": "missile",
+        "target": "Security"
+      },
+      {
+        "source": "missile",
+        "target": "Council"
+      },
+      {
+        "source": "missile",
+        "target": "North"
+      },
+      {
+        "source": "missile",
+        "target": "Korea"
+      },
+      {
+        "source": "missile",
+        "target": "missile"
+      },
+      {
+        "source": "missile",
+        "target": "state"
+      },
+      {
+        "source": "missile",
+        "target": "United"
+      },
+      {
+        "source": "missile",
+        "target": "South"
+      },
+      {
+        "source": "missile",
+        "target": "nuclear"
+      },
+      {
+        "source": "state",
+        "target": "Security"
+      },
+      {
+        "source": "state",
+        "target": "Council"
+      },
+      {
+        "source": "state",
+        "target": "North"
+      },
+      {
+        "source": "state",
+        "target": "Korea"
+      },
+      {
+        "source": "state",
+        "target": "missile"
+      },
+      {
+        "source": "state",
+        "target": "state"
+      },
+      {
+        "source": "state",
+        "target": "United"
+      },
+      {
+        "source": "state",
+        "target": "South"
+      },
+      {
+        "source": "state",
+        "target": "nuclear"
+      },
+      {
+        "source": "United",
+        "target": "Security"
+      },
+      {
+        "source": "United",
+        "target": "Council"
+      },
+      {
+        "source": "United",
+        "target": "North"
+      },
+      {
+        "source": "United",
+        "target": "Korea"
+      },
+      {
+        "source": "United",
+        "target": "missile"
+      },
+      {
+        "source": "United",
+        "target": "state"
+      },
+      {
+        "source": "United",
+        "target": "United"
+      },
+      {
+        "source": "United",
+        "target": "South"
+      },
+      {
+        "source": "United",
+        "target": "nuclear"
+      },
+      {
+        "source": "South",
+        "target": "Security"
+      },
+      {
+        "source": "South",
+        "target": "Council"
+      },
+      {
+        "source": "South",
+        "target": "North"
+      },
+      {
+        "source": "South",
+        "target": "Korea"
+      },
+      {
+        "source": "South",
+        "target": "missile"
+      },
+      {
+        "source": "South",
+        "target": "state"
+      },
+      {
+        "source": "South",
+        "target": "United"
+      },
+      {
+        "source": "South",
+        "target": "South"
+      },
+      {
+        "source": "South",
+        "target": "nuclear"
+      },
+      {
+        "source": "nuclear",
+        "target": "Security"
+      },
+      {
+        "source": "nuclear",
+        "target": "Council"
+      },
+      {
+        "source": "nuclear",
+        "target": "North"
+      },
+      {
+        "source": "nuclear",
+        "target": "Korea"
+      },
+      {
+        "source": "nuclear",
+        "target": "missile"
+      },
+      {
+        "source": "nuclear",
+        "target": "state"
+      },
+      {
+        "source": "nuclear",
+        "target": "United"
+      },
+      {
+        "source": "nuclear",
+        "target": "South"
+      },
+      {
+        "source": "nuclear",
+        "target": "nuclear"
+      },
+      {
+        "source": "political",
+        "target": "parties"
+      },
+      {
+        "source": "political",
+        "target": "advice"
+      },
+      {
+        "source": "political",
+        "target": "security"
+      },
+      {
+        "source": "political",
+        "target": "Democratic"
+      },
+      {
+        "source": "political",
+        "target": "Martin"
+      },
+      {
+        "source": "political",
+        "target": "concern"
+      },
+      {
+        "source": "political",
+        "target": "public"
+      },
+      {
+        "source": "political",
+        "target": "system"
+      },
+      {
+        "source": "political",
+        "target": "personal"
+      },
+      {
+        "source": "parties",
+        "target": "parties"
+      },
+      {
+        "source": "parties",
+        "target": "advice"
+      },
+      {
+        "source": "parties",
+        "target": "security"
+      },
+      {
+        "source": "parties",
+        "target": "Democratic"
+      },
+      {
+        "source": "parties",
+        "target": "Martin"
+      },
+      {
+        "source": "parties",
+        "target": "concern"
+      },
+      {
+        "source": "parties",
+        "target": "public"
+      },
+      {
+        "source": "parties",
+        "target": "system"
+      },
+      {
+        "source": "parties",
+        "target": "personal"
+      },
+      {
+        "source": "advice",
+        "target": "parties"
+      },
+      {
+        "source": "advice",
+        "target": "advice"
+      },
+      {
+        "source": "advice",
+        "target": "security"
+      },
+      {
+        "source": "advice",
+        "target": "Democratic"
+      },
+      {
+        "source": "advice",
+        "target": "Martin"
+      },
+      {
+        "source": "advice",
+        "target": "concern"
+      },
+      {
+        "source": "advice",
+        "target": "public"
+      },
+      {
+        "source": "advice",
+        "target": "system"
+      },
+      {
+        "source": "advice",
+        "target": "personal"
+      },
+      {
+        "source": "security",
+        "target": "parties"
+      },
+      {
+        "source": "security",
+        "target": "advice"
+      },
+      {
+        "source": "security",
+        "target": "security"
+      },
+      {
+        "source": "security",
+        "target": "Democratic"
+      },
+      {
+        "source": "security",
+        "target": "Martin"
+      },
+      {
+        "source": "security",
+        "target": "concern"
+      },
+      {
+        "source": "security",
+        "target": "public"
+      },
+      {
+        "source": "security",
+        "target": "system"
+      },
+      {
+        "source": "security",
+        "target": "personal"
+      },
+      {
+        "source": "Democratic",
+        "target": "parties"
+      },
+      {
+        "source": "Democratic",
+        "target": "advice"
+      },
+      {
+        "source": "Democratic",
+        "target": "security"
+      },
+      {
+        "source": "Democratic",
+        "target": "Democratic"
+      },
+      {
+        "source": "Democratic",
+        "target": "Martin"
+      },
+      {
+        "source": "Democratic",
+        "target": "concern"
+      },
+      {
+        "source": "Democratic",
+        "target": "public"
+      },
+      {
+        "source": "Democratic",
+        "target": "system"
+      },
+      {
+        "source": "Democratic",
+        "target": "personal"
+      },
+      {
+        "source": "Martin",
+        "target": "parties"
+      },
+      {
+        "source": "Martin",
+        "target": "advice"
+      },
+      {
+        "source": "Martin",
+        "target": "security"
+      },
+      {
+        "source": "Martin",
+        "target": "Democratic"
+      },
+      {
+        "source": "Martin",
+        "target": "Martin"
+      },
+      {
+        "source": "Martin",
+        "target": "concern"
+      },
+      {
+        "source": "Martin",
+        "target": "public"
+      },
+      {
+        "source": "Martin",
+        "target": "system"
+      },
+      {
+        "source": "Martin",
+        "target": "personal"
+      },
+      {
+        "source": "concern",
+        "target": "parties"
+      },
+      {
+        "source": "concern",
+        "target": "advice"
+      },
+      {
+        "source": "concern",
+        "target": "security"
+      },
+      {
+        "source": "concern",
+        "target": "Democratic"
+      },
+      {
+        "source": "concern",
+        "target": "Martin"
+      },
+      {
+        "source": "concern",
+        "target": "concern"
+      },
+      {
+        "source": "concern",
+        "target": "public"
+      },
+      {
+        "source": "concern",
+        "target": "system"
+      },
+      {
+        "source": "concern",
+        "target": "personal"
+      },
+      {
+        "source": "public",
+        "target": "parties"
+      },
+      {
+        "source": "public",
+        "target": "advice"
+      },
+      {
+        "source": "public",
+        "target": "security"
+      },
+      {
+        "source": "public",
+        "target": "Democratic"
+      },
+      {
+        "source": "public",
+        "target": "Martin"
+      },
+      {
+        "source": "public",
+        "target": "concern"
+      },
+      {
+        "source": "public",
+        "target": "public"
+      },
+      {
+        "source": "public",
+        "target": "system"
+      },
+      {
+        "source": "public",
+        "target": "personal"
+      },
+      {
+        "source": "system",
+        "target": "parties"
+      },
+      {
+        "source": "system",
+        "target": "advice"
+      },
+      {
+        "source": "system",
+        "target": "security"
+      },
+      {
+        "source": "system",
+        "target": "Democratic"
+      },
+      {
+        "source": "system",
+        "target": "Martin"
+      },
+      {
+        "source": "system",
+        "target": "concern"
+      },
+      {
+        "source": "system",
+        "target": "public"
+      },
+      {
+        "source": "system",
+        "target": "system"
+      },
+      {
+        "source": "system",
+        "target": "personal"
+      },
+      {
+        "source": "personal",
+        "target": "parties"
+      },
+      {
+        "source": "personal",
+        "target": "advice"
+      },
+      {
+        "source": "personal",
+        "target": "security"
+      },
+      {
+        "source": "personal",
+        "target": "Democratic"
+      },
+      {
+        "source": "personal",
+        "target": "Martin"
+      },
+      {
+        "source": "personal",
+        "target": "concern"
+      },
+      {
+        "source": "personal",
+        "target": "public"
+      },
+      {
+        "source": "personal",
+        "target": "system"
+      },
+      {
+        "source": "personal",
+        "target": "personal"
+      },
+      {
+        "source": "iPhone",
+        "target": "stock"
+      },
+      {
+        "source": "iPhone",
+        "target": "high"
+      },
+      {
+        "source": "iPhone",
+        "target": "Apple"
+      },
+      {
+        "source": "iPhone",
+        "target": "time"
+      },
+      {
+        "source": "iPhone",
+        "target": "new"
+      },
+      {
+        "source": "iPhone",
+        "target": "investor"
+      },
+      {
+        "source": "iPhone",
+        "target": "year"
+      },
+      {
+        "source": "iPhone",
+        "target": "sales"
+      },
+      {
+        "source": "iPhone",
+        "target": "cash"
+      },
+      {
+        "source": "stock",
+        "target": "stock"
+      },
+      {
+        "source": "stock",
+        "target": "high"
+      },
+      {
+        "source": "stock",
+        "target": "Apple"
+      },
+      {
+        "source": "stock",
+        "target": "time"
+      },
+      {
+        "source": "stock",
+        "target": "new"
+      },
+      {
+        "source": "stock",
+        "target": "investor"
+      },
+      {
+        "source": "stock",
+        "target": "year"
+      },
+      {
+        "source": "stock",
+        "target": "sales"
+      },
+      {
+        "source": "stock",
+        "target": "cash"
+      },
+      {
+        "source": "high",
+        "target": "stock"
+      },
+      {
+        "source": "high",
+        "target": "high"
+      },
+      {
+        "source": "high",
+        "target": "Apple"
+      },
+      {
+        "source": "high",
+        "target": "time"
+      },
+      {
+        "source": "high",
+        "target": "new"
+      },
+      {
+        "source": "high",
+        "target": "investor"
+      },
+      {
+        "source": "high",
+        "target": "year"
+      },
+      {
+        "source": "high",
+        "target": "sales"
+      },
+      {
+        "source": "high",
+        "target": "cash"
+      },
+      {
+        "source": "Apple",
+        "target": "stock"
+      },
+      {
+        "source": "Apple",
+        "target": "high"
+      },
+      {
+        "source": "Apple",
+        "target": "Apple"
+      },
+      {
+        "source": "Apple",
+        "target": "time"
+      },
+      {
+        "source": "Apple",
+        "target": "new"
+      },
+      {
+        "source": "Apple",
+        "target": "investor"
+      },
+      {
+        "source": "Apple",
+        "target": "year"
+      },
+      {
+        "source": "Apple",
+        "target": "sales"
+      },
+      {
+        "source": "Apple",
+        "target": "cash"
+      },
+      {
+        "source": "time",
+        "target": "stock"
+      },
+      {
+        "source": "time",
+        "target": "high"
+      },
+      {
+        "source": "time",
+        "target": "Apple"
+      },
+      {
+        "source": "time",
+        "target": "time"
+      },
+      {
+        "source": "time",
+        "target": "new"
+      },
+      {
+        "source": "time",
+        "target": "investor"
+      },
+      {
+        "source": "time",
+        "target": "year"
+      },
+      {
+        "source": "time",
+        "target": "sales"
+      },
+      {
+        "source": "time",
+        "target": "cash"
+      },
+      {
+        "source": "new",
+        "target": "stock"
+      },
+      {
+        "source": "new",
+        "target": "high"
+      },
+      {
+        "source": "new",
+        "target": "Apple"
+      },
+      {
+        "source": "new",
+        "target": "time"
+      },
+      {
+        "source": "new",
+        "target": "new"
+      },
+      {
+        "source": "new",
+        "target": "investor"
+      },
+      {
+        "source": "new",
+        "target": "year"
+      },
+      {
+        "source": "new",
+        "target": "sales"
+      },
+      {
+        "source": "new",
+        "target": "cash"
+      },
+      {
+        "source": "investor",
+        "target": "stock"
+      },
+      {
+        "source": "investor",
+        "target": "high"
+      },
+      {
+        "source": "investor",
+        "target": "Apple"
+      },
+      {
+        "source": "investor",
+        "target": "time"
+      },
+      {
+        "source": "investor",
+        "target": "new"
+      },
+      {
+        "source": "investor",
+        "target": "investor"
+      },
+      {
+        "source": "investor",
+        "target": "year"
+      },
+      {
+        "source": "investor",
+        "target": "sales"
+      },
+      {
+        "source": "investor",
+        "target": "cash"
+      },
+      {
+        "source": "year",
+        "target": "stock"
+      },
+      {
+        "source": "year",
+        "target": "high"
+      },
+      {
+        "source": "year",
+        "target": "Apple"
+      },
+      {
+        "source": "year",
+        "target": "time"
+      },
+      {
+        "source": "year",
+        "target": "new"
+      },
+      {
+        "source": "year",
+        "target": "investor"
+      },
+      {
+        "source": "year",
+        "target": "year"
+      },
+      {
+        "source": "year",
+        "target": "sales"
+      },
+      {
+        "source": "year",
+        "target": "cash"
+      },
+      {
+        "source": "sales",
+        "target": "stock"
+      },
+      {
+        "source": "sales",
+        "target": "high"
+      },
+      {
+        "source": "sales",
+        "target": "Apple"
+      },
+      {
+        "source": "sales",
+        "target": "time"
+      },
+      {
+        "source": "sales",
+        "target": "new"
+      },
+      {
+        "source": "sales",
+        "target": "investor"
+      },
+      {
+        "source": "sales",
+        "target": "year"
+      },
+      {
+        "source": "sales",
+        "target": "sales"
+      },
+      {
+        "source": "sales",
+        "target": "cash"
+      },
+      {
+        "source": "cash",
+        "target": "stock"
+      },
+      {
+        "source": "cash",
+        "target": "high"
+      },
+      {
+        "source": "cash",
+        "target": "Apple"
+      },
+      {
+        "source": "cash",
+        "target": "time"
+      },
+      {
+        "source": "cash",
+        "target": "new"
+      },
+      {
+        "source": "cash",
+        "target": "investor"
+      },
+      {
+        "source": "cash",
+        "target": "year"
+      },
+      {
+        "source": "cash",
+        "target": "sales"
+      },
+      {
+        "source": "cash",
+        "target": "cash"
+      },
+      {
+        "source": "UK",
+        "target": "employers"
+      },
+      {
+        "source": "UK",
+        "target": "jobs"
+      },
+      {
+        "source": "UK",
+        "target": "EU"
+      },
+      {
+        "source": "UK",
+        "target": "labour"
+      },
+      {
+        "source": "UK",
+        "target": "food"
+      },
+      {
+        "source": "UK",
+        "target": "sectors"
+      },
+      {
+        "source": "UK",
+        "target": "nationals"
+      },
+      {
+        "source": "UK",
+        "target": "months"
+      },
+      {
+        "source": "UK",
+        "target": "workforce"
+      },
+      {
+        "source": "employers",
+        "target": "employers"
+      },
+      {
+        "source": "employers",
+        "target": "jobs"
+      },
+      {
+        "source": "employers",
+        "target": "EU"
+      },
+      {
+        "source": "employers",
+        "target": "labour"
+      },
+      {
+        "source": "employers",
+        "target": "food"
+      },
+      {
+        "source": "employers",
+        "target": "sectors"
+      },
+      {
+        "source": "employers",
+        "target": "nationals"
+      },
+      {
+        "source": "employers",
+        "target": "months"
+      },
+      {
+        "source": "employers",
+        "target": "workforce"
+      },
+      {
+        "source": "jobs",
+        "target": "employers"
+      },
+      {
+        "source": "jobs",
+        "target": "jobs"
+      },
+      {
+        "source": "jobs",
+        "target": "EU"
+      },
+      {
+        "source": "jobs",
+        "target": "labour"
+      },
+      {
+        "source": "jobs",
+        "target": "food"
+      },
+      {
+        "source": "jobs",
+        "target": "sectors"
+      },
+      {
+        "source": "jobs",
+        "target": "nationals"
+      },
+      {
+        "source": "jobs",
+        "target": "months"
+      },
+      {
+        "source": "jobs",
+        "target": "workforce"
+      },
+      {
+        "source": "EU",
+        "target": "employers"
+      },
+      {
+        "source": "EU",
+        "target": "jobs"
+      },
+      {
+        "source": "EU",
+        "target": "EU"
+      },
+      {
+        "source": "EU",
+        "target": "labour"
+      },
+      {
+        "source": "EU",
+        "target": "food"
+      },
+      {
+        "source": "EU",
+        "target": "sectors"
+      },
+      {
+        "source": "EU",
+        "target": "nationals"
+      },
+      {
+        "source": "EU",
+        "target": "months"
+      },
+      {
+        "source": "EU",
+        "target": "workforce"
+      },
+      {
+        "source": "labour",
+        "target": "employers"
+      },
+      {
+        "source": "labour",
+        "target": "jobs"
+      },
+      {
+        "source": "labour",
+        "target": "EU"
+      },
+      {
+        "source": "labour",
+        "target": "labour"
+      },
+      {
+        "source": "labour",
+        "target": "food"
+      },
+      {
+        "source": "labour",
+        "target": "sectors"
+      },
+      {
+        "source": "labour",
+        "target": "nationals"
+      },
+      {
+        "source": "labour",
+        "target": "months"
+      },
+      {
+        "source": "labour",
+        "target": "workforce"
+      },
+      {
+        "source": "food",
+        "target": "employers"
+      },
+      {
+        "source": "food",
+        "target": "jobs"
+      },
+      {
+        "source": "food",
+        "target": "EU"
+      },
+      {
+        "source": "food",
+        "target": "labour"
+      },
+      {
+        "source": "food",
+        "target": "food"
+      },
+      {
+        "source": "food",
+        "target": "sectors"
+      },
+      {
+        "source": "food",
+        "target": "nationals"
+      },
+      {
+        "source": "food",
+        "target": "months"
+      },
+      {
+        "source": "food",
+        "target": "workforce"
+      },
+      {
+        "source": "sectors",
+        "target": "employers"
+      },
+      {
+        "source": "sectors",
+        "target": "jobs"
+      },
+      {
+        "source": "sectors",
+        "target": "EU"
+      },
+      {
+        "source": "sectors",
+        "target": "labour"
+      },
+      {
+        "source": "sectors",
+        "target": "food"
+      },
+      {
+        "source": "sectors",
+        "target": "sectors"
+      },
+      {
+        "source": "sectors",
+        "target": "nationals"
+      },
+      {
+        "source": "sectors",
+        "target": "months"
+      },
+      {
+        "source": "sectors",
+        "target": "workforce"
+      },
+      {
+        "source": "nationals",
+        "target": "employers"
+      },
+      {
+        "source": "nationals",
+        "target": "jobs"
+      },
+      {
+        "source": "nationals",
+        "target": "EU"
+      },
+      {
+        "source": "nationals",
+        "target": "labour"
+      },
+      {
+        "source": "nationals",
+        "target": "food"
+      },
+      {
+        "source": "nationals",
+        "target": "sectors"
+      },
+      {
+        "source": "nationals",
+        "target": "nationals"
+      },
+      {
+        "source": "nationals",
+        "target": "months"
+      },
+      {
+        "source": "nationals",
+        "target": "workforce"
+      },
+      {
+        "source": "months",
+        "target": "employers"
+      },
+      {
+        "source": "months",
+        "target": "jobs"
+      },
+      {
+        "source": "months",
+        "target": "EU"
+      },
+      {
+        "source": "months",
+        "target": "labour"
+      },
+      {
+        "source": "months",
+        "target": "food"
+      },
+      {
+        "source": "months",
+        "target": "sectors"
+      },
+      {
+        "source": "months",
+        "target": "nationals"
+      },
+      {
+        "source": "months",
+        "target": "months"
+      },
+      {
+        "source": "months",
+        "target": "workforce"
+      },
+      {
+        "source": "workforce",
+        "target": "employers"
+      },
+      {
+        "source": "workforce",
+        "target": "jobs"
+      },
+      {
+        "source": "workforce",
+        "target": "EU"
+      },
+      {
+        "source": "workforce",
+        "target": "labour"
+      },
+      {
+        "source": "workforce",
+        "target": "food"
+      },
+      {
+        "source": "workforce",
+        "target": "sectors"
+      },
+      {
+        "source": "workforce",
+        "target": "nationals"
+      },
+      {
+        "source": "workforce",
+        "target": "months"
+      },
+      {
+        "source": "workforce",
+        "target": "workforce"
+      }
+    ],
+    "nodes": [
+      {
+        "group": 0,
+        "id": "refugees"
+      },
+      {
+        "group": 0,
+        "id": "US"
+      },
+      {
+        "group": 0,
+        "id": "nationals"
+      },
+      {
+        "group": 0,
+        "id": "Muslim"
+      },
+      {
+        "group": 0,
+        "id": "countries"
+      },
+      {
+        "group": 0,
+        "id": "days"
+      },
+      {
+        "group": 0,
+        "id": "Trump"
+      },
+      {
+        "group": 0,
+        "id": "order"
+      },
+      {
+        "group": 0,
+        "id": "Immigration"
+      },
+      {
+        "group": 0,
+        "id": "Mr"
+      },
+      {
+        "group": 1,
+        "id": "President"
+      },
+      {
+        "group": 1,
+        "id": "courts"
+      },
+      {
+        "group": 1,
+        "id": "day"
+      },
+      {
+        "group": 1,
+        "id": "I"
+      },
+      {
+        "group": 1,
+        "id": "law"
+      },
+      {
+        "group": 1,
+        "id": "judge"
+      },
+      {
+        "group": 2,
+        "id": "Russia"
+      },
+      {
+        "group": 2,
+        "id": "Navalny"
+      },
+      {
+        "group": 2,
+        "id": "year"
+      },
+      {
+        "group": 2,
+        "id": "sentence"
+      },
+      {
+        "group": 2,
+        "id": "president"
+      },
+      {
+        "group": 2,
+        "id": "Rights"
+      },
+      {
+        "group": 2,
+        "id": "case"
+      },
+      {
+        "group": 2,
+        "id": "constitution"
+      },
+      {
+        "group": 2,
+        "id": "verdict"
+      },
+      {
+        "group": 3,
+        "id": "bill"
+      },
+      {
+        "group": 3,
+        "id": "government"
+      },
+      {
+        "group": 3,
+        "id": "final"
+      },
+      {
+        "group": 3,
+        "id": "Labour"
+      },
+      {
+        "group": 3,
+        "id": "shadow"
+      },
+      {
+        "group": 3,
+        "id": "vote"
+      },
+      {
+        "group": 3,
+        "id": "Minister"
+      },
+      {
+        "group": 3,
+        "id": "Brexit"
+      },
+      {
+        "group": 3,
+        "id": "amendments"
+      },
+      {
+        "group": 4,
+        "id": "energy"
+      },
+      {
+        "group": 4,
+        "id": "schemes"
+      },
+      {
+        "group": 4,
+        "id": "PAC"
+      },
+      {
+        "group": 4,
+        "id": "BEIS"
+      },
+      {
+        "group": 4,
+        "id": "Framework"
+      },
+      {
+        "group": 4,
+        "id": "cost"
+      },
+      {
+        "group": 4,
+        "id": "generators"
+      },
+      {
+        "group": 4,
+        "id": "action"
+      },
+      {
+        "group": 5,
+        "id": "Senator"
+      },
+      {
+        "group": 5,
+        "id": "Senate"
+      },
+      {
+        "group": 5,
+        "id": "Republicans"
+      },
+      {
+        "group": 5,
+        "id": "letter"
+      },
+      {
+        "group": 5,
+        "id": "Sessions"
+      },
+      {
+        "group": 5,
+        "id": "Ms"
+      },
+      {
+        "group": 5,
+        "id": "rules"
+      },
+      {
+        "group": 5,
+        "id": "many"
+      },
+      {
+        "group": 6,
+        "id": "new"
+      },
+      {
+        "group": 6,
+        "id": "companies"
+      },
+      {
+        "group": 6,
+        "id": "conflict"
+      },
+      {
+        "group": 6,
+        "id": "minerals"
+      },
+      {
+        "group": 6,
+        "id": "Congo"
+      },
+      {
+        "group": 6,
+        "id": "draft"
+      },
+      {
+        "group": 6,
+        "id": "Dodd"
+      },
+      {
+        "group": 6,
+        "id": "groups"
+      },
+      {
+        "group": 7,
+        "id": "Turkish"
+      },
+      {
+        "group": 7,
+        "id": "Erdo\u011fan"
+      },
+      {
+        "group": 7,
+        "id": "Syria"
+      },
+      {
+        "group": 7,
+        "id": "support"
+      },
+      {
+        "group": 7,
+        "id": "Turkey"
+      },
+      {
+        "group": 7,
+        "id": "Bab"
+      },
+      {
+        "group": 7,
+        "id": "Isis"
+      },
+      {
+        "group": 7,
+        "id": "last"
+      },
+      {
+        "group": 7,
+        "id": "party"
+      },
+      {
+        "group": 8,
+        "id": "Europe"
+      },
+      {
+        "group": 8,
+        "id": "migrants"
+      },
+      {
+        "group": 8,
+        "id": "work"
+      },
+      {
+        "group": 8,
+        "id": "UN"
+      },
+      {
+        "group": 8,
+        "id": "people"
+      },
+      {
+        "group": 8,
+        "id": "EU"
+      },
+      {
+        "group": 8,
+        "id": "European"
+      },
+      {
+        "group": 8,
+        "id": "country"
+      },
+      {
+        "group": 8,
+        "id": "IOM"
+      },
+      {
+        "group": 9,
+        "id": "UK"
+      },
+      {
+        "group": 9,
+        "id": "term"
+      },
+      {
+        "group": 9,
+        "id": "economy"
+      },
+      {
+        "group": 9,
+        "id": "report"
+      },
+      {
+        "group": 9,
+        "id": "PwC"
+      },
+      {
+        "group": 9,
+        "id": "growth"
+      },
+      {
+        "group": 9,
+        "id": "place"
+      },
+      {
+        "group": 9,
+        "id": "forecast"
+      },
+      {
+        "group": 9,
+        "id": "long"
+      },
+      {
+        "group": 10,
+        "id": "North"
+      },
+      {
+        "group": 10,
+        "id": "missile"
+      },
+      {
+        "group": 10,
+        "id": "launch"
+      },
+      {
+        "group": 10,
+        "id": "test"
+      },
+      {
+        "group": 10,
+        "id": "Korean"
+      },
+      {
+        "group": 10,
+        "id": "solid"
+      },
+      {
+        "group": 10,
+        "id": "fuel"
+      },
+      {
+        "group": 10,
+        "id": "ballistic"
+      },
+      {
+        "group": 10,
+        "id": "nuclear"
+      },
+      {
+        "group": 11,
+        "id": "Germany"
+      },
+      {
+        "group": 11,
+        "id": "chancellor"
+      },
+      {
+        "group": 11,
+        "id": "world"
+      },
+      {
+        "group": 11,
+        "id": "Merkel"
+      },
+      {
+        "group": 12,
+        "id": "Chemicals"
+      },
+      {
+        "group": 12,
+        "id": "Pacific"
+      },
+      {
+        "group": 12,
+        "id": "Ocean"
+      },
+      {
+        "group": 12,
+        "id": "study"
+      },
+      {
+        "group": 12,
+        "id": "concentrations"
+      },
+      {
+        "group": 12,
+        "id": "pollutants"
+      },
+      {
+        "group": 12,
+        "id": "PCBs"
+      },
+      {
+        "group": 12,
+        "id": "deep"
+      },
+      {
+        "group": 12,
+        "id": "environment"
+      },
+      {
+        "group": 12,
+        "id": "levels"
+      },
+      {
+        "group": 13,
+        "id": "space"
+      },
+      {
+        "group": 13,
+        "id": "India"
+      },
+      {
+        "group": 13,
+        "id": "satellites"
+      },
+      {
+        "group": 13,
+        "id": "mission"
+      },
+      {
+        "group": 13,
+        "id": "Japan"
+      },
+      {
+        "group": 13,
+        "id": "technology"
+      },
+      {
+        "group": 13,
+        "id": "moon"
+      },
+      {
+        "group": 14,
+        "id": "House"
+      },
+      {
+        "group": 14,
+        "id": "Flynn"
+      },
+      {
+        "group": 14,
+        "id": "Russian"
+      },
+      {
+        "group": 14,
+        "id": "ambassador"
+      },
+      {
+        "group": 14,
+        "id": "sanctions"
+      },
+      {
+        "group": 15,
+        "id": "U"
+      },
+      {
+        "group": 15,
+        "id": "Security"
+      },
+      {
+        "group": 15,
+        "id": "Council"
+      },
+      {
+        "group": 15,
+        "id": "Korea"
+      },
+      {
+        "group": 15,
+        "id": "state"
+      },
+      {
+        "group": 15,
+        "id": "United"
+      },
+      {
+        "group": 15,
+        "id": "South"
+      },
+      {
+        "group": 16,
+        "id": "political"
+      },
+      {
+        "group": 16,
+        "id": "parties"
+      },
+      {
+        "group": 16,
+        "id": "advice"
+      },
+      {
+        "group": 16,
+        "id": "security"
+      },
+      {
+        "group": 16,
+        "id": "Democratic"
+      },
+      {
+        "group": 16,
+        "id": "Martin"
+      },
+      {
+        "group": 16,
+        "id": "concern"
+      },
+      {
+        "group": 16,
+        "id": "public"
+      },
+      {
+        "group": 16,
+        "id": "system"
+      },
+      {
+        "group": 16,
+        "id": "personal"
+      },
+      {
+        "group": 17,
+        "id": "iPhone"
+      },
+      {
+        "group": 17,
+        "id": "stock"
+      },
+      {
+        "group": 17,
+        "id": "high"
+      },
+      {
+        "group": 17,
+        "id": "Apple"
+      },
+      {
+        "group": 17,
+        "id": "time"
+      },
+      {
+        "group": 17,
+        "id": "investor"
+      },
+      {
+        "group": 17,
+        "id": "sales"
+      },
+      {
+        "group": 17,
+        "id": "cash"
+      },
+      {
+        "group": 18,
+        "id": "employers"
+      },
+      {
+        "group": 18,
+        "id": "jobs"
+      },
+      {
+        "group": 18,
+        "id": "labour"
+      },
+      {
+        "group": 18,
+        "id": "food"
+      },
+      {
+        "group": 18,
+        "id": "sectors"
+      },
+      {
+        "group": 18,
+        "id": "months"
+      },
+      {
+        "group": 18,
+        "id": "workforce"
+      }
+    ]
+  
+}

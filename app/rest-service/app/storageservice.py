@@ -24,8 +24,26 @@ class StorageService():
         print (outletList)
         return outlets
 
+    def getKeywordsGraph(self):
+        articles = self.db.articles.find()
+        used_words = []
+        nodes = []
+        links = []
+        group = 0
+        for article in articles:
+            words = article['keywords']
+            for word in words:
+                if word not in used_words:
+                    used_words.append(word)
+                    nodes.append({"id":word, "group":group})
+            for word in words:
+                for _word in words[1:]:
+                    links.append({'source':word, 'target':_word})
+            group += 1
+        return nodes, links
+
     def getTopRecentlyRead(self):
-        articles = self.db.articles.find().sort('count', pymongo.DESCENDING).limit(10)
+        articles = self.db.articles.find().sort('count', pymongo.DESCENDING).limit(5)
         articleList = []
         for article in articles:
             article['_id'] = str(article['_id'])

@@ -1,6 +1,5 @@
 .mini-outlet-container {
-  background-color: #ddd;
-  height: 350px;
+  background-color: white;
   text-align: center;
   display: table;
   width:100%;
@@ -26,4 +25,9 @@
 
 .separator {
   display: inline-block;;
+}
+
+.stretch {
+    width:100%;
+    height:auto;;
 }

@@ -2,10 +2,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="crop-height" >
-        <img src="app/resources/img/placeholder.png" class="article-image" />
+        <div *ngIf="article.img_url">
+          <img src="{{article.img_url}}" class='stretch'/>
+        </div>
+        <div *ngIf="!article.img_url">
+          <img src="app/resources/img/placeholder.png" class='stretch'/>
+        </div>
       </div>
       <div class="col-xs-12" >
-        <h4 class="mifni-article-title">{{article.title}}</h4>
+        <h3 class="mini-article-title">{{article.title}}</h3>
         <h5>{{article.source}}</h5>
         <div class="pull-right" style="text-align:right">
           <h5>{{article.date}}</h5>

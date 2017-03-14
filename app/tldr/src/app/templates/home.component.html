@@ -34,10 +34,11 @@
             <h2>Most Read</h2>
             <ol>
               <li *ngFor="let article of topArticles" class="most-read-list">
-
+                <div class="most-read-list-block">
                 <a [routerLink]="['/article', article._id]" style="color:white;text-decoration:underline">
                   {{article.title}}
                 </a>
+              </div>
               </li>
             </ol>
           </div>
@@ -52,7 +53,7 @@
             <ol>
               <li *ngFor="let article of topArticles" class="most-read-list">
 
-                <a [routerLink]="['/article', article._id]" style="color:white;text-decoration:underline">
+                <a [routerLink]="['/article', article._id]" style="color:white;text-decoration:underline;">
                   {{article.title}}
                 </a>
               </li>

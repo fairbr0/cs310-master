@@ -48,6 +48,12 @@ def getKeywordArticles(keyword, id=None):
     result = ss.getKeywordArticles(keyword, id)
     return jsonify({'response':result}), 200
 
+@app.route('/keywords_graph', methods=['GET'])
+def getKeywordsGraph():
+    nodes, links = ss.getKeywordsGraph()
+    resp = {'nodes': nodes, 'links' : links}
+    return jsonify({'response':resp}), 200
+
 @app.route('/article/<string:id>')
 def getArticle(id):
     result = ss.getArticle(id)
